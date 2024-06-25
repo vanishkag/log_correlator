@@ -1,0 +1,14 @@
+component adapter{
+    service get_chunks{
+        /**
+        * Breaks down the input text into smaller chunks
+        *
+        * @param document it is a list of strings to be chunked
+        * @param chunk_list The list of chunks after splitting.
+        */
+
+        [in] List[string] document;
+        [out] List[string] chunk_list;
+        [out] int error_code;
+    };
+};

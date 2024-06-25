@@ -1,0 +1,14 @@
+component LLM{
+    service generate_text{
+        /**
+        * Generates text/response according to a given prompt.
+        *
+        * @param prompt The prompt given to the LLM to generate response.
+        * @param generated_response The LLM generated response.
+        */
+
+        [in] string prompt;
+        [out] string generated_response;
+        [out] int error_code;
+    };
+};

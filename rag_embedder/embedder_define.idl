@@ -1,0 +1,14 @@
+component embedder{
+    service embed_text{
+        /**
+        * Generates the embedding for the given text. Text could be any string.
+        *
+        * @param text The text to create an embedding_vector for.
+        * @param embedding_vector the embedding_vector for the input text.
+        */
+
+        [in] string text;
+        [out] List[int] embedding_vector; 
+        [out] int error_code;
+    };
+};

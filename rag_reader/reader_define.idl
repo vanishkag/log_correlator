@@ -1,0 +1,19 @@
+component reader{
+    service load_document{
+        /**
+        * Parses the input document
+        *
+        * @param document_location The location to the input document.
+        * @param return_obj A tuple containing page_content of the loaded document, document_name String representing the source name of the loaded documents,document_type string indicating the file extension of the loaded documents.
+        */
+
+        [in] string document_location;
+        [out] List[information] return_obj;
+        [out] int error_code;
+    };
+    struct information{
+        string content;
+        string source;
+        string type;
+    };
+};
