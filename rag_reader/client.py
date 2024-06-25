@@ -2,17 +2,9 @@ import sys
 from reader import reader
 
 
-def main(file_path):
-    reader_obj = reader()
-    documents = reader_obj.load_document(file_path)
-    print("Loaded Document: ")
-    for document in documents:
-        print(document)
-
-
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python3 client.py path_to_pdf_file")
-    else:
-        file_path = sys.argv[1]
-        main(sys.argv[1])
+    doc_reader = reader()
+    document_path = "C:\Personal\log_correlator\Windows_2k.log"  
+    doc_content, doc_name, doc_type = doc_reader.load_document(document_path)
+    output_csv_path = "C:\Personal\log_correlator\csv_pdf_csv_output.csv" 
+    doc_reader.convert_to_csv(doc_content, output_csv_path)

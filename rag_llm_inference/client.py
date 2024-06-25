@@ -5,7 +5,7 @@ from inference import LLM
 def main():
     llm = LLM()
 
-    prompt = "Hello World! How are you?"
+    prompt = "Can you help me with this error?"
 
     output = llm.generate_text(prompt)
 

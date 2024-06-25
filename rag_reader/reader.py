@@ -1,5 +1,5 @@
 import os
-import json
+import csv
 
 from langchain.document_loaders import (
     CSVLoader,
@@ -15,7 +15,6 @@ from langchain.document_loaders import (
     UnstructuredWordDocumentLoader,
 )
 
-
 class reader:
     def __init__(self, document_type: str = "text", verbose: bool = True):
         self.verboseprint = print if verbose else lambda *a: None
@@ -26,7 +25,6 @@ class reader:
 
             self.LOADER_MAPPING = {
                 ".csv": (CSVLoader, {}),
-                # ".docx": (Docx2txtLoader, {}),
                 ".doc": (UnstructuredWordDocumentLoader, {}),
                 ".docx": (UnstructuredWordDocumentLoader, {}),
                 ".enex": (EverNoteLoader, {}),
@@ -38,11 +36,12 @@ class reader:
                 ".ppt": (UnstructuredPowerPointLoader, {}),
                 ".pptx": (UnstructuredPowerPointLoader, {}),
                 ".txt": (TextLoader, {"encoding": "utf8"}),
+                ".log": (TextLoader, {"encoding": "utf8"}),  # Added loader for .log files
                 # Add more mappings for other file extensions and loaders as needed
             }
             self.verboseprint("READER: Reader initialised successfully")
         except Exception as e:
-            self.verboseprint("READER: Reader initialization failed. Error: {str(e)}")
+            self.verboseprint(f"READER: Reader initialization failed. Error: {str(e)}")
 
     def load_document(self, document_location: str) -> dict:
         """Loads the file into one or multiple langchain Documents"""
@@ -67,3 +66,16 @@ class reader:
 
         else:
             raise ValueError(f"Unsupported file extension '{ext}'")
+    
+    def convert_to_csv(self, document_content: list, output_csv: str):
+        """Converts the document content to a CSV file."""
+        
+        try:
+            with open(output_csv, mode='w', newline='', encoding='utf-8') as file:
+                writer = csv.writer(file)
+                for line in document_content:
+                    writer.writerow([line])
+            self.verboseprint(f"READER: Document converted to {output_csv} successfully.")
+        except Exception as e:
+            self.verboseprint(f"READER: Conversion to CSV failed. Error: {str(e)}")
+
