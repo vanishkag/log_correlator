@@ -1,0 +1,18 @@
+component vector_database{
+    service insert_embeddings{
+        /**
+        * Inserts embeddings and associated text chunks into the database.
+        *
+        * @param embedding_list A list of numerical embeddings representing text chunks.
+        * @param chunk A list of the corresponding text chunks (strings).
+        * @param metadata A dictionary containing additional metadata to be associated with the embeddings.
+        * @param status True if embeddings were succesfully inserted into the DB, else False
+        */
+
+        [in] List[int] embedding_list;
+        [in] string chunk;
+        [in] dict metadata;
+        [out] bool status;
+        [out] int error_code;
+    };
+};

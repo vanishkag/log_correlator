@@ -1,3 +1,5 @@
+#converting log files to csv files
+
 import os
 import csv
 

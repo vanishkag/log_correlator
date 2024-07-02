@@ -1,5 +1,5 @@
 import sys
-from rag_embedder.embedder import embedder
+from rag_embedder.embedder import Embedder
 from rag_adapter.adapter import Adapter
 from rag_llm_inference.inference import LLM
 import pandas as pd
@@ -12,7 +12,7 @@ if __name__ == "__main__":
     chunks = adapter_obj.get_chunks(document)
     print("Chunks: ")
     print(chunks)
-    embedder_instance = embedder()
+    embedder_instance = Embedder()
     embeddings = embedder_instance.embed_texts(chunks)
     for i, embedding in enumerate(embeddings):
         print(f"Embedding {i+1}: {embedding}")
