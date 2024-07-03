@@ -1,7 +1,5 @@
 from inference import LLM
 
-
-
 def main():
     llm = LLM()
 
