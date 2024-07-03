@@ -2,7 +2,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 import json
 import sys
 
-class Embedder:
+class embedder:
     def __init__(self, embedding_model: str = "all-MiniLM-l6-v2", verbose: bool = True) -> None:
         self.verboseprint = print if verbose else lambda *a: None
         try:

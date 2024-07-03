@@ -1,119 +1,61 @@
-import pandas as pd
-from datasets import Dataset, DatasetDict
-from rag_embedder.embedder import Embedder
 from rag_adapter.adapter import Adapter
-from transformers import RagTokenizer, RagRetriever, RagTokenForGeneration, TrainingArguments, Trainer
-import os
-import numpy as np
+from rag_embedder.embedder import embedder
+from rag_vector_database_FAISS.vector_database import vector_database
+from rag_reranker.re_ranker import ReRankerComponent
+from rag_retriever_FAISS.retriever import vector_database
 
-# Load your data
-logs = pd.read_csv('Windows_2k.log_structured_original.csv')  # Example log file
+def load_logs(file_path):
+    """Loads logs from a file."""
+    with open(file_path, 'r') as file:
+        logs = file.readlines()
+    return logs
 
-# Example: Prepare a dataframe with 'query' and 'context'
-data = {
-    'query': logs['Component'],
-    'context': logs['Content'],
-}
+def parse_and_store_logs(log_file_path):
+    """Parse logs and store embeddings in the vector database."""
+    # Initialize components
+    adapter = Adapter(chunk_size=500, chunk_overlap=10)
+    embedder_instance = embedder(embedding_model="all-MiniLM-l6-v2")
+    vector_db = vector_database(name="faiss")
 
-# Convert to Hugging Face dataset
-dataset = Dataset.from_pandas(pd.DataFrame(data))
+    # Load and preprocess logs
+    logs = load_logs(log_file_path)
+    chunks = adapter.get_chunks(logs)
 
-# Split the dataset into training and test sets
-split_dataset = dataset.train_test_split(test_size=0.2)
+    # Generate embeddings
+    embeddings = embedder_instance.embed_texts(chunks)
 
-# Initialize adapter and embedder
-adapter = Adapter()
-embedder = Embedder()
+    # Store embeddings in the vector database
+    metadata = {"source": "logs"}  # Adjust metadata as needed
+    vector_db.insert_embeddings(embeddings, chunks, metadata)
+    print("Logs parsed and stored successfully.")
 
-# Chunk and embed logs
-def preprocess_logs(examples):
-    chunked_logs = adapter.get_chunks(examples['context'])
-    embedded_logs = embedder.embed_texts(chunked_logs)
-    embedding_dim = len(embedded_logs[0]) if embedded_logs else 0
-    # Creating placeholders for title
-    titles = [""] * len(chunked_logs)
-    return {
-        'title': titles,
-        'text': chunked_logs,
-        'embeddings': embedded_logs,
-        'embedding_dim': [embedding_dim] * len(chunked_logs)  # ensure embedding_dim is a list
-    }
+def query_logs(query, top_n):
+    """Query logs and return top_n most relevant chunks."""
+    # Initialize components
+    embedder_instance = embedder(embedding_model="all-MiniLM-l6-v2")
+    vector_db = vector_database(name="faiss")
+    re_ranker = ReRankerComponent(model_name="BAAI/bge-reranker-v2-m3")
 
-# Apply preprocessing
-preprocessed_dataset = split_dataset.map(preprocess_logs, batched=True, remove_columns=["context"])
+    # Embed the query
+    query_embedding = embedder_instance.embed_texts([query])[0]
 
-# Save dataset without indexes
-dataset_path = "dataset_path"
-index_path = "index_path"
+    # Retrieve relevant chunks for the query
+    retrieved_chunks = vector_db.search_query(embedding_vector=query_embedding, chunk_count=top_n)
 
-# Ensure directory exists
-os.makedirs(dataset_path, exist_ok=True)
-os.makedirs(index_path, exist_ok=True)
+    # Re-rank retrieved chunks
+    re_ranked_chunks = re_ranker._rerank(model_name="BAAI/bge-reranker-v2-m3", top_n=top_n, query=query, chunks=retrieved_chunks)
 
-# Save dataset to disk
-for split in preprocessed_dataset:
-    split_dataset = preprocessed_dataset[split]
-    split_dataset.save_to_disk(os.path.join(dataset_path, split))
+    return re_ranked_chunks
 
-# Reload the dataset and add FAISS index for each split
-for split in preprocessed_dataset:
-    split_dataset = Dataset.load_from_disk(os.path.join(dataset_path, split))
-    split_dataset.add_faiss_index(column="embeddings")
-    split_dataset.get_index("embeddings").save(os.path.join(index_path, f"{split}_index"))
+# Parse and store logs
+log_file_path = "Windows_2k.log"
+parse_and_store_logs(log_file_path)
 
-# Load tokenizer
-from transformers import RagTokenizer
-tokenizer = RagTokenizer.from_pretrained("facebook/rag-token-nq")
+# Query logs
+query = "Ending "
+top_chunks = query_logs(query, top_n=15)
 
-# Tokenize queries
-def tokenize_function(examples):
-    inputs = tokenizer(examples['query'], padding="max_length", truncation=True, max_length=512)
-    inputs["context_input_ids"] = examples['embeddings']
-    inputs["context_attention_mask"] = [[1] * len(context) for context in examples['embeddings']]
-    return inputs
-
-# Tokenize the preprocessed dataset
-tokenized_datasets = preprocessed_dataset.map(tokenize_function, batched=True)
-
-# Ensure the query embeddings match the expected dimensionality
-query_embedding_dim = np.asarray(embedder.embedding_model.embed_query("test query")).shape[-1]
-for split in tokenized_datasets:
-    assert tokenized_datasets[split]['embedding_dim'][0] == query_embedding_dim, \
-        f"Embedding dimensionality mismatch: {tokenized_datasets[split]['embedding_dim'][0]} vs {query_embedding_dim}"
-
-# Initialize retriever with saved dataset and index for each split
-from transformers import RagRetriever, RagTokenForGeneration, TrainingArguments, Trainer
-
-retrievers = {}
-for split in tokenized_datasets:
-    retrievers[split] = RagRetriever.from_pretrained(
-        "facebook/rag-token-nq",
-        index_name="custom",
-        passages_path=os.path.join(dataset_path, split),
-        index_path=os.path.join(index_path, f"{split}_index")
-    )
-
-# Initialize model and set retrievers for each split
-model = RagTokenForGeneration.from_pretrained("facebook/rag-token-nq")
-model.set_retriever(retrievers['train'])
-
-# Define training arguments and trainer
-training_args = TrainingArguments(
-    output_dir="./results",
-    eval_strategy="epoch",
-    learning_rate=2e-5,
-    per_device_train_batch_size=4,
-    per_device_eval_batch_size=4,
-    num_train_epochs=3,
-    weight_decay=0.01,
-)
-
-trainer = Trainer(
-    model=model,
-    args=training_args,
-    train_dataset=tokenized_datasets['train'],
-    eval_dataset=tokenized_datasets['test'],
-)
-
-# Train the model
-trainer.train()
+# Print the top re-ranked chunks
+print("Top relevant log chunks:")
+for chunk in top_chunks:
+    print(chunk)

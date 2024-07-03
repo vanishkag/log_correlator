@@ -6,7 +6,7 @@ from transformers import AutoTokenizer, AutoModel, pipeline
 class ReRankerComponent:
     def __init__(self, model_name):
         self.pipe = pipeline("feature-extraction", model=model_name, truncation = True, padding = 512)
-        self.supported_models = ['BAAI/bge-m3', "BAAI/bge-reranker", "BAAI/bge-large", "BAAI/bge-large-en-v1.5"]
+        self.supported_models = ['BAAI/bge-m3', "BAAI/bge-reranker-v2-m3", "BAAI/bge-large", "BAAI/bge-large-en-v1.5"]
 
     def _rerank(self, model_name, top_n, query, chunks, verbose = True):
         self.model_name = model_name
