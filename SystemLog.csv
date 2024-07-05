@@ -1,0 +1,546 @@
+"TimeCreated","Id","LevelDisplayName","Message"
+"04-07-2024 21:31:14","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
+"04-07-2024 21:29:05","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
+"04-07-2024 21:12:42","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
+"04-07-2024 21:10:21","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
+"04-07-2024 21:09:21","5","Information","Secure Trustlet NULL Id 0 and Pid 0 started with status STATUS_SUCCESS."
+"04-07-2024 21:09:20","2","Information","Secure Trustlet Id 0 and Pid 0 stopped with status STATUS_SUCCESS."
+"04-07-2024 20:45:17","566","Information","The system session has transitioned from 38 to 39.
+
+Reason PolicyChange 
+
+BootId: 92"
+"04-07-2024 20:45:17","507","Information","The system is exiting Modern Standby 
+
+Reason: Lid."
+"04-07-2024 20:45:16","172","Information","Connectivity state in standby: Connected, Reason: None"
+"04-07-2024 20:45:15","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"04-07-2024 20:45:15","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"04-07-2024 20:09:28","172","Information","Connectivity state in standby: Disconnected, Reason: Adaptive Connected Standby"
+"04-07-2024 20:09:22","566","Information","The system session has transitioned from 37 to 38.
+
+Reason InputMouse 
+
+BootId: 92"
+"04-07-2024 20:09:17","506","Information","The system is entering Modern Standby 
+
+Reason: AC/DC Display Burst Suppressed."
+"04-07-2024 20:09:17","566","Information","The system session has transitioned from 36 to 37.
+
+Reason InputMouse 
+
+BootId: 92"
+"04-07-2024 20:09:17","507","Information","The system is exiting Modern Standby 
+
+Reason: AC/DC Display Burst Suppressed."
+"04-07-2024 20:09:16","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"04-07-2024 20:09:16","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"04-07-2024 20:09:16","105","Information","Power source change."
+"04-07-2024 19:00:37","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 19:00:02","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:58:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:58:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:57:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:56:51","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:55:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:54:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:54:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:53:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:52:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:52:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:51:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:50:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:49:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:48:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:48:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:47:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:46:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:46:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:45:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:44:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:44:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:43:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:42:59","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:42:24","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:41:49","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:40:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:40:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:39:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:38:49","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:38:14","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:36:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:36:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:35:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:34:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:34:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:33:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:32:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:31:07","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:30:32","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:29:57","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:28:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:28:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:27:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:26:48","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:22:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:21:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:20:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:20:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:19:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:18:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:18:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:17:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:16:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:16:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:15:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:14:56","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:14:21","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:13:46","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:12:56","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:12:21","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:11:46","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:10:55","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:10:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:09:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:08:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 18:07:11","10010","Error","The server {38E441FB-3D16-422F-8750-B2DACEC5CEFC} did not register with DCOM within the required timeout."
+"04-07-2024 18:06:56","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:06:20","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsPersistentIoObserved"
+"04-07-2024 18:05:45","196","Warning","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
+Removal action failed: SkippedAsRecentIoObservered"
+"04-07-2024 17:55:32","566","Information","The system session has transitioned from 35 to 36.
+
+Reason PolicyChange 
+
+BootId: 92"
+"04-07-2024 17:55:32","506","Information","The system is entering Modern Standby 
+
+Reason: Lid."
+"04-07-2024 17:55:32","566","Information","The system session has transitioned from 34 to 35.
+
+Reason PolicyChange 
+
+BootId: 92"
+"04-07-2024 17:44:18","19","Information","Installation Successful: Windows successfully installed the following update: 9WZDNCRFHVQM-MICROSOFT.WINDOWSCOMMUNICATIONSAPPS"
+"04-07-2024 17:44:16","43","Information","Installation Started: Windows has started installing the following update: 9WZDNCRFHVQM-MICROSOFT.WINDOWSCOMMUNICATIONSAPPS"
+"04-07-2024 17:44:14","16","Information","The access history in hive \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\microsoft.windowscommunicationsapps_16005.14326.21970.0_x64__8wekyb3d8bbwe\ActivationStore.dat was cleared updating 0 keys and creating 0 modified pages."
+"04-07-2024 17:43:49","19","Information","Installation Successful: Windows successfully installed the following update: 9NFTCH6J7FHV-Microsoft.PowerAutomateDesktop"
+"04-07-2024 17:43:48","43","Information","Installation Started: Windows has started installing the following update: 9NFTCH6J7FHV-Microsoft.PowerAutomateDesktop"
+"04-07-2024 17:43:44","19","Information","Installation Successful: Windows successfully installed the following update: 9WZDNCRFJ3P2-MICROSOFT.ZUNEVIDEO"
+"04-07-2024 17:43:39","44","Information","Windows Update started downloading an update."
+"04-07-2024 17:43:39","44","Information","Windows Update started downloading an update."
+"04-07-2024 17:43:34","44","Information","Windows Update started downloading an update."
+"04-07-2024 17:43:34","44","Information","Windows Update started downloading an update."
+"04-07-2024 17:43:34","44","Information","Windows Update started downloading an update."
+"04-07-2024 17:43:31","44","Information","Windows Update started downloading an update."
+"04-07-2024 17:43:31","44","Information","Windows Update started downloading an update."
+"04-07-2024 16:59:28","16","Information","The access history in hive \??\C:\Users\nanda\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 3 keys and creating 1 modified pages."
+"04-07-2024 16:44:55","7045","Information","A service was installed in the system.
+
+Service Name:  MpKsl1fbe3073
+Service File Name:  C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{F4523C90-BA1D-4F37-89F0-96EFE9638C33}\MpKslDrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:  "
+"04-07-2024 16:44:55","19","Information","Installation Successful: Windows successfully installed the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.688.0) - Current Channel (Broad)"
+"04-07-2024 16:44:49","43","Information","Installation Started: Windows has started installing the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.688.0) - Current Channel (Broad)"
+"04-07-2024 16:44:47","44","Information","Windows Update started downloading an update."
+"04-07-2024 16:33:39","10010","Error","The server {8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19} did not register with DCOM within the required timeout."
+"04-07-2024 16:31:38","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
+"04-07-2024 16:29:06","1","Information","The system has returned from a low power state.
+
+Sleep Time: ?2024?-?07?-?04T12:10:47.516006900Z
+Wake Time: ?2024?-?07?-?04T12:29:04.963321200Z
+
+Wake Source: Unknown"
+"04-07-2024 16:29:05","18","Information","Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup."
+"04-07-2024 16:29:05","566","Information","The system session has transitioned from 32 to 34.
+
+Reason PolicyChange 
+
+BootId: 92"
+"04-07-2024 16:29:05","507","Information","The system is exiting Modern Standby 
+
+Reason: Lid."
+"04-07-2024 16:29:04","506","Information","The system is entering Modern Standby 
+
+Reason: Sleep, Hibernate, or Shutdown."
+"04-07-2024 16:29:04","566","Information","The system session has transitioned from 31 to 32.
+
+Reason SxTransition 
+
+BootId: 92"
+"04-07-2024 16:29:04","32","Information","The bootmgr spent 0 ms waiting for user input."
+"04-07-2024 16:29:04","18","Information","There are 0x1 boot options on this system."
+"04-07-2024 16:29:04","30","Information","The firmware reported boot metrics."
+"04-07-2024 16:29:04","28","Information","Loaded DSP FW library: \??\C:\Windows\System32\DriverStore\FileRepository\intcoed_oemlibpath.inf_amd64_10e87c104e5c78d5\adl_sraudio_lib.bin, status = STATUS_SUCCESS."
+"04-07-2024 16:29:04","28","Information","Loaded DSP FW library: \??\C:\Windows\System32\DriverStore\FileRepository\intcoed_oemlibpath.inf_amd64_10e87c104e5c78d5\adl_sraudio_lib.bin, status = STATUS_SUCCESS."
+"04-07-2024 16:29:04","28","Information","Loaded DSP FW library: Libs\dsp_lib_whm_adl_release.bin, status = STATUS_SUCCESS."
+"04-07-2024 16:29:04","28","Information","Loaded DSP FW library: Libs\dsp_lib_intel_wov_adl_release.bin, status = STATUS_SUCCESS."
+"04-07-2024 16:29:03","1","Information","The system time has changed to ?2024?-?07?-?04T12:29:03.500000000Z from ?2024?-?07?-?04T12:10:54.875469700Z.
+Time Delta: 1088624 ms
+
+Change Reason: System time synchronized with the hardware clock.
+Process: '' (PID 4).
+
+RTC time: ?2024?-?07?-?04T16:29:03.500000000Z
+Current time zone bias: -240
+RTC time is in UTC: false
+System time was based on RTC time: false"
+"04-07-2024 16:10:54","107","Information","The system has resumed from sleep."
+"04-07-2024 16:10:51","15","Information","Hive \SystemRoot\System32\config\DRIVERS was reorganized with a starting size of 6688768 bytes and an ending size of 5582848 bytes."
+"04-07-2024 16:10:51","42","Information","The system is entering sleep.
+
+Sleep Reason: Hibernate from Sleep - Standby Battery Budget Exceeded"
+"04-07-2024 16:10:50","37","Information","The time provider NtpClient is currently receiving valid time data from time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123)."
+"04-07-2024 16:10:48","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"04-07-2024 16:10:48","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"04-07-2024 16:10:48","566","Information","The system session has transitioned from 30 to 31.
+
+Reason SxTransition 
+
+BootId: 92"
+"04-07-2024 16:10:48","507","Information","The system is exiting Modern Standby 
+
+Reason: Sleep, Hibernate, or Shutdown."
+"04-07-2024 16:10:48","105","Information","Power source change."
+"04-07-2024 16:10:48","172","Information","Connectivity state in standby: Connected, Reason: None"
+"04-07-2024 12:08:30","6013","Information","The system uptime is 161706 seconds."
+"04-07-2024 04:11:06","172","Information","Connectivity state in standby: Disconnected, Reason: Adaptive Connected Standby"
+"04-07-2024 04:10:58","566","Information","The system session has transitioned from 29 to 30.
+
+Reason InputMouse 
+
+BootId: 92"
+"04-07-2024 04:10:53","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
+"04-07-2024 04:10:53","1","Information","The system time has changed to ?2024?-?07?-?04T00:10:52.111635800Z from ?2024?-?07?-?04T00:10:52.109480300Z.
+Time Delta: 2 ms
+
+Change Reason: An application or system component changed the time.
+Process: '\Device\HarddiskVolume3\Windows\System32\svchost.exe' (PID 19132).
+
+RTC time: ?2024?-?07?-?04T04:10:52.111635800Z
+Current time zone bias: -240
+RTC time is in UTC: false
+System time was based on RTC time: false"
+"04-07-2024 04:10:52","24","Information","The time zone information was refreshed with exit reason 0. Current time zone bias is -240."
+"04-07-2024 04:10:52","506","Information","The system is entering Modern Standby 
+
+Reason: AC/DC Display Burst Suppressed."
+"04-07-2024 04:10:52","566","Information","The system session has transitioned from 28 to 29.
+
+Reason InputMouse 
+
+BootId: 92"
+"04-07-2024 04:10:52","507","Information","The system is exiting Modern Standby 
+
+Reason: AC/DC Display Burst Suppressed."
+"04-07-2024 04:10:51","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"04-07-2024 04:10:51","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"04-07-2024 04:10:51","105","Information","Power source change."
+"04-07-2024 03:31:50","10010","Error","The server {283EDD52-69B2-473D-BEB6-2C0B4C01FD73} did not register with DCOM within the required timeout."
+"04-07-2024 03:31:50","7024","Error","The GoogleUpdater Service 128.0.6537.0 (GoogleUpdaterService128.0.6537.0) service terminated with the following service-specific error: 
+%%45"
+"04-07-2024 03:31:50","7024","Error","The GoogleUpdater InternalService 128.0.6537.0 (GoogleUpdaterInternalService128.0.6537.0) service terminated with the following service-specific error: 
+%%45"
+"04-07-2024 03:31:49","10010","Error","The server {B8C1DCAE-5020-4F5D-BA2A-85292744E334} did not register with DCOM within the required timeout."
+"04-07-2024 03:31:49","10010","Error","The server {1F18FC75-A353-4121-AEDB-19DF9C98F622} did not register with DCOM within the required timeout."
+"04-07-2024 03:31:49","10010","Error","The server {08949FF9-54D2-47CB-9B3F-82E9ACC93DF1} did not register with DCOM within the required timeout."
+"04-07-2024 03:31:49","10010","Error","The server {A28430CA-1EBF-48DD-AA17-9221B6F86A6C} did not register with DCOM within the required timeout."
+"04-07-2024 03:01:37","35","Information","The time service is now synchronizing the system time with the time source time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123) with reference id 1096700200. Current local stratum number is 4."
+"04-07-2024 03:01:23","19","Information","Installation Successful: Windows successfully installed the following update: 9NMPJ99VJBWV-Microsoft.YourPhone"
+"04-07-2024 03:01:22","16","Information","The access history in hive \??\C:\ProgramData\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\S-1-5-21-192615396-3318319077-3282245202-1002\SystemAppData\Helium\Cache\2446735ae552049c_COM15.dat was cleared updating 1 keys and creating 1 modified pages."
+"04-07-2024 03:01:22","43","Information","Installation Started: Windows has started installing the following update: 9NMPJ99VJBWV-Microsoft.YourPhone"
+"04-07-2024 03:01:21","566","Information","The system session has transitioned from 27 to 28.
+
+Reason PolicyChange 
+
+BootId: 92"
+"04-07-2024 03:01:19","37","Information","The time provider NtpClient is currently receiving valid time data from time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123)."
+"04-07-2024 03:01:19","506","Information","The system is entering Modern Standby 
+
+Reason: 16777220."
+"04-07-2024 03:01:19","566","Information","The system session has transitioned from 26 to 27.
+
+Reason 16777220 
+
+BootId: 92"
+"04-07-2024 03:01:19","507","Information","The system is exiting Modern Standby 
+
+Reason: 16777220."
+"03-07-2024 22:49:02","566","Information","The system session has transitioned from 25 to 26.
+
+Reason PolicyChange 
+
+BootId: 92"
+"03-07-2024 22:49:02","506","Information","The system is entering Modern Standby 
+
+Reason: Lid."
+"03-07-2024 22:49:02","566","Information","The system session has transitioned from 24 to 25.
+
+Reason PolicyChange 
+
+BootId: 92"
+"03-07-2024 22:05:53","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
+"03-07-2024 22:03:48","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
+"03-07-2024 19:57:22","16","Information","The access history in hive \??\C:\Users\nanda\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\Settings\settings.dat was cleared updating 1480 keys and creating 69 modified pages."
+"03-07-2024 19:22:53","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
+"03-07-2024 19:20:41","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
+"03-07-2024 17:08:50","158","Information","The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well."
+"03-07-2024 16:51:46","158","Information","The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well."
+"03-07-2024 16:47:51","16","Information","The access history in hive \??\C:\Users\nanda\AppData\Local\Packages\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\Settings\settings.dat was cleared updating 32 keys and creating 5 modified pages."
+"03-07-2024 16:34:44","566","Information","The system session has transitioned from 23 to 24.
+
+Reason PolicyChange 
+
+BootId: 92"
+"03-07-2024 16:34:44","507","Information","The system is exiting Modern Standby 
+
+Reason: Lid."
+"03-07-2024 16:34:42","158","Information","The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well."
+"03-07-2024 16:29:20","566","Information","The system session has transitioned from 22 to 23.
+
+Reason PolicyChange 
+
+BootId: 92"
+"03-07-2024 16:29:20","506","Information","The system is entering Modern Standby 
+
+Reason: Lid."
+"03-07-2024 16:29:20","566","Information","The system session has transitioned from 21 to 22.
+
+Reason PolicyChange 
+
+BootId: 92"
+"03-07-2024 16:16:48","158","Information","The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well."
+"03-07-2024 16:02:35","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
+"03-07-2024 16:00:39","19","Information","Installation Successful: Windows successfully installed the following update: 9P086NHDNB9W-Microsoft.XboxSpeechtoTextOverlay"
+"03-07-2024 16:00:35","20","Error","Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone."
+"03-07-2024 16:00:32","19","Information","Installation Successful: Windows successfully installed the following update: 9NBLGGH10PG8-MICROSOFT.PEOPLE"
+"03-07-2024 16:00:32","43","Information","Installation Started: Windows has started installing the following update: 9NMPJ99VJBWV-Microsoft.YourPhone"
+"03-07-2024 16:00:32","44","Information","Windows Update started downloading an update."
+"03-07-2024 16:00:31","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
+"03-07-2024 16:00:29","19","Information","Installation Successful: Windows successfully installed the following update: 9NBLGGH537C2-Microsoft.XboxGameOverlay"
+"03-07-2024 16:00:27","44","Information","Windows Update started downloading an update."
+"03-07-2024 16:00:22","44","Information","Windows Update started downloading an update."
+"03-07-2024 16:00:22","44","Information","Windows Update started downloading an update."
+"03-07-2024 16:00:22","44","Information","Windows Update started downloading an update."
+"03-07-2024 16:00:12","19","Information","Installation Successful: Windows successfully installed the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.665.0) - Current Channel (Broad)"
+"03-07-2024 16:00:12","44","Information","Windows Update started downloading an update."
+"03-07-2024 16:00:12","44","Information","Windows Update started downloading an update."
+"03-07-2024 16:00:12","7045","Information","A service was installed in the system.
+
+Service Name:  MpKsl7279cea4
+Service File Name:  C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{30158720-9862-40E0-BC92-C904E24EAFD9}\MpKslDrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:  "
+"03-07-2024 15:59:37","43","Information","Installation Started: Windows has started installing the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.665.0) - Current Channel (Broad)"

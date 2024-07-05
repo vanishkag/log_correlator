@@ -1,0 +1,468 @@
+"TimeCreated","Id","LevelDisplayName","Message"
+"04-07-2024 21:43:41","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T17:43:41Z. Reason: RulesEngine."
+"04-07-2024 21:43:11","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 20:54:07","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 20:45:52","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T16:45:52Z. Reason: RulesEngine."
+"04-07-2024 20:45:22","0",,
+"04-07-2024 20:09:21","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 20:09:17","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 20:09:16","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 18:10:39","0",,
+"04-07-2024 17:44:03","10001","Information","Ending session 1 started ?2024?-?07?-?04T13:43:11.780069400Z."
+"04-07-2024 17:43:11","10000","Information","Starting session 1 - ?2024?-?07?-?04T13:43:11.780069400Z."
+"04-07-2024 17:43:04","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T13:43:04Z. Reason: RulesEngine."
+"04-07-2024 17:42:34","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 17:42:21","258","Information","The storage optimizer successfully completed defragmentation on (C:)"
+"04-07-2024 17:42:21","258","Information","The storage optimizer successfully completed retrim on (C:)"
+"04-07-2024 17:28:07","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 17:09:02","1001","Information","Fault bucket 1398432954972892661, type 5
+Event Name: RADAR_PRE_LEAK_64
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Code.exe
+P2: 1.89.1.0
+P3: 10.0.22621.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Users\nanda\AppData\Local\Temp\RDR8BCD.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.0add2de1-a148-41ac-9984-f814e37cc97c.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.4b8fa383-1707-4ee3-8df4-4acbe544e962.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.532529c6-0408-43b8-9f64-3d5bc5901a73.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.cd334cb7-c8dd-4a42-98bf-00e09df850d2.tmp.xml
+
+These files may be available here:
+NULL
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 2a998cfb-07c9-43d3-baa2-70ac293d16bd
+Report Status: 268435456
+Hashed bucket: e6f528b0643d59f853683b5d035bedf5
+Cab Guid: 0"
+"04-07-2024 16:54:03","1001","Information","Fault bucket 1296641008252970270, type 5
+Event Name: RADAR_PRE_LEAK_64
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.4150.1013
+P3: 10.0.22621.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Users\nanda\AppData\Local\Temp\RDRD1E1.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.93cc070f-5bf0-4e92-94ea-374e1f6f4c44.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.c31fd9bc-fe47-4925-b339-1f0f78cd851b.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.8122c0f2-2559-42bf-b19d-76c2bdacdd50.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1bde7699-976e-4621-a57b-9fc612dfc2b1.tmp.xml
+
+These files may be available here:
+NULL
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: a55bfb9b-cc47-474e-a982-38b68e6551ba
+Report Status: 268435456
+Hashed bucket: e4d0aeb64ceb6e74b1fe98208a1f651e
+Cab Guid: 0"
+"04-07-2024 16:45:14","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T12:45:14Z. Reason: RulesEngine."
+"04-07-2024 16:44:57","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"04-07-2024 16:44:26","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 16:37:13","0","Information","Service stopped."
+"04-07-2024 16:32:00","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T12:32:00Z. Reason: RulesEngine."
+"04-07-2024 16:31:30","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 16:29:57","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T12:29:56Z. Reason: RulesEngine."
+"04-07-2024 16:29:22","0",,
+"04-07-2024 16:29:07","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 16:29:05","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 16:10:50","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 16:10:50","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 16:10:50","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 04:10:58","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 04:10:53","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 04:10:51","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 03:31:51","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T23:31:51Z. Reason: RulesEngine."
+"04-07-2024 03:01:25","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 23:04:03","0",,
+"03-07-2024 22:14:03","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T18:14:03Z. Reason: RulesEngine."
+"03-07-2024 22:13:32","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 22:04:14","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"03-07-2024 22:03:23","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"03-07-2024 21:34:36","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T17:33:36Z. Reason: RulesEngine."
+"03-07-2024 21:34:05","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 21:31:11","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T17:31:11Z. Reason: RulesEngine."
+"03-07-2024 21:30:41","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 20:58:57","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T16:58:57Z. Reason: RulesEngine."
+"03-07-2024 20:58:27","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 20:37:44","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T16:37:44Z. Reason: RulesEngine."
+"03-07-2024 20:37:13","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 20:18:32","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T16:18:32Z. Reason: RulesEngine."
+"03-07-2024 20:18:02","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 19:52:30","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T15:52:30Z. Reason: RulesEngine."
+"03-07-2024 19:52:00","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 19:09:02","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T15:09:02Z. Reason: RulesEngine."
+"03-07-2024 19:08:31","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 18:47:23","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T14:47:23Z. Reason: RulesEngine."
+"03-07-2024 18:46:52","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 18:31:19","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T14:31:19Z. Reason: RulesEngine."
+"03-07-2024 18:30:49","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 18:01:53","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T14:01:53Z. Reason: RulesEngine."
+"03-07-2024 18:01:23","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 17:37:59","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T13:37:59Z. Reason: RulesEngine."
+"03-07-2024 17:37:28","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 17:02:17","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T13:02:17Z. Reason: RulesEngine."
+"03-07-2024 17:01:47","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 16:36:12","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T12:36:11Z. Reason: RulesEngine."
+"03-07-2024 16:35:41","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 16:02:12","8224","Information","The VSS service is shutting down due to idle timeout. "
+"03-07-2024 16:02:03","10001","Information","Ending session 1 started ?2024?-?07?-?03T11:59:56.455843100Z."
+"03-07-2024 16:01:16","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"03-07-2024 16:00:40","1001","Information","Fault bucket 2223312684605907296, type 5
+Event Name: StoreAgentInstallFailure1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;ScanForUpdatesForUser
+P2: 80073d02
+P3: 22621
+P4: 3737
+P5: Windows.Desktop
+P6: V
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.192a045f-7301-4c09-bd36-45e553ab4437.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;ScanForUp_d9b2a0cfa0ce8286d6b874e799412d17cf85369_00000000_ab97977d-be3f-4fe7-beb2-a5623fe389c9
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: ab97977d-be3f-4fe7-beb2-a5623fe389c9
+Report Status: 268435456
+Hashed bucket: 7b3166e49fc908d71edacb1b668e2160
+Cab Guid: 0"
+"03-07-2024 16:00:36","1001","Information","Fault bucket , type 0
+Event Name: StoreAgentInstallFailure1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;ScanForUpdatesForUser
+P2: 80073d02
+P3: 22621
+P4: 3737
+P5: Windows.Desktop
+P6: V
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;ScanForUp_d9b2a0cfa0ce8286d6b874e799412d17cf85369_00000000_ab97977d-be3f-4fe7-beb2-a5623fe389c9
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: ab97977d-be3f-4fe7-beb2-a5623fe389c9
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"03-07-2024 16:00:25","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T12:00:25Z. Reason: RulesEngine."
+"03-07-2024 16:00:14","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"03-07-2024 15:59:56","10000","Information","Starting session 1 - ?2024?-?07?-?03T11:59:56.455843100Z."
+"03-07-2024 15:59:32","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"03-07-2024 15:59:29","326","Information","svchost (20512,D,50) DS_Token_DB: The database engine attached a database (1, C:\Windows\system32\config\systemprofile\AppData\Local\DataSharing\Storage\DSTokenDB2.dat). (Time=0 seconds) 
+ 
+Saved Cache: 1 0 
+Additional Data: lgposAttach = 0000000A:0002:0268,
+dbv = 1568.230.500 (9480) 
+ 
+Internal Timing Sequence: 
+[1] 0.000003 +J(0)
+[2] 0.001953 -0.001117 (1) WT +J(0) +M(C:0K, Fs:17, WS:4K # 8K, PF:4K # 0K, P:4K)
+[3] 0.005456 -0.000479 (6) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2) +M(C:0K, Fs:6, WS:20K # 0K, PF:20K # 0K, P:20K)
+[4] 0.004000 +J(0)
+[5] -
+[6] 0.000926 -0.000843 (2) CM -0.000732 (2) WT +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:0/0)
+[7] 0.000003 +J(0)
+[8] 0.000802 -0.000609 (1) CM -0.000570 (1) WT +J(CM:1, PgRf:1, Rd:4/1, Dy:0/0, Lg:0/0) +M(C:16K, Fs:16, WS:64K # 20K, PF:208K # 168K, P:208K)
+[9] -
+[10] -
+[11] -
+[12] 0.000026 +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:54/1) +M(C:0K, Fs:1, WS:4K # 4K, PF:20K # 16K, P:20K)
+[13] 0.000999 -0.000790 (3) CM -0.000674 (3) WT +J(CM:3, PgRf:23, Rd:0/2, Dy:0/0, Lg:0/0) +M(C:0K, Fs:23, WS:92K # 92K, PF:4K # 4K, P:4K)
+[14] 0.000276 -0.000162 (1) CM -0.000086 (1) WT +J(CM:1, PgRf:40, Rd:0/1, Dy:0/0, Lg:0/0) +M(C:0K, Fs:2, WS:4K # 4K, PF:68K # 68K, P:68K)
+[15] 0.000008 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)
+[16] 0.000008 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)
+[17] 0.000046 +J(CM:0, PgRf:42, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:4, WS:16K # 16K, PF:0K # 0K, P:0K)
+[18] 0.000001 +J(0)
+[19] 0.0 +J(0)
+[20] 0.000006 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)."
+"03-07-2024 15:59:29","105","Information","svchost (20512,D,0) DS_Token_DB: The database engine started a new instance (0). (Time=0 seconds) 
+ 
+Additional Data:
+ lgposV2[] = 00000009:0001:0000 - 00000009:000D:0367 - 00000009:000E:0000 - 00000009:000E:0000 (00000000:0000:0000)
+cReInits = 4
+RBSOn = 0
+ 
+ 
+Internal Timing Sequence: 
+[1] 0.000537 +J(0) +M(C:0K, Fs:153, WS:588K # 588K, PF:3056K # 3056K, P:3056K)
+[2] 0.000279 +J(0) +M(C:8K, Fs:115, WS:456K # 456K, PF:388K # 388K, P:388K)
+[3] 0.000013 +J(0) +M(C:0K, Fs:6, WS:16K # 16K, PF:64K # 64K, P:64K)
+[4] 0.000088 +J(0) +M(C:0K, Fs:59, WS:232K # 232K, PF:1072K # 1072K, P:1072K)
+[5] 0.000494 +J(0) +M(C:0K, Fs:191, WS:764K # 764K, PF:24K # 24K, P:24K)
+[6] 0.002590 +J(0) +M(C:0K, Fs:69, WS:276K # 276K, PF:52K # 52K, P:52K)
+[7] 0.001287 -0.000319 (2) WT +J(0) +M(C:0K, Fs:33, WS:132K # 132K, PF:64K # 64K, P:64K)
+[8] 0.020593 -0.006357 (14) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:52728/35) +M(C:0K, Fs:164, WS:300K # 304K, PF:240K # 244K, P:240K)
+[9] 0.000562 +J(0) +M(C:0K, Fs:9, WS:36K # 32K, PF:8K # 4K, P:8K)
+[10] 0.000824 -0.000131 (1) WT +J(0) +M(C:0K, Fs:0, WS:-60K # 0K, PF:-60K # 0K, P:-60K)
+[11] 0.000032 +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:49/1) +M(C:0K, Fs:3, WS:12K # 0K, PF:0K # 0K, P:0K)
+[12] 0.001082 +J(0)
+[13] 0.024411 -0.000828 (2) CM -0.001867 (22) WT +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:4713/4) +M(C:0K, Fs:105, WS:296K # 312K, PF:268K # 276K, P:268K)
+[14] 0.000019 +J(0)
+[15] 0.000009 +J(0)
+[16] 0.000815 -0.000121 (1) WT +J(0) +M(C:0K, Fs:2, WS:0K # 0K, PF:0K # 0K, P:0K)."
+"03-07-2024 15:59:29","302","Information","svchost (20512,U,98) DS_Token_DB: The database engine has successfully completed recovery steps."
+"03-07-2024 15:59:29","301","Information","svchost (20512,R,98) DS_Token_DB: The database engine has finished replaying logfile C:\Windows\system32\config\systemprofile\AppData\Local\DataSharing\Storage\DSS.log. 
+ 
+Processing Stats: 
+[1] 0.015320 -0.004959 (10) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:52728/35) +M(C:0K, Fs:111, WS:164K # 100K, PF:160K # 96K, P:160K). 
+Log record of type 'AttachDB ' was seen most frequently (4 times)"
+"03-07-2024 15:59:29","300","Information","svchost (20512,R,98) DS_Token_DB: The database engine is initiating recovery steps."
+"03-07-2024 15:59:29","102","Information","svchost (20512,P,98) DS_Token_DB: The database engine (10.00.22621.0000) is starting a new instance (0)."
+"03-07-2024 15:59:12","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 15:49:57","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T11:49:57Z. Reason: RulesEngine."
+"03-07-2024 15:49:27","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 15:45:36","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T11:45:36Z. Reason: RulesEngine."
+"03-07-2024 15:45:06","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 15:37:18","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 14:51:33","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T10:50:33Z. Reason: RulesEngine."
+"03-07-2024 14:51:03","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 14:31:05","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T10:31:05Z. Reason: RulesEngine."
+"03-07-2024 14:30:32","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 14:26:45","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 14:26:43","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 14:22:34","0","Information","Service stopped."
+"03-07-2024 14:22:20","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T10:22:20Z. Reason: RulesEngine."
+"03-07-2024 14:21:50","0",,
+"03-07-2024 14:21:47","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 14:21:46","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 14:21:45","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 14:20:47","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 06:32:01","0",,
+"03-07-2024 05:32:50","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 05:32:49","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 04:46:42","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T00:46:42Z. Reason: RulesEngine."
+"03-07-2024 04:46:11","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 03:27:59","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T23:27:59Z. Reason: RulesEngine."
+"03-07-2024 03:27:17","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 03:04:27","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T23:04:27Z. Reason: RulesEngine."
+"03-07-2024 03:03:57","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 02:27:07","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T22:27:06Z. Reason: RulesEngine."
+"03-07-2024 02:26:36","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 01:10:52","0","Information","Service stopped."
+"03-07-2024 01:10:51","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T21:10:51Z. Reason: RulesEngine."
+"03-07-2024 01:10:47","10001","Information","Ending session 1 started ?2024?-?07?-?02T19:57:23.445543000Z."
+"03-07-2024 01:10:47","0",,
+"03-07-2024 01:10:20","16394","Information","Offline downlevel migration succeeded."
+"02-07-2024 23:57:27","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T19:57:27Z. Reason: RulesEngine."
+"02-07-2024 23:57:23","10000","Information","Starting session 1 - ?2024?-?07?-?02T19:57:23.445543000Z."
+"02-07-2024 23:56:53","1001","Information","Fault bucket 1845530361249933468, type 5
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 8024401f
+P3: 22621
+P4: 3737
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.f4993aac-cd89-4048-97c0-ec1fab41cef8.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;_d2673550d5dec844cf99cbce6911b3de3d62ca4_00000000_8c628224-af50-437c-ae97-933fc7f330ea
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 8c628224-af50-437c-ae97-933fc7f330ea
+Report Status: 268435456
+Hashed bucket: 0adbc39d0fb7cdfa799ca415e480289c
+Cab Guid: 0"
+"02-07-2024 23:56:50","1001","Information","Fault bucket , type 0
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 8024401f
+P3: 22621
+P4: 3737
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_d2673550d5dec844cf99cbce6911b3de3d62ca4_00000000_8c628224-af50-437c-ae97-933fc7f330ea
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 8c628224-af50-437c-ae97-933fc7f330ea
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"02-07-2024 23:56:46","16394","Information","Offline downlevel migration succeeded."
+"02-07-2024 17:07:39","0","Information","PowerEvent handled successfully by the service."
+"02-07-2024 16:34:17","0",,
+"02-07-2024 16:14:46","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T12:14:46Z. Reason: RulesEngine."
+"02-07-2024 16:14:29","0",,
+"02-07-2024 16:14:16","16394","Information","Offline downlevel migration succeeded."
+"02-07-2024 15:57:03","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T11:57:03Z. Reason: RulesEngine."
+"02-07-2024 15:56:33","16394","Information","Offline downlevel migration succeeded."
+"02-07-2024 15:40:58","0",,
+"02-07-2024 15:26:36","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T11:26:36Z. Reason: RulesEngine."
+"02-07-2024 15:25:38","16394","Information","Offline downlevel migration succeeded."
+"02-07-2024 15:25:08","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T11:25:08Z. Reason: RulesEngine."
+"02-07-2024 15:24:36","16394","Information","Offline downlevel migration succeeded."
+"02-07-2024 15:24:25","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T11:24:25Z. Reason: RulesEngine."
+"02-07-2024 15:24:12","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"02-07-2024 15:23:25","16394","Information","Offline downlevel migration succeeded."
+"02-07-2024 15:16:20","903","Information","The Software Protection service has stopped.
+"
+"02-07-2024 15:16:20","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T11:16:20Z. Reason: RulesEngine."
+"02-07-2024 15:15:52","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"02-07-2024 15:15:50","1","Information","The Windows Security Center Service has started."
+"02-07-2024 15:15:49","902","Information","The Software Protection service has started.
+10.0.22621.3672"
+"02-07-2024 15:15:49","1003","Information","The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 1 [(0 )(1 )(2 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(3 )]
+4: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 3ae2cc14-ab2d-41f4-972f-5e20142771dc, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 4002e33a-524c-4100-8108-131a0d42c0ea, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 653098ee-780d-4863-8cf2-d18399ce413b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 71f411ae-7b4b-41bd-b68c-c519c499f950, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: 8a292df8-d653-4057-8133-a0701792f912, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+15: b0f8a518-2c58-4eb8-9319-084f0eb4ddc4, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+16: cd918a57-a41b-4c82-8dce-1a538e221a83, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+17: da9621af-f086-4244-b563-18611e51aa1a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+18: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+19: ed799377-74b8-4989-a244-14d082e65972, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+"02-07-2024 15:15:49","1066","Information","Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+"02-07-2024 15:15:49","16394","Information","Offline downlevel migration succeeded."
+"02-07-2024 15:15:49","900","Information","The Software Protection service is starting.
+Parameters:<explicit>"
+"02-07-2024 15:15:48","0","Information","Service stopped."
+"02-07-2024 15:14:56","0","Information","Service stopped."
+"02-07-2024 15:14:02","1003","Information","The Windows Search Service started.
+"
+"02-07-2024 15:13:57","6000","Information","The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event."
+"02-07-2024 15:13:57","0",,
+"02-07-2024 15:13:57","6003","Information","The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event."
+"02-07-2024 15:13:52","0","Information","Service started successfully."
+"02-07-2024 15:13:48","63","Warning","A provider, IntelMEProv, has been registered in the Windows Management Instrumentation namespace root\Intel_ME to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+"02-07-2024 15:13:48","63","Warning","A provider, IntelMEProv, has been registered in the Windows Management Instrumentation namespace root\Intel_ME to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+"02-07-2024 15:13:48","63","Warning","A provider, IntelMEProv, has been registered in the Windows Management Instrumentation namespace root\Intel_ME to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+"02-07-2024 15:13:48","2","Information","Intel(R) WMI Registration Service has successfully finished WMI Registration."
+"02-07-2024 15:13:48","0","Information","Service started successfully."
+"02-07-2024 15:13:46","0",,
+"02-07-2024 15:13:46","0","Information","Intel(R) WMI Registration Service started."
+"02-07-2024 15:13:46","0","Information","Intel(R) Dynamic Application Loader Host Interface Service started."
+"02-07-2024 15:13:45","5617","Information","Windows Management Instrumentation Service subsystems initialized successfully"
+"02-07-2024 15:13:45","5615","Information","Windows Management Instrumentation Service started sucessfully"
+"02-07-2024 15:13:44","1531","Information","The User Profile Service has started successfully.  
+
+"
+"02-07-2024 15:13:45","0","Information","Service started successfully."
+"02-07-2024 15:13:45","0","Information","HpTouchpointAnalyticsRecoverySetupSuccessfully configured Failure Actions"
+"02-07-2024 03:19:45","0","Information","PowerEvent handled successfully by the service."
+"02-07-2024 03:19:44","0","Information","PowerEvent handled successfully by the service."
+"02-07-2024 03:03:07","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-07T23:03:07Z. Reason: RulesEngine."
+"02-07-2024 03:00:29","16394","Information","Offline downlevel migration succeeded."
+"01-07-2024 19:14:10","0",,
+"01-07-2024 18:32:11","8224","Information","The VSS service is shutting down due to idle timeout. "
+"01-07-2024 17:53:07","10001","Information","Ending session 1 started ?2024?-?07?-?01T13:52:21.432595300Z."
+"01-07-2024 17:52:21","10000","Information","Starting session 1 - ?2024?-?07?-?01T13:52:21.432595300Z."
+"01-07-2024 17:47:50","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-07T13:47:50Z. Reason: RulesEngine."
+"01-07-2024 17:47:19","16394","Information","Offline downlevel migration succeeded."
+"01-07-2024 17:46:15","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"01-07-2024 17:46:13","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"01-07-2024 17:06:09","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"01-07-2024 17:03:57","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-07T13:03:57Z. Reason: RulesEngine."
+"01-07-2024 17:03:02","16394","Information","Offline downlevel migration succeeded."
+"01-07-2024 16:52:53","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-07T12:52:53Z. Reason: RulesEngine."
+"01-07-2024 16:52:23","16394","Information","Offline downlevel migration succeeded."
+"01-07-2024 16:47:58","0",,
+"01-07-2024 16:46:38","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-07T12:46:38Z. Reason: RulesEngine."
+"01-07-2024 16:46:22","0","Information","Service stopped."
+"01-07-2024 16:45:42","0","Information","PowerEvent handled successfully by the service."
+"01-07-2024 16:45:41","16394","Information","Offline downlevel migration succeeded."
+"01-07-2024 16:45:39","0","Information","PowerEvent handled successfully by the service."
+"01-07-2024 16:45:35","0","Information","PowerEvent handled successfully by the service."
+"30-06-2024 08:56:35","0","Information","PowerEvent handled successfully by the service."
+"30-06-2024 08:56:34","0","Information","PowerEvent handled successfully by the service."
+"30-06-2024 02:35:21","1002","Information","The shell stopped unexpectedly and explorer.exe was restarted."
+"30-06-2024 02:35:21","0",,
+"30-06-2024 02:20:36","0","Information","PowerEvent handled successfully by the service."
+"30-06-2024 02:20:35","0","Information","PowerEvent handled successfully by the service."
+"30-06-2024 02:13:50","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-05T22:13:50Z. Reason: RulesEngine."
+"30-06-2024 02:13:20","16394","Information","Offline downlevel migration succeeded."
+"30-06-2024 00:35:56","0","Information","Service stopped."
+"30-06-2024 00:09:47","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-05T20:09:47Z. Reason: RulesEngine."

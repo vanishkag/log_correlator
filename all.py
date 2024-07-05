@@ -1,16 +1,28 @@
+import subprocess
+import csv
 from rag_adapter.adapter import Adapter
 from rag_embedder.embedder import embedder
 from rag_vector_database_FAISS.vector_database import vector_database
 from rag_reranker.re_ranker import ReRankerComponent
-from rag_retriever_FAISS.retriever import vector_database
 
-def load_logs(file_path):
-    """Loads logs from a file."""
-    with open(file_path, 'r') as file:
-        logs = file.readlines()
+def run_powershell_script(script_path):
+    """Run a PowerShell script."""
+    try:
+        subprocess.run(["powershell.exe", "-File", script_path], check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Error running PowerShell script: {e}")
+
+def load_logs(file_paths):
+    """Loads logs from multiple CSV files."""
+    logs = []
+    for file_path in file_paths:
+        with open(file_path, 'r') as file:
+            reader = csv.reader(file)
+            for row in reader:
+                logs.append(' '.join(row))  # Combine all columns into a single string for each log entry
     return logs
 
-def parse_and_store_logs(log_file_path):
+def parse_and_store_logs(log_file_paths):
     """Parse logs and store embeddings in the vector database."""
     # Initialize components
     adapter = Adapter(chunk_size=500, chunk_overlap=2)
@@ -18,7 +30,7 @@ def parse_and_store_logs(log_file_path):
     vector_db = vector_database(name="faiss")
 
     # Load and preprocess logs
-    logs = load_logs(log_file_path)
+    logs = load_logs(log_file_paths)
     chunks = adapter.get_chunks(logs)
 
     # Generate embeddings
@@ -37,7 +49,12 @@ def query_logs(query, top_n=None):
     re_ranker = ReRankerComponent(model_name="BAAI/bge-reranker-v2-m3")
 
     # Embed the query
-    query_embedding = embedder_instance.embed_texts([query])[0]
+    query_embeddings = embedder_instance.embed_texts([query])
+    if not query_embeddings:
+        raise ValueError("Embedding of the query returned an empty result.")
+    
+    query_embedding = query_embeddings[0]
+    print(f"Query Embedding: {query_embedding}")
 
     # Retrieve relevant chunks for the query
     chunk_count = top_n if top_n else len(query_embedding)
@@ -54,12 +71,24 @@ def query_logs(query, top_n=None):
 
     return re_ranked_chunks
 
+# Path to the PowerShell script
+powershell_script_path = r"C:\Users\nanda\Documents\intel\log_correlator\ExportSystemLogs.ps1"
+
+# Run the PowerShell script to export logs
+run_powershell_script(powershell_script_path)
+
+# Paths to the exported log files
+log_file_paths = [
+    r"C:\Users\nanda\Documents\intel\log_correlator\SystemLog.csv",
+    r"C:\Users\nanda\Documents\intel\log_correlator\ApplicationLog.csv",
+    r"C:\Users\nanda\Documents\intel\log_correlator\SecurityLog.csv"
+]
+
 # Parse and store logs
-log_file_path = "Windows_2k.log"
-parse_and_store_logs(log_file_path)
+parse_and_store_logs(log_file_paths)
 
 # Query logs
-query = "Ending TrustedInstaller"
+query = "failed"
 retrieved_chunks = query_logs(query)
 
 # Print all retrieved chunks
