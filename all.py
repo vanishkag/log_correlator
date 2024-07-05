@@ -59,7 +59,7 @@ log_file_path = "Windows_2k.log"
 parse_and_store_logs(log_file_path)
 
 # Query logs
-query = "Ending TrustedInstaller"
+query = "Warning"
 retrieved_chunks = query_logs(query)
 
 # Print all retrieved chunks
