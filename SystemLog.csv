@@ -1,4 +1,130 @@
 "TimeCreated","Id","LevelDisplayName","Message"
+"05-07-2024 14:53:21","19","Information","Installation Successful: Windows successfully installed the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.704.0) - Current Channel (Broad)"
+"05-07-2024 14:53:21","7045","Information","A service was installed in the system.
+
+Service Name:  MpKsl86689ba8
+Service File Name:  C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{7ABAF983-9170-4F4A-BFF6-032E18F0B1A5}\MpKslDrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:  "
+"05-07-2024 14:53:16","43","Information","Installation Started: Windows has started installing the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.704.0) - Current Channel (Broad)"
+"05-07-2024 14:53:13","44","Information","Windows Update started downloading an update."
+"05-07-2024 14:43:15","105","Information","Power source change."
+"05-07-2024 14:38:35","1","Information","The system time has changed to ?2024?-?07?-?05T10:38:34.347854100Z from ?2024?-?07?-?05T10:38:34.347286300Z.
+Time Delta: 0 ms
+
+Change Reason: An application or system component changed the time.
+Process: '\Device\HarddiskVolume3\Windows\System32\svchost.exe' (PID 19132).
+
+RTC time: ?2024?-?07?-?05T14:38:34.347854100Z
+Current time zone bias: -240
+RTC time is in UTC: false
+System time was based on RTC time: false"
+"05-07-2024 14:38:34","24","Information","The time zone information was refreshed with exit reason 0. Current time zone bias is -240."
+"05-07-2024 14:38:34","1","Information","The system time has changed to ?2024?-?07?-?05T10:38:32.710995900Z from ?2024?-?07?-?05T10:38:32.710870500Z.
+Time Delta: 0 ms
+
+Change Reason: An application or system component changed the time.
+Process: '\Device\HarddiskVolume3\Windows\System32\svchost.exe' (PID 19132).
+
+RTC time: ?2024?-?07?-?05T14:38:32.710995900Z
+Current time zone bias: -240
+RTC time is in UTC: false
+System time was based on RTC time: false"
+"05-07-2024 14:38:32","24","Information","The time zone information was refreshed with exit reason 0. Current time zone bias is -240."
+"05-07-2024 14:38:32","1","Information","The system time has changed to ?2024?-?07?-?05T10:38:31.063335800Z from ?2024?-?07?-?05T10:38:28.669259800Z.
+Time Delta: 2394 ms
+
+Change Reason: An application or system component changed the time.
+Process: '\Device\HarddiskVolume3\Windows\System32\svchost.exe' (PID 19132).
+
+RTC time: ?2024?-?07?-?05T14:38:31.063335800Z
+Current time zone bias: -240
+RTC time is in UTC: false
+System time was based on RTC time: false"
+"05-07-2024 14:38:31","24","Information","The time zone information was refreshed with exit reason 0. Current time zone bias is -240."
+"05-07-2024 14:38:12","37","Information","The time provider NtpClient is currently receiving valid time data from time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123)."
+"05-07-2024 14:37:37","7024","Error","The GoogleUpdater Service 128.0.6537.0 (GoogleUpdaterService128.0.6537.0) service terminated with the following service-specific error: 
+%%45"
+"05-07-2024 14:37:37","7024","Error","The GoogleUpdater InternalService 128.0.6537.0 (GoogleUpdaterInternalService128.0.6537.0) service terminated with the following service-specific error: 
+%%45"
+"05-07-2024 14:37:33","1","Information","The system has returned from a low power state.
+
+Sleep Time: ?2024?-?07?-?04T19:37:43.022827400Z
+Wake Time: ?2024?-?07?-?05T10:37:32.041871900Z
+
+Wake Source: Unknown"
+"05-07-2024 14:37:33","18","Information","Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup."
+"05-07-2024 14:37:32","566","Information","The system session has transitioned from 43 to 45.
+
+Reason PolicyChange 
+
+BootId: 92"
+"05-07-2024 14:37:32","507","Information","The system is exiting Modern Standby 
+
+Reason: Lid."
+"05-07-2024 14:37:32","134","Warning","NtpClient was unable to set a manual peer to use as a time source because of DNS resolution error on 'time.windows.com,0x9'. NtpClient will try again in 15 minutes and double the reattempt interval thereafter. The error was: No such host is known. (0x80072AF9)"
+"05-07-2024 14:37:32","506","Information","The system is entering Modern Standby 
+
+Reason: Sleep, Hibernate, or Shutdown."
+"05-07-2024 14:37:32","566","Information","The system session has transitioned from 42 to 43.
+
+Reason SxTransition 
+
+BootId: 92"
+"05-07-2024 14:37:32","32","Information","The bootmgr spent 0 ms waiting for user input."
+"05-07-2024 14:37:32","18","Information","There are 0x1 boot options on this system."
+"05-07-2024 14:37:32","30","Information","The firmware reported boot metrics."
+"05-07-2024 14:37:31","28","Information","Loaded DSP FW library: \??\C:\Windows\System32\DriverStore\FileRepository\intcoed_oemlibpath.inf_amd64_10e87c104e5c78d5\adl_sraudio_lib.bin, status = STATUS_SUCCESS."
+"05-07-2024 14:37:31","28","Information","Loaded DSP FW library: \??\C:\Windows\System32\DriverStore\FileRepository\intcoed_oemlibpath.inf_amd64_10e87c104e5c78d5\adl_sraudio_lib.bin, status = STATUS_SUCCESS."
+"05-07-2024 14:37:31","28","Information","Loaded DSP FW library: Libs\dsp_lib_whm_adl_release.bin, status = STATUS_SUCCESS."
+"05-07-2024 14:37:31","28","Information","Loaded DSP FW library: Libs\dsp_lib_intel_wov_adl_release.bin, status = STATUS_SUCCESS."
+"05-07-2024 14:37:30","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"05-07-2024 14:37:30","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"05-07-2024 14:37:30","1","Information","The system time has changed to ?2024?-?07?-?05T10:37:30.500000000Z from ?2024?-?07?-?04T19:37:51.843013000Z.
+Time Delta: 53978656 ms
+
+Change Reason: System time synchronized with the hardware clock.
+Process: '' (PID 4).
+
+RTC time: ?2024?-?07?-?05T14:37:30.500000000Z
+Current time zone bias: -240
+RTC time is in UTC: false
+System time was based on RTC time: false"
+"04-07-2024 23:37:51","107","Information","The system has resumed from sleep."
+"05-07-2024 14:37:30","6013","Information","The system uptime is 257046 seconds."
+"04-07-2024 23:37:48","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
+"04-07-2024 23:37:48","42","Information","The system is entering sleep.
+
+Sleep Reason: Hibernate from Sleep - Standby Battery Budget Exceeded"
+"04-07-2024 23:37:46","566","Information","The system session has transitioned from 41 to 42.
+
+Reason SxTransition 
+
+BootId: 92"
+"04-07-2024 23:37:46","507","Information","The system is exiting Modern Standby 
+
+Reason: Sleep, Hibernate, or Shutdown."
+"04-07-2024 23:37:46","172","Information","Connectivity state in standby: Connected, Reason: None"
+"04-07-2024 22:31:02","7000","Error","The Windows Camera Frame Server Monitor service failed to start due to the following error: 
+The service did not respond to the start or control request in a timely fashion."
+"04-07-2024 22:31:02","7009","Error","A timeout was reached (30000 milliseconds) while waiting for the Windows Camera Frame Server Monitor service to connect."
+"04-07-2024 22:09:01","172","Information","Connectivity state in standby: Disconnected, Reason: Adaptive Connected Standby"
+"04-07-2024 22:08:53","566","Information","The system session has transitioned from 40 to 41.
+
+Reason PolicyChange 
+
+BootId: 92"
+"04-07-2024 22:08:52","506","Information","The system is entering Modern Standby 
+
+Reason: Lid."
+"04-07-2024 22:08:52","566","Information","The system session has transitioned from 39 to 40.
+
+Reason PolicyChange 
+
+BootId: 92"
+"04-07-2024 22:08:52","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"04-07-2024 22:08:52","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
 "04-07-2024 21:31:14","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
 "04-07-2024 21:29:05","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
 "04-07-2024 21:12:42","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
@@ -454,93 +580,3 @@ Reason: AC/DC Display Burst Suppressed."
 %%45"
 "04-07-2024 03:31:49","10010","Error","The server {B8C1DCAE-5020-4F5D-BA2A-85292744E334} did not register with DCOM within the required timeout."
 "04-07-2024 03:31:49","10010","Error","The server {1F18FC75-A353-4121-AEDB-19DF9C98F622} did not register with DCOM within the required timeout."
-"04-07-2024 03:31:49","10010","Error","The server {08949FF9-54D2-47CB-9B3F-82E9ACC93DF1} did not register with DCOM within the required timeout."
-"04-07-2024 03:31:49","10010","Error","The server {A28430CA-1EBF-48DD-AA17-9221B6F86A6C} did not register with DCOM within the required timeout."
-"04-07-2024 03:01:37","35","Information","The time service is now synchronizing the system time with the time source time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123) with reference id 1096700200. Current local stratum number is 4."
-"04-07-2024 03:01:23","19","Information","Installation Successful: Windows successfully installed the following update: 9NMPJ99VJBWV-Microsoft.YourPhone"
-"04-07-2024 03:01:22","16","Information","The access history in hive \??\C:\ProgramData\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\S-1-5-21-192615396-3318319077-3282245202-1002\SystemAppData\Helium\Cache\2446735ae552049c_COM15.dat was cleared updating 1 keys and creating 1 modified pages."
-"04-07-2024 03:01:22","43","Information","Installation Started: Windows has started installing the following update: 9NMPJ99VJBWV-Microsoft.YourPhone"
-"04-07-2024 03:01:21","566","Information","The system session has transitioned from 27 to 28.
-
-Reason PolicyChange 
-
-BootId: 92"
-"04-07-2024 03:01:19","37","Information","The time provider NtpClient is currently receiving valid time data from time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123)."
-"04-07-2024 03:01:19","506","Information","The system is entering Modern Standby 
-
-Reason: 16777220."
-"04-07-2024 03:01:19","566","Information","The system session has transitioned from 26 to 27.
-
-Reason 16777220 
-
-BootId: 92"
-"04-07-2024 03:01:19","507","Information","The system is exiting Modern Standby 
-
-Reason: 16777220."
-"03-07-2024 22:49:02","566","Information","The system session has transitioned from 25 to 26.
-
-Reason PolicyChange 
-
-BootId: 92"
-"03-07-2024 22:49:02","506","Information","The system is entering Modern Standby 
-
-Reason: Lid."
-"03-07-2024 22:49:02","566","Information","The system session has transitioned from 24 to 25.
-
-Reason PolicyChange 
-
-BootId: 92"
-"03-07-2024 22:05:53","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
-"03-07-2024 22:03:48","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
-"03-07-2024 19:57:22","16","Information","The access history in hive \??\C:\Users\nanda\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\Settings\settings.dat was cleared updating 1480 keys and creating 69 modified pages."
-"03-07-2024 19:22:53","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
-"03-07-2024 19:20:41","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
-"03-07-2024 17:08:50","158","Information","The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well."
-"03-07-2024 16:51:46","158","Information","The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well."
-"03-07-2024 16:47:51","16","Information","The access history in hive \??\C:\Users\nanda\AppData\Local\Packages\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\Settings\settings.dat was cleared updating 32 keys and creating 5 modified pages."
-"03-07-2024 16:34:44","566","Information","The system session has transitioned from 23 to 24.
-
-Reason PolicyChange 
-
-BootId: 92"
-"03-07-2024 16:34:44","507","Information","The system is exiting Modern Standby 
-
-Reason: Lid."
-"03-07-2024 16:34:42","158","Information","The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well."
-"03-07-2024 16:29:20","566","Information","The system session has transitioned from 22 to 23.
-
-Reason PolicyChange 
-
-BootId: 92"
-"03-07-2024 16:29:20","506","Information","The system is entering Modern Standby 
-
-Reason: Lid."
-"03-07-2024 16:29:20","566","Information","The system session has transitioned from 21 to 22.
-
-Reason PolicyChange 
-
-BootId: 92"
-"03-07-2024 16:16:48","158","Information","The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well."
-"03-07-2024 16:02:35","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
-"03-07-2024 16:00:39","19","Information","Installation Successful: Windows successfully installed the following update: 9P086NHDNB9W-Microsoft.XboxSpeechtoTextOverlay"
-"03-07-2024 16:00:35","20","Error","Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone."
-"03-07-2024 16:00:32","19","Information","Installation Successful: Windows successfully installed the following update: 9NBLGGH10PG8-MICROSOFT.PEOPLE"
-"03-07-2024 16:00:32","43","Information","Installation Started: Windows has started installing the following update: 9NMPJ99VJBWV-Microsoft.YourPhone"
-"03-07-2024 16:00:32","44","Information","Windows Update started downloading an update."
-"03-07-2024 16:00:31","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
-"03-07-2024 16:00:29","19","Information","Installation Successful: Windows successfully installed the following update: 9NBLGGH537C2-Microsoft.XboxGameOverlay"
-"03-07-2024 16:00:27","44","Information","Windows Update started downloading an update."
-"03-07-2024 16:00:22","44","Information","Windows Update started downloading an update."
-"03-07-2024 16:00:22","44","Information","Windows Update started downloading an update."
-"03-07-2024 16:00:22","44","Information","Windows Update started downloading an update."
-"03-07-2024 16:00:12","19","Information","Installation Successful: Windows successfully installed the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.665.0) - Current Channel (Broad)"
-"03-07-2024 16:00:12","44","Information","Windows Update started downloading an update."
-"03-07-2024 16:00:12","44","Information","Windows Update started downloading an update."
-"03-07-2024 16:00:12","7045","Information","A service was installed in the system.
-
-Service Name:  MpKsl7279cea4
-Service File Name:  C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{30158720-9862-40E0-BC92-C904E24EAFD9}\MpKslDrv.sys
-Service Type:  kernel mode driver
-Service Start Type:  demand start
-Service Account:  "
-"03-07-2024 15:59:37","43","Information","Installation Started: Windows has started installing the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.665.0) - Current Channel (Broad)"
