@@ -88,7 +88,7 @@ log_file_paths = [
 parse_and_store_logs(log_file_paths)
 
 # Query logs
-query = "failed"
+query = "Ending TrustedInstaller"
 retrieved_chunks = query_logs(query)
 
 # Print all retrieved chunks
