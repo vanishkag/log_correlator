@@ -1,468 +1,1322 @@
 "TimeCreated","Id","LevelDisplayName","Message"
-"05-07-2024 14:53:40","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T10:53:40Z. Reason: RulesEngine."
-"05-07-2024 14:53:23","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
-"05-07-2024 14:52:49","16394","Information","Offline downlevel migration succeeded."
-"05-07-2024 14:44:32","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T10:44:32Z. Reason: RulesEngine."
-"05-07-2024 14:43:33","16394","Information","Offline downlevel migration succeeded."
-"05-07-2024 14:43:18","0","Information","PowerEvent handled successfully by the service."
-"05-07-2024 14:43:15","0","Information","PowerEvent handled successfully by the service."
-"05-07-2024 14:38:26","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T10:37:26Z. Reason: RulesEngine."
-"05-07-2024 14:38:16","0","Information","Service stopped."
-"05-07-2024 14:37:46","0",,
-"05-07-2024 14:37:37","16394","Information","Offline downlevel migration succeeded."
-"05-07-2024 14:37:34","0","Information","PowerEvent handled successfully by the service."
-"05-07-2024 14:37:33","0","Information","PowerEvent handled successfully by the service."
-"04-07-2024 23:37:46","0","Information","PowerEvent handled successfully by the service."
-"04-07-2024 22:31:02","0",,
-"04-07-2024 21:43:41","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T17:43:41Z. Reason: RulesEngine."
-"04-07-2024 21:43:11","16394","Information","Offline downlevel migration succeeded."
-"04-07-2024 20:54:07","0","Information","PowerEvent handled successfully by the service."
-"04-07-2024 20:45:52","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T16:45:52Z. Reason: RulesEngine."
-"04-07-2024 20:45:22","0",,
-"04-07-2024 20:09:21","16394","Information","Offline downlevel migration succeeded."
-"04-07-2024 20:09:17","0","Information","PowerEvent handled successfully by the service."
-"04-07-2024 20:09:16","0","Information","PowerEvent handled successfully by the service."
-"04-07-2024 18:10:39","0",,
-"04-07-2024 17:44:03","10001","Information","Ending session 1 started ?2024?-?07?-?04T13:43:11.780069400Z."
-"04-07-2024 17:43:11","10000","Information","Starting session 1 - ?2024?-?07?-?04T13:43:11.780069400Z."
-"04-07-2024 17:43:04","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T13:43:04Z. Reason: RulesEngine."
-"04-07-2024 17:42:34","16394","Information","Offline downlevel migration succeeded."
-"04-07-2024 17:42:21","258","Information","The storage optimizer successfully completed defragmentation on (C:)"
-"04-07-2024 17:42:21","258","Information","The storage optimizer successfully completed retrim on (C:)"
-"04-07-2024 17:28:07","0","Information","PowerEvent handled successfully by the service."
-"04-07-2024 17:09:02","1001","Information","Fault bucket 1398432954972892661, type 5
-Event Name: RADAR_PRE_LEAK_64
+"05-07-2024 16:15:15","8224","Information","The VSS service is shutting down due to idle timeout. "
+"05-07-2024 16:05:39","8302","Information","Scoping successfully completed for shadowcopy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy9."
+"05-07-2024 16:05:39","8301","Information","Scoping completed for shadowcopy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy9."
+"05-07-2024 16:05:21","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T10:35:21Z. Reason: RulesEngine."
+"05-07-2024 16:05:16","1001","Information","Fault bucket 1670049224234832890, type 5
+Event Name: StoreAgentInstallFailure1
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Code.exe
-P2: 1.89.1.0
-P3: 10.0.22621.2.0.0
-P4: 
-P5: 
-P6: 
+P1: Update;ScanForUpdatesForUser
+P2: 80073d02
+P3: 22631
+P4: 3737
+P5: Windows.Desktop
+P6: B
 P7: 
 P8: 
 P9: 
 P10: 
 
 Attached files:
-\\?\C:\Users\nanda\AppData\Local\Temp\RDR8BCD.tmp\empty.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.0add2de1-a148-41ac-9984-f814e37cc97c.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.4b8fa383-1707-4ee3-8df4-4acbe544e962.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.532529c6-0408-43b8-9f64-3d5bc5901a73.tmp.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.cd334cb7-c8dd-4a42-98bf-00e09df850d2.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1f7c739d-4f5d-436b-8fab-2d6643aef45a.tmp.WERInternalMetadata.xml
 
 These files may be available here:
-NULL
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;ScanForUp_7deefb1a91c594224691f41962164efd87a3d_00000000_8bac112a-d769-4869-8ffd-a3bd06e3dd83
 
 Analysis symbol: 
 Rechecking for solution: 0
-Report Id: 2a998cfb-07c9-43d3-baa2-70ac293d16bd
+Report Id: 8bac112a-d769-4869-8ffd-a3bd06e3dd83
 Report Status: 268435456
-Hashed bucket: e6f528b0643d59f853683b5d035bedf5
+Hashed bucket: 2709931e3e17e237872d34ebcfef13fa
 Cab Guid: 0"
-"04-07-2024 16:54:03","1001","Information","Fault bucket 1296641008252970270, type 5
-Event Name: RADAR_PRE_LEAK_64
+"05-07-2024 16:05:13","1001","Information","Fault bucket , type 0
+Event Name: StoreAgentInstallFailure1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;ScanForUpdatesForUser
+P2: 80073d02
+P3: 22631
+P4: 3737
+P5: Windows.Desktop
+P6: B
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;ScanForUp_7deefb1a91c594224691f41962164efd87a3d_00000000_8bac112a-d769-4869-8ffd-a3bd06e3dd83
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 8bac112a-d769-4869-8ffd-a3bd06e3dd83
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"05-07-2024 16:05:13","8216","Information","Skipping creation of restore point (Process = C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wuauserv; Description = Windows Update) as there is a restore point avaliable which is recent enough for System Restore."
+"05-07-2024 16:04:51","16394","Information","Offline downlevel migration succeeded."
+"05-07-2024 16:04:48","8300","Information","Scoping started for shadowcopy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy9."
+"05-07-2024 16:04:37","8194","Information","Successfully created restore point (Process = C:\WINDOWS\system32\lpksetup.exe -Embedding; Description = Language Pack Removal)."
+"05-07-2024 15:58:04","0","Information","PowerEvent handled successfully by the service."
+"05-07-2024 15:57:25","0","Information","PowerEvent handled successfully by the service."
+"05-07-2024 15:13:35","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T09:43:35Z. Reason: RulesEngine."
+"05-07-2024 15:13:04","16394","Information","Offline downlevel migration succeeded."
+"05-07-2024 15:01:14","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T09:31:14Z. Reason: RulesEngine."
+"05-07-2024 15:00:43","16394","Information","Offline downlevel migration succeeded."
+"05-07-2024 14:30:33","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T09:00:33Z. Reason: RulesEngine."
+"05-07-2024 14:30:01","16394","Information","Offline downlevel migration succeeded."
+"05-07-2024 14:25:53","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T08:55:53Z. Reason: RulesEngine."
+"05-07-2024 14:20:55","16394","Information","Offline downlevel migration succeeded."
+"05-07-2024 12:33:02","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T07:02:30Z. Reason: RulesEngine."
+"05-07-2024 12:20:08","16394","Information","Offline downlevel migration succeeded."
+"05-07-2024 12:20:04","0","Information","PowerEvent handled successfully by the service."
+"05-07-2024 12:17:55","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T06:47:55Z. Reason: RulesEngine."
+"05-07-2024 12:17:25","16394","Information","Offline downlevel migration succeeded."
+"05-07-2024 11:20:20","8224","Information","The VSS service is shutting down due to idle timeout. "
+"05-07-2024 11:17:47","8302","Information","Scoping successfully completed for shadowcopy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy8."
+"05-07-2024 11:17:47","8301","Information","Scoping completed for shadowcopy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy8."
+"05-07-2024 11:17:31","0","Information","PowerEvent handled successfully by the service."
+"05-07-2024 11:17:31","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T05:47:31Z. Reason: RulesEngine."
+"05-07-2024 11:17:21","8300","Information","Scoping started for shadowcopy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy8."
+"05-07-2024 11:17:10","8194","Information","Successfully created restore point (Process = C:\WINDOWS\system32\lpksetup.exe -Embedding; Description = Language Pack Removal)."
+"05-07-2024 11:17:05","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"05-07-2024 11:17:03","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"05-07-2024 11:17:01","16394","Information","Offline downlevel migration succeeded."
+"05-07-2024 11:16:57","0","Information","PowerEvent handled successfully by the service."
+"05-07-2024 10:59:48","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T05:29:48Z. Reason: RulesEngine."
+"05-07-2024 10:59:16","16394","Information","Offline downlevel migration succeeded."
+"05-07-2024 09:30:40","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T04:00:40Z. Reason: RulesEngine."
+"05-07-2024 09:30:10","1003","Information","The Software Protection service has completed licensing status check.
+Application Id=0ff1ce15-a989-479d-af46-f275c6370663
+Licensing Status=
+1: 3ad61e22-e4fe-497f-bdb1-3e51bd872173, 1, 1 [(0 )(1 )(2 )(3 [0x00000000, 0, 0], [( 6 0xC004F009 5 0)( 1 0x00000000)( 6 0xC004F009 5 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F009)])]
+
+"
+"05-07-2024 09:30:10","1003","Information","The Software Protection service has completed licensing status check.
+Application Id=0ff1ce15-a989-479d-af46-f275c6370663
+Licensing Status=
+1: d7279dd0-e175-49fe-a623-8fc2fc00afc4, 1, 1 [(0 )(1 )(2 )(3 [0x00000000, 0, 0], [( 6 0xC004F009 5 0)( 1 0x00000000)( 6 0xC004F009 5 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F009)])]
+
+"
+"05-07-2024 09:30:10","1003","Information","The Software Protection service has completed licensing status check.
+Application Id=0ff1ce15-a989-479d-af46-f275c6370663
+Licensing Status=
+1: 3ad61e22-e4fe-497f-bdb1-3e51bd872173, 1, 1 [(0 )(1 )(2 )(3 [0x00000000, 0, 0], [( 6 0xC004F009 5 0)( 1 0x00000000)( 6 0xC004F009 5 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F009)])]
+
+"
+"05-07-2024 09:30:10","1003","Information","The Software Protection service has completed licensing status check.
+Application Id=0ff1ce15-a989-479d-af46-f275c6370663
+Licensing Status=
+1: 149dbce7-a48e-44db-8364-a53386cd4580, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 24fc428e-a37e-4996-ac66-8ea0304a152d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 26b6a7ce-b174-40aa-a114-316aa56ba9fc, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 28f64a3f-cf84-46da-b1e8-2dfa7750e491, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 35ec6e0e-2df4-4629-9ee3-d525e806b988, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 3ad61e22-e4fe-497f-bdb1-3e51bd872173, 1, 1 [(0 )(1 )(2 )(3 [0x00000000, 0, 0], [( 6 0xC004F009 5 0)( 1 0x00000000)( 6 0xC004F009 5 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F009)])]
+7: 436366de-5579-4f24-96db-3893e4400030, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 46d2c0bd-f912-4ddc-8e67-b90eadc3f83c, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 4c1d1588-3088-4796-b3b2-8935f3a0d886, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 52287aa3-9945-44d1-9046-7a3373666821, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 537ea5b5-7d50-4876-bd38-a53a77caca32, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: 6e5db8a5-78e6-4953-b793-7422351afe88, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: 77f47589-2212-4e3b-ad27-a900ce813837, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: 7984d9ed-81f9-4d50-913d-317ecd863065, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+15: 7ab38a1c-a803-4ca5-8ebb-f8786c4b4faa, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+16: 86af9220-9d6f-4575-bef0-619a9a6aa005, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+17: 951c0fe6-40a8-4400-8003-eec0686ffbc4, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+18: 95820f84-6e8c-4d22-b2ce-54953e9911bc, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+19: 96353198-443e-479d-9e80-9a6d72fd1a99, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+20: a8119e32-b17c-4bd3-8950-7d1853f4b412, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+21: a96f8dae-da54-4fad-bdc6-108da592707a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+22: ae9d158f-9450-4a0c-8c80-dd973c58357c, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+23: b27b3d00-9a95-4fcd-a0c2-118cbd5e699b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+24: b4af11be-5f94-4d8f-9844-ce0d5e0d8680, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+25: b58a5943-16ea-420f-a611-7b230acd762c, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+26: b6b47040-b38e-4be2-bf6a-dabf0c41540a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+27: c85fe025-b033-4f41-936b-b121521ba1c1, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+28: cbecb6f5-da49-4029-be25-5945ac9750b3, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+29: d7279dd0-e175-49fe-a623-8fc2fc00afc4, 1, 1 [(0 )(1 )(2 )(3 [0x00000000, 0, 0], [( 6 0xC004F009 5 0)( 1 0x00000000)( 6 0xC004F009 5 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F009)])]
+30: dfc5a8b0-e9fd-43f7-b4ca-d63f1e749711, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+31: e3dacc06-3bc2-4e13-8e59-8e05f3232325, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+32: e538d623-c066-433d-a6b7-e0708b1fadf7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+33: fb3540bc-a824-4c79-83da-6f6bd3ac6ccb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+34: ff02e86c-fef0-4063-b39f-74275cddd7c3, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+"05-07-2024 09:30:10","16394","Information","Offline downlevel migration succeeded."
+"05-07-2024 09:26:50","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T03:56:50Z. Reason: RulesEngine."
+"05-07-2024 09:26:20","16394","Information","Offline downlevel migration succeeded."
+"05-07-2024 09:25:49","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T03:55:49Z. Reason: RulesEngine."
+"05-07-2024 09:25:19","16394","Information","Offline downlevel migration succeeded."
+"05-07-2024 09:20:01","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-11T03:50:01Z. Reason: RulesEngine."
+"05-07-2024 09:19:47","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"05-07-2024 09:19:22","0","Information","Service stopped."
+"05-07-2024 09:19:20","0","Information","PowerEvent handled successfully by the service."
+"05-07-2024 09:19:20","0","Information","PowerEvent handled successfully by the service."
+"05-07-2024 09:19:16","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 22:43:46","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 22:43:44","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 22:02:25","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T16:31:52Z. Reason: RulesEngine."
+"04-07-2024 21:45:39","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 20:01:05","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 19:48:54","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T14:18:54Z. Reason: RulesEngine."
+"04-07-2024 19:48:46","0","Information","Service stopped."
+"04-07-2024 19:48:21","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 18:53:55","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 18:53:21","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 18:14:32","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T12:44:32Z. Reason: RulesEngine."
+"04-07-2024 18:14:02","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 16:16:32","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T10:46:32Z. Reason: RulesEngine."
+"04-07-2024 16:03:29","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 15:50:02","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T10:20:02Z. Reason: RulesEngine."
+"04-07-2024 15:49:25","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 14:42:27","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T09:11:54Z. Reason: RulesEngine."
+"04-07-2024 14:32:06","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 13:36:53","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T08:06:53Z. Reason: RulesEngine."
+"04-07-2024 13:36:22","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 13:15:20","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T07:45:20Z. Reason: RulesEngine."
+"04-07-2024 13:07:57","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 13:07:54","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 12:58:41","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T07:28:41Z. Reason: RulesEngine."
+"04-07-2024 12:58:11","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 12:26:25","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"04-07-2024 12:26:23","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"04-07-2024 12:16:27","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 12:16:23","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 12:04:43","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T06:34:43Z. Reason: RulesEngine."
+"04-07-2024 12:04:13","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 11:48:05","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T06:18:05Z. Reason: RulesEngine."
+"04-07-2024 11:47:35","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 10:27:45","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T04:57:13Z. Reason: RulesEngine."
+"04-07-2024 10:18:18","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 10:18:18","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 09:50:02","8224","Information","The VSS service is shutting down due to idle timeout. "
+"04-07-2024 09:40:13","330","Information","Video.UI (45980,D,2) {9A8AE670-536A-4C23-97AB-2F4C7BD41C17}: The database [C:\Users\vanis\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\LocalState\Database\anonymous\tmp.edb] format version is being held back to 8920 (0x22d8) due to application parameter setting of 0x410022D8 (8920 | JET_efvAllowHigherPersistedFormat). Current default engine version: 9480 (0x2508)."
+"04-07-2024 09:40:13","326","Information","Video.UI (45980,D,50) {9A8AE670-536A-4C23-97AB-2F4C7BD41C17}: The database engine attached a database (1, C:\Users\vanis\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\LocalState\Database\anonymous\EntClientDb.edb). (Time=0 seconds) 
+ 
+Saved Cache: 0 0 
+Additional Data: lgposAttach = 00000002:01F2:0268,
+dbv = 1568.20.0 (8920) 
+ 
+Internal Timing Sequence: 
+[1] 0.000001 +J(0)
+[2] 0.000387 +J(0) +M(C:0K, Fs:18, WS:8K # 0K, PF:8K # 0K, P:8K)
+[3] 0.001802 -0.000834 (5) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2) +M(C:0K, Fs:7, WS:20K # 0K, PF:20K # 0K, P:20K)
+[4] 0.000102 +J(0)
+[5] -
+[6] 0.018685 -0.018596 (2) CM +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:0/0) +M(C:0K, Fs:7, WS:28K # 0K, PF:24K # 0K, P:24K)
+[7] -
+[8] 0.003010 -0.000006 (1) CM -0.002817 (1) WT +J(CM:1, PgRf:1, Rd:14/1, Dy:0/0, Lg:0/0) +M(C:0K, Fs:18, WS:60K # 0K, PF:300K # 0K, P:300K)
+[9] -
+[10] -
+[11] -
+[12] 0.000360 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[13] 0.000143 -0.000009 (4) CM +J(CM:4, PgRf:23, Rd:0/4, Dy:0/0, Lg:0/0) +M(C:0K, Fs:32, WS:128K # 0K, PF:8K # 0K, P:8K)
+[14] 0.000048 -0.000002 (1) CM +J(CM:1, PgRf:40, Rd:0/1, Dy:0/0, Lg:0/0) +M(C:0K, Fs:3, WS:4K # 0K, PF:64K # 0K, P:64K)
+[15] 0.000002 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)
+[16] 0.000004 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)
+[17] 0.000025 +J(CM:0, PgRf:42, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:4, WS:16K # 0K, PF:0K # 0K, P:0K)
+[18] 0.0 +J(0)
+[19] 0.0 +J(0)
+[20] 0.000002 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)."
+"04-07-2024 09:40:13","330","Information","Video.UI (45980,D,50) {9A8AE670-536A-4C23-97AB-2F4C7BD41C17}: The database [C:\Users\vanis\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\LocalState\Database\anonymous\EntClientDb.edb] format version is being held back to 8920 (0x22d8) due to application parameter setting of 0x410022D8 (8920 | JET_efvAllowHigherPersistedFormat). Current default engine version: 9480 (0x2508)."
+"04-07-2024 09:40:13","105","Information","Video.UI (45980,D,0) {9A8AE670-536A-4C23-97AB-2F4C7BD41C17}: The database engine started a new instance (0). (Time=0 seconds) 
+ 
+Additional Data:
+ lgposV2[] = 00000002:0001:0000 - 00000002:01EF:039F - 00000002:01F0:0000 - 00000002:01F0:0000 (00000000:0000:0000)
+cReInits = 165
+RBSOn = 0
+ 
+ 
+Internal Timing Sequence: 
+[1] 0.000479 +J(0) +M(C:0K, Fs:164, WS:640K # 640K, PF:2832K # 2828K, P:2832K)
+[2] 0.000270 +J(0) +M(C:0K, Fs:102, WS:188K # 188K, PF:300K # 300K, P:300K)
+[3] 0.000014 +J(0) +M(C:0K, Fs:5, WS:20K # 20K, PF:64K # 64K, P:64K)
+[4] 0.000126 +J(0) +M(C:0K, Fs:43, WS:168K # 168K, PF:184K # 184K, P:184K)
+[5] 0.340382 +J(0) +M(C:0K, Fs:6585, WS:25448K # 25448K, PF:16568K # 16568K, P:16568K)
+[6] 0.018921 +J(0) +M(C:0K, Fs:27, WS:108K # 108K, PF:12K # 12K, P:12K)
+[7] 0.001322 +J(0) +M(C:0K, Fs:530, WS:2116K # 2116K, PF:2052K # 2052K, P:2052K)
+[8] 0.028713 -0.001016 (4) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:2007720/1320) +M(C:0K, Fs:3138, WS:588K # 592K, PF:472K # 480K, P:472K)
+[9] 0.000447 +J(0) +M(C:0K, Fs:7, WS:28K # 24K, PF:0K # 0K, P:0K)
+[10] 0.000770 +J(0) +M(C:0K, Fs:1, WS:-2044K # 0K, PF:-2044K # 0K, P:-2044K)
+[11] 0.000016 +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:49/1) +M(C:0K, Fs:3, WS:12K # 0K, PF:0K # 0K, P:0K)
+[12] 0.009282 -0.009242 (1) WT +J(0) +M(C:0K, Fs:7, WS:28K # 0K, PF:16K # 0K, P:16K)
+[13] 0.037408 -0.018932 (2) CM -0.013569 (15) WT +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:8759/5) +M(C:0K, Fs:564, WS:124K # 168K, PF:116K # 132K, P:116K)
+[14] 0.000013 +J(0)
+[15] 0.000008 +J(0)
+[16] 0.000115 +J(0) +M(C:0K, Fs:2, WS:0K # 0K, PF:0K # 0K, P:0K)."
+"04-07-2024 09:40:13","302","Information","Video.UI (45980,U,98) {9A8AE670-536A-4C23-97AB-2F4C7BD41C17}: The database engine has successfully completed recovery steps."
+"04-07-2024 09:40:13","301","Information","Video.UI (45980,R,98) {9A8AE670-536A-4C23-97AB-2F4C7BD41C17}: The database engine has finished replaying logfile C:\Users\vanis\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\LocalState\Database\anonymous\edb.log. 
+ 
+Processing Stats: 
+[1] 0.027499 -0.001016 (4) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:2007720/1320) +M(C:0K, Fs:3023, WS:208K # 140K, PF:156K # 92K, P:156K). 
+Log record of type 'AttachDB ' was seen most frequently (165 times)"
+"04-07-2024 09:40:13","330","Information","Video.UI (45980,R,98) {9A8AE670-536A-4C23-97AB-2F4C7BD41C17}: The database [C:\Users\vanis\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\LocalState\Database\anonymous\EntClientDb.edb] format version is being held back to 8920 (0x22d8) due to application parameter setting of 0x410022D8 (8920 | JET_efvAllowHigherPersistedFormat). Current default engine version: 9480 (0x2508)."
+"04-07-2024 09:40:13","300","Information","Video.UI (45980,R,98) {9A8AE670-536A-4C23-97AB-2F4C7BD41C17}: The database engine is initiating recovery steps."
+"04-07-2024 09:40:13","102","Information","Video.UI (45980,P,98) {9A8AE670-536A-4C23-97AB-2F4C7BD41C17}: The database engine (10.00.22631.0000) is starting a new instance (0)."
+"04-07-2024 09:38:46","8216","Information","Skipping creation of restore point (Process = C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wuauserv; Description = Windows Update) as there is a restore point avaliable which is recent enough for System Restore."
+"04-07-2024 09:38:27","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T04:08:27Z. Reason: RulesEngine."
+"04-07-2024 09:37:57","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 09:20:43","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T03:50:43Z. Reason: RulesEngine."
+"04-07-2024 09:20:39","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"04-07-2024 09:20:01","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 09:13:38","8224","Information","The VSS service is shutting down due to idle timeout. "
+"04-07-2024 09:10:58","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T03:40:58Z. Reason: RulesEngine."
+"04-07-2024 09:10:38","8216","Information","Skipping creation of restore point (Process = C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wuauserv; Description = Windows Update) as there is a restore point avaliable which is recent enough for System Restore."
+"04-07-2024 09:10:09","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 09:09:05","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 09:05:52","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T03:35:52Z. Reason: RulesEngine."
+"04-07-2024 09:05:21","16394","Information","Offline downlevel migration succeeded."
+"04-07-2024 09:05:04","0","Information","Service stopped."
+"04-07-2024 09:04:09","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 09:04:09","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 09:04:09","0","Information","PowerEvent handled successfully by the service."
+"04-07-2024 09:04:07","0",,
+"04-07-2024 09:04:07","6000","Information","The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event."
+"04-07-2024 09:04:07","0",,
+"04-07-2024 09:04:07","0",,
+"04-07-2024 09:04:07","6003","Information","The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event."
+"03-07-2024 18:58:55","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 18:58:53","6000","Information","The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event."
+"03-07-2024 18:58:53","6000","Information","The winlogon notification subscriber <WSearch> was unavailable to handle a notification event."
+"03-07-2024 18:58:47","9027","Information","The Desktop Window Manager has registered the session port."
+"03-07-2024 18:57:29","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T13:27:29Z. Reason: RulesEngine."
+"03-07-2024 18:56:58","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 18:32:15","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T13:01:42Z. Reason: RulesEngine."
+"03-07-2024 18:15:28","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 16:26:32","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T10:56:31Z. Reason: RulesEngine."
+"03-07-2024 16:14:38","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 14:53:57","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T09:23:57Z. Reason: RulesEngine."
+"03-07-2024 14:53:26","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 14:11:53","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T08:41:53Z. Reason: RulesEngine."
+"03-07-2024 14:11:23","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 14:11:20","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 13:47:32","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 12:37:50","330","Information","Video.UI (42972,D,2) {40A23731-44D9-4FC5-A0B5-906B474ABB16}: The database [C:\Users\vanis\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\LocalState\Database\anonymous\tmp.edb] format version is being held back to 8920 (0x22d8) due to application parameter setting of 0x410022D8 (8920 | JET_efvAllowHigherPersistedFormat). Current default engine version: 9480 (0x2508)."
+"03-07-2024 12:37:50","326","Information","Video.UI (42972,D,50) {40A23731-44D9-4FC5-A0B5-906B474ABB16}: The database engine attached a database (1, C:\Users\vanis\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\LocalState\Database\anonymous\EntClientDb.edb). (Time=0 seconds) 
+ 
+Saved Cache: 0 0 
+Additional Data: lgposAttach = 00000002:01EF:0268,
+dbv = 1568.20.0 (8920) 
+ 
+Internal Timing Sequence: 
+[1] 0.000002 +J(0)
+[2] 0.000385 +J(0) +M(C:0K, Fs:18, WS:8K # 0K, PF:8K # 0K, P:8K)
+[3] 0.001679 -0.000813 (5) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2) +M(C:0K, Fs:7, WS:20K # 0K, PF:20K # 0K, P:20K)
+[4] 0.000085 +J(0)
+[5] -
+[6] 0.016875 -0.016804 (2) CM +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:0/0) +M(C:0K, Fs:7, WS:28K # 0K, PF:16K # 0K, P:16K)
+[7] -
+[8] 0.004140 -0.000005 (1) CM -0.003962 (1) WT +J(CM:1, PgRf:1, Rd:14/1, Dy:0/0, Lg:0/0) +M(C:0K, Fs:17, WS:60K # 0K, PF:296K # 0K, P:296K)
+[9] -
+[10] -
+[11] -
+[12] 0.000382 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[13] 0.000137 -0.000008 (4) CM +J(CM:4, PgRf:23, Rd:0/4, Dy:0/0, Lg:0/0) +M(C:0K, Fs:32, WS:128K # 0K, PF:8K # 0K, P:8K)
+[14] 0.000047 -0.000002 (1) CM +J(CM:1, PgRf:40, Rd:0/1, Dy:0/0, Lg:0/0) +M(C:0K, Fs:3, WS:4K # 0K, PF:64K # 0K, P:64K)
+[15] 0.000002 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)
+[16] 0.000004 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)
+[17] 0.000025 +J(CM:0, PgRf:42, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:4, WS:16K # 0K, PF:0K # 0K, P:0K)
+[18] 0.0 +J(0)
+[19] 0.0 +J(0)
+[20] 0.000002 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)."
+"03-07-2024 12:37:50","330","Information","Video.UI (42972,D,50) {40A23731-44D9-4FC5-A0B5-906B474ABB16}: The database [C:\Users\vanis\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\LocalState\Database\anonymous\EntClientDb.edb] format version is being held back to 8920 (0x22d8) due to application parameter setting of 0x410022D8 (8920 | JET_efvAllowHigherPersistedFormat). Current default engine version: 9480 (0x2508)."
+"03-07-2024 12:37:50","105","Information","Video.UI (42972,D,0) {40A23731-44D9-4FC5-A0B5-906B474ABB16}: The database engine started a new instance (0). (Time=0 seconds) 
+ 
+Additional Data:
+ lgposV2[] = 00000002:0001:0000 - 00000002:01EC:039F - 00000002:01ED:0000 - 00000002:01ED:0000 (00000000:0000:0000)
+cReInits = 164
+RBSOn = 0
+ 
+ 
+Internal Timing Sequence: 
+[1] 0.000501 +J(0) +M(C:0K, Fs:164, WS:448K # 448K, PF:2804K # 2788K, P:2804K)
+[2] 0.000274 +J(0) +M(C:0K, Fs:151, WS:596K # 596K, PF:344K # 344K, P:344K)
+[3] 0.000011 +J(0) +M(C:0K, Fs:4, WS:16K # 16K, PF:64K # 64K, P:64K)
+[4] 0.000141 +J(0) +M(C:0K, Fs:49, WS:192K # 192K, PF:216K # 216K, P:216K)
+[5] 0.359044 +J(0) +M(C:0K, Fs:6529, WS:25228K # 25228K, PF:16532K # 16532K, P:16532K)
+[6] 0.021415 +J(0) +M(C:0K, Fs:30, WS:120K # 120K, PF:24K # 24K, P:24K)
+[7] 0.001734 +J(0) +M(C:0K, Fs:530, WS:2116K # 2116K, PF:2052K # 2052K, P:2052K)
+[8] 0.033340 -0.000563 (5) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:1995552/1312) +M(C:0K, Fs:3119, WS:584K # 588K, PF:472K # 480K, P:472K)
+[9] 0.000482 +J(0) +M(C:0K, Fs:7, WS:28K # 24K, PF:0K # 0K, P:0K)
+[10] 0.000969 -0.000001 (1) WT +J(0) +M(C:0K, Fs:1, WS:-2044K # 0K, PF:-2044K # 0K, P:-2044K)
+[11] 0.000020 +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:49/1) +M(C:0K, Fs:3, WS:12K # 0K, PF:0K # 0K, P:0K)
+[12] 0.003439 -0.003397 (1) WT +J(0) +M(C:0K, Fs:5, WS:20K # 0K, PF:8K # 0K, P:8K)
+[13] 0.038652 -0.019190 (2) CM -0.014152 (15) WT +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:8759/5) +M(C:0K, Fs:560, WS:112K # 148K, PF:108K # 116K, P:108K)
+[14] 0.000015 +J(0)
+[15] 0.000010 +J(0)
+[16] 0.000123 +J(0) +M(C:0K, Fs:2, WS:0K # 0K, PF:0K # 0K, P:0K)."
+"03-07-2024 12:37:50","302","Information","Video.UI (42972,U,98) {40A23731-44D9-4FC5-A0B5-906B474ABB16}: The database engine has successfully completed recovery steps."
+"03-07-2024 12:37:50","301","Information","Video.UI (42972,R,98) {40A23731-44D9-4FC5-A0B5-906B474ABB16}: The database engine has finished replaying logfile C:\Users\vanis\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\LocalState\Database\anonymous\edb.log. 
+ 
+Processing Stats: 
+[1] 0.031909 -0.000563 (5) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:1995552/1312) +M(C:0K, Fs:3003, WS:200K # 132K, PF:144K # 80K, P:144K). 
+Log record of type 'AttachDB ' was seen most frequently (164 times)"
+"03-07-2024 12:37:50","330","Information","Video.UI (42972,R,98) {40A23731-44D9-4FC5-A0B5-906B474ABB16}: The database [C:\Users\vanis\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\LocalState\Database\anonymous\EntClientDb.edb] format version is being held back to 8920 (0x22d8) due to application parameter setting of 0x410022D8 (8920 | JET_efvAllowHigherPersistedFormat). Current default engine version: 9480 (0x2508)."
+"03-07-2024 12:37:50","300","Information","Video.UI (42972,R,98) {40A23731-44D9-4FC5-A0B5-906B474ABB16}: The database engine is initiating recovery steps."
+"03-07-2024 12:37:50","102","Information","Video.UI (42972,P,98) {40A23731-44D9-4FC5-A0B5-906B474ABB16}: The database engine (10.00.22631.0000) is starting a new instance (0)."
+"03-07-2024 12:32:45","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T07:02:45Z. Reason: RulesEngine."
+"03-07-2024 12:13:57","1002","Error","The program SystemSettings.exe version 10.0.22621.3672 stopped interacting with Windows and was closed. To see if more information about the problem is available, check the problem history in the Security and Maintenance control panel.
+"
+"03-07-2024 12:13:57","1001","Information","Fault bucket 1171904360233499515, type 5
+Event Name: MoAppHang
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: windows.immersivecontrolpanel_10.0.6.1000_neutral_neutral_cw5n1h2txyewy
+P2: praid:microsoft.windows.immersivecontrolpanel
+P3: 10.0.22621.3672
+P4: 052f4222
+P5: 0781
+P6: 2097152
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.ea03d725-58a9-4107-acb1-c2b291b9b64c.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.cd1b5bee-54e2-43c9-a0b1-300e9fb56493.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.fc64aaab-83c3-47f7-aed5-4031e535887d.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2a6e623a-8ee1-4e2e-bb0f-33b07175eb54.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppHang_windows.immersiv_e51c9edf8b1863dc09b7a94a8c5b2954ebc3a_06ae74d7_34969d32-88df-45bc-889f-45f17629db22
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: c32e2452-214b-4d0c-a097-3332dc0c6bcb
+Report Status: 268435456
+Hashed bucket: f722bd49d93105cbd04370ce7e72fb7b
+Cab Guid: 0"
+"03-07-2024 12:10:17","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 12:05:12","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 12:04:55","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"03-07-2024 12:04:53","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
+"03-07-2024 12:04:48","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 12:02:48","1001","Information","Fault bucket 1903431453836380282, type 4
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
 P1: python.exe
-P2: 3.11.4150.1013
-P3: 10.0.22621.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
 P9: 
 P10: 
 
 Attached files:
-\\?\C:\Users\nanda\AppData\Local\Temp\RDRD1E1.tmp\empty.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.93cc070f-5bf0-4e92-94ea-374e1f6f4c44.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.c31fd9bc-fe47-4925-b339-1f0f78cd851b.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.8122c0f2-2559-42bf-b19d-76c2bdacdd50.tmp.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1bde7699-976e-4621-a57b-9fc612dfc2b1.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1a15bfff-0fb5-4764-8cfe-03d794c20bdc.tmp.WERInternalMetadata.xml
 
 These files may be available here:
-NULL
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_22d28c9d-c261-45ea-ad50-1425eacb10c9
 
 Analysis symbol: 
 Rechecking for solution: 0
-Report Id: a55bfb9b-cc47-474e-a982-38b68e6551ba
+Report Id: 9fcdab78-d535-4cf3-821e-cf2130059d26
 Report Status: 268435456
-Hashed bucket: e4d0aeb64ceb6e74b1fe98208a1f651e
+Hashed bucket: 6c9cc4a997020240ca6a58d28c39087a
 Cab Guid: 0"
-"04-07-2024 16:45:14","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T12:45:14Z. Reason: RulesEngine."
-"04-07-2024 16:44:57","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
-"04-07-2024 16:44:26","16394","Information","Offline downlevel migration succeeded."
-"04-07-2024 16:37:13","0","Information","Service stopped."
-"04-07-2024 16:32:00","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T12:32:00Z. Reason: RulesEngine."
-"04-07-2024 16:31:30","16394","Information","Offline downlevel migration succeeded."
-"04-07-2024 16:29:57","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-10T12:29:56Z. Reason: RulesEngine."
-"04-07-2024 16:29:22","0",,
-"04-07-2024 16:29:07","0","Information","PowerEvent handled successfully by the service."
-"04-07-2024 16:29:05","0","Information","PowerEvent handled successfully by the service."
-"04-07-2024 16:10:50","0","Information","PowerEvent handled successfully by the service."
-"04-07-2024 16:10:50","0","Information","PowerEvent handled successfully by the service."
-"04-07-2024 16:10:50","0","Information","PowerEvent handled successfully by the service."
-"04-07-2024 04:10:58","16394","Information","Offline downlevel migration succeeded."
-"04-07-2024 04:10:53","0","Information","PowerEvent handled successfully by the service."
-"04-07-2024 04:10:51","0","Information","PowerEvent handled successfully by the service."
-"04-07-2024 03:31:51","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T23:31:51Z. Reason: RulesEngine."
-"04-07-2024 03:01:25","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 23:04:03","0",,
-"03-07-2024 22:14:03","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T18:14:03Z. Reason: RulesEngine."
-"03-07-2024 22:13:32","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 22:04:14","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
-"03-07-2024 22:03:23","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
-"03-07-2024 21:34:36","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T17:33:36Z. Reason: RulesEngine."
-"03-07-2024 21:34:05","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 21:31:11","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T17:31:11Z. Reason: RulesEngine."
-"03-07-2024 21:30:41","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 20:58:57","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T16:58:57Z. Reason: RulesEngine."
-"03-07-2024 20:58:27","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 20:37:44","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T16:37:44Z. Reason: RulesEngine."
-"03-07-2024 20:37:13","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 20:18:32","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T16:18:32Z. Reason: RulesEngine."
-"03-07-2024 20:18:02","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 19:52:30","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T15:52:30Z. Reason: RulesEngine."
-"03-07-2024 19:52:00","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 19:09:02","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T15:09:02Z. Reason: RulesEngine."
-"03-07-2024 19:08:31","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 18:47:23","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T14:47:23Z. Reason: RulesEngine."
-"03-07-2024 18:46:52","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 18:31:19","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T14:31:19Z. Reason: RulesEngine."
-"03-07-2024 18:30:49","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 18:01:53","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T14:01:53Z. Reason: RulesEngine."
-"03-07-2024 18:01:23","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 17:37:59","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T13:37:59Z. Reason: RulesEngine."
-"03-07-2024 17:37:28","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 17:02:17","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T13:02:17Z. Reason: RulesEngine."
-"03-07-2024 17:01:47","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 16:36:12","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T12:36:11Z. Reason: RulesEngine."
-"03-07-2024 16:35:41","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 16:02:12","8224","Information","The VSS service is shutting down due to idle timeout. "
-"03-07-2024 16:02:03","10001","Information","Ending session 1 started ?2024?-?07?-?03T11:59:56.455843100Z."
-"03-07-2024 16:01:16","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
-"03-07-2024 16:00:40","1001","Information","Fault bucket 2223312684605907296, type 5
-Event Name: StoreAgentInstallFailure1
+"03-07-2024 12:02:45","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Update;ScanForUpdatesForUser
-P2: 80073d02
-P3: 22621
-P4: 3737
-P5: Windows.Desktop
-P6: V
-P7: 
-P8: 
-P9: 
-P10: 
-
-Attached files:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.192a045f-7301-4c09-bd36-45e553ab4437.tmp.WERInternalMetadata.xml
-
-These files may be available here:
-\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;ScanForUp_d9b2a0cfa0ce8286d6b874e799412d17cf85369_00000000_ab97977d-be3f-4fe7-beb2-a5623fe389c9
-
-Analysis symbol: 
-Rechecking for solution: 0
-Report Id: ab97977d-be3f-4fe7-beb2-a5623fe389c9
-Report Status: 268435456
-Hashed bucket: 7b3166e49fc908d71edacb1b668e2160
-Cab Guid: 0"
-"03-07-2024 16:00:36","1001","Information","Fault bucket , type 0
-Event Name: StoreAgentInstallFailure1
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: Update;ScanForUpdatesForUser
-P2: 80073d02
-P3: 22621
-P4: 3737
-P5: Windows.Desktop
-P6: V
-P7: 
-P8: 
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
 P9: 
 P10: 
 
 Attached files:
 
 These files may be available here:
-\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;ScanForUp_d9b2a0cfa0ce8286d6b874e799412d17cf85369_00000000_ab97977d-be3f-4fe7-beb2-a5623fe389c9
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_22d28c9d-c261-45ea-ad50-1425eacb10c9
 
 Analysis symbol: 
 Rechecking for solution: 0
-Report Id: ab97977d-be3f-4fe7-beb2-a5623fe389c9
+Report Id: 9fcdab78-d535-4cf3-821e-cf2130059d26
 Report Status: 4
 Hashed bucket: 
 Cab Guid: 0"
-"03-07-2024 16:00:25","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T12:00:25Z. Reason: RulesEngine."
-"03-07-2024 16:00:14","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
-"03-07-2024 15:59:56","10000","Information","Starting session 1 - ?2024?-?07?-?03T11:59:56.455843100Z."
-"03-07-2024 15:59:32","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
-"03-07-2024 15:59:29","326","Information","svchost (20512,D,50) DS_Token_DB: The database engine attached a database (1, C:\Windows\system32\config\systemprofile\AppData\Local\DataSharing\Storage\DSTokenDB2.dat). (Time=0 seconds) 
- 
-Saved Cache: 1 0 
-Additional Data: lgposAttach = 0000000A:0002:0268,
-dbv = 1568.230.500 (9480) 
- 
-Internal Timing Sequence: 
-[1] 0.000003 +J(0)
-[2] 0.001953 -0.001117 (1) WT +J(0) +M(C:0K, Fs:17, WS:4K # 8K, PF:4K # 0K, P:4K)
-[3] 0.005456 -0.000479 (6) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2) +M(C:0K, Fs:6, WS:20K # 0K, PF:20K # 0K, P:20K)
-[4] 0.004000 +J(0)
-[5] -
-[6] 0.000926 -0.000843 (2) CM -0.000732 (2) WT +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:0/0)
-[7] 0.000003 +J(0)
-[8] 0.000802 -0.000609 (1) CM -0.000570 (1) WT +J(CM:1, PgRf:1, Rd:4/1, Dy:0/0, Lg:0/0) +M(C:16K, Fs:16, WS:64K # 20K, PF:208K # 168K, P:208K)
-[9] -
-[10] -
-[11] -
-[12] 0.000026 +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:54/1) +M(C:0K, Fs:1, WS:4K # 4K, PF:20K # 16K, P:20K)
-[13] 0.000999 -0.000790 (3) CM -0.000674 (3) WT +J(CM:3, PgRf:23, Rd:0/2, Dy:0/0, Lg:0/0) +M(C:0K, Fs:23, WS:92K # 92K, PF:4K # 4K, P:4K)
-[14] 0.000276 -0.000162 (1) CM -0.000086 (1) WT +J(CM:1, PgRf:40, Rd:0/1, Dy:0/0, Lg:0/0) +M(C:0K, Fs:2, WS:4K # 4K, PF:68K # 68K, P:68K)
-[15] 0.000008 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)
-[16] 0.000008 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)
-[17] 0.000046 +J(CM:0, PgRf:42, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:4, WS:16K # 16K, PF:0K # 0K, P:0K)
-[18] 0.000001 +J(0)
-[19] 0.0 +J(0)
-[20] 0.000006 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)."
-"03-07-2024 15:59:29","105","Information","svchost (20512,D,0) DS_Token_DB: The database engine started a new instance (0). (Time=0 seconds) 
- 
-Additional Data:
- lgposV2[] = 00000009:0001:0000 - 00000009:000D:0367 - 00000009:000E:0000 - 00000009:000E:0000 (00000000:0000:0000)
-cReInits = 4
-RBSOn = 0
- 
- 
-Internal Timing Sequence: 
-[1] 0.000537 +J(0) +M(C:0K, Fs:153, WS:588K # 588K, PF:3056K # 3056K, P:3056K)
-[2] 0.000279 +J(0) +M(C:8K, Fs:115, WS:456K # 456K, PF:388K # 388K, P:388K)
-[3] 0.000013 +J(0) +M(C:0K, Fs:6, WS:16K # 16K, PF:64K # 64K, P:64K)
-[4] 0.000088 +J(0) +M(C:0K, Fs:59, WS:232K # 232K, PF:1072K # 1072K, P:1072K)
-[5] 0.000494 +J(0) +M(C:0K, Fs:191, WS:764K # 764K, PF:24K # 24K, P:24K)
-[6] 0.002590 +J(0) +M(C:0K, Fs:69, WS:276K # 276K, PF:52K # 52K, P:52K)
-[7] 0.001287 -0.000319 (2) WT +J(0) +M(C:0K, Fs:33, WS:132K # 132K, PF:64K # 64K, P:64K)
-[8] 0.020593 -0.006357 (14) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:52728/35) +M(C:0K, Fs:164, WS:300K # 304K, PF:240K # 244K, P:240K)
-[9] 0.000562 +J(0) +M(C:0K, Fs:9, WS:36K # 32K, PF:8K # 4K, P:8K)
-[10] 0.000824 -0.000131 (1) WT +J(0) +M(C:0K, Fs:0, WS:-60K # 0K, PF:-60K # 0K, P:-60K)
-[11] 0.000032 +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:49/1) +M(C:0K, Fs:3, WS:12K # 0K, PF:0K # 0K, P:0K)
-[12] 0.001082 +J(0)
-[13] 0.024411 -0.000828 (2) CM -0.001867 (22) WT +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:4713/4) +M(C:0K, Fs:105, WS:296K # 312K, PF:268K # 276K, P:268K)
-[14] 0.000019 +J(0)
-[15] 0.000009 +J(0)
-[16] 0.000815 -0.000121 (1) WT +J(0) +M(C:0K, Fs:2, WS:0K # 0K, PF:0K # 0K, P:0K)."
-"03-07-2024 15:59:29","302","Information","svchost (20512,U,98) DS_Token_DB: The database engine has successfully completed recovery steps."
-"03-07-2024 15:59:29","301","Information","svchost (20512,R,98) DS_Token_DB: The database engine has finished replaying logfile C:\Windows\system32\config\systemprofile\AppData\Local\DataSharing\Storage\DSS.log. 
- 
-Processing Stats: 
-[1] 0.015320 -0.004959 (10) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:52728/35) +M(C:0K, Fs:111, WS:164K # 100K, PF:160K # 96K, P:160K). 
-Log record of type 'AttachDB ' was seen most frequently (4 times)"
-"03-07-2024 15:59:29","300","Information","svchost (20512,R,98) DS_Token_DB: The database engine is initiating recovery steps."
-"03-07-2024 15:59:29","102","Information","svchost (20512,P,98) DS_Token_DB: The database engine (10.00.22621.0000) is starting a new instance (0)."
-"03-07-2024 15:59:12","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 15:49:57","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T11:49:57Z. Reason: RulesEngine."
-"03-07-2024 15:49:27","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 15:45:36","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T11:45:36Z. Reason: RulesEngine."
-"03-07-2024 15:45:06","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 15:37:18","0","Information","PowerEvent handled successfully by the service."
-"03-07-2024 14:51:33","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T10:50:33Z. Reason: RulesEngine."
-"03-07-2024 14:51:03","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 14:31:05","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T10:31:05Z. Reason: RulesEngine."
-"03-07-2024 14:30:32","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 14:26:45","0","Information","PowerEvent handled successfully by the service."
-"03-07-2024 14:26:43","0","Information","PowerEvent handled successfully by the service."
-"03-07-2024 14:22:34","0","Information","Service stopped."
-"03-07-2024 14:22:20","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T10:22:20Z. Reason: RulesEngine."
-"03-07-2024 14:21:50","0",,
-"03-07-2024 14:21:47","0","Information","PowerEvent handled successfully by the service."
-"03-07-2024 14:21:46","0","Information","PowerEvent handled successfully by the service."
-"03-07-2024 14:21:45","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 14:20:47","0","Information","PowerEvent handled successfully by the service."
-"03-07-2024 06:32:01","0",,
-"03-07-2024 05:32:50","0","Information","PowerEvent handled successfully by the service."
-"03-07-2024 05:32:49","0","Information","PowerEvent handled successfully by the service."
-"03-07-2024 04:46:42","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T00:46:42Z. Reason: RulesEngine."
-"03-07-2024 04:46:11","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 03:27:59","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T23:27:59Z. Reason: RulesEngine."
-"03-07-2024 03:27:17","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 03:04:27","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T23:04:27Z. Reason: RulesEngine."
-"03-07-2024 03:03:57","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 02:27:07","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T22:27:06Z. Reason: RulesEngine."
-"03-07-2024 02:26:36","16394","Information","Offline downlevel migration succeeded."
-"03-07-2024 01:10:52","0","Information","Service stopped."
-"03-07-2024 01:10:51","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T21:10:51Z. Reason: RulesEngine."
-"03-07-2024 01:10:47","10001","Information","Ending session 1 started ?2024?-?07?-?02T19:57:23.445543000Z."
-"03-07-2024 01:10:47","0",,
-"03-07-2024 01:10:20","16394","Information","Offline downlevel migration succeeded."
-"02-07-2024 23:57:27","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T19:57:27Z. Reason: RulesEngine."
-"02-07-2024 23:57:23","10000","Information","Starting session 1 - ?2024?-?07?-?02T19:57:23.445543000Z."
-"02-07-2024 23:56:53","1001","Information","Fault bucket 1845530361249933468, type 5
-Event Name: StoreAgentScanForUpdatesFailure0
+"03-07-2024 12:02:45","1000","Error","Faulting application name: python.exe, version: 3.11.3150.1013, time stamp: 0x642cb853
+Faulting module name: c10.dll, version: 0.0.0.0, time stamp: 0x6655ec14
+Exception code: 0xc0000005
+Fault offset: 0x0000000000063064
+Faulting process id: 0x0xF8B8
+Faulting application start time: 0x0x1DACD12CCEB9330
+Faulting application path: C:\Users\vanis\AppData\Local\Programs\Python\Python311\python.exe
+Faulting module path: C:\Personal\log_correlator\venv\Lib\site-packages\torch\lib\c10.dll
+Report Id: 9fcdab78-d535-4cf3-821e-cf2130059d26
+Faulting package full name: 
+Faulting package-relative application ID: "
+"03-07-2024 11:58:56","1001","Information","Fault bucket 1903431453836380282, type 4
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Update;
-P2: 8024401f
-P3: 22621
-P4: 3737
-P5: Windows.Desktop
-P6: 
-P7: 
-P8: 
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
 P9: 
 P10: 
 
 Attached files:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.f4993aac-cd89-4048-97c0-ec1fab41cef8.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.93fa4291-2b13-4c67-8001-50d33bbb2424.tmp.WERInternalMetadata.xml
 
 These files may be available here:
-\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;_d2673550d5dec844cf99cbce6911b3de3d62ca4_00000000_8c628224-af50-437c-ae97-933fc7f330ea
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_08530f45-0194-4541-be9c-64b8b2395be8
 
 Analysis symbol: 
 Rechecking for solution: 0
-Report Id: 8c628224-af50-437c-ae97-933fc7f330ea
+Report Id: b17d825d-ab6d-4986-b8d7-0da15d976aa6
 Report Status: 268435456
-Hashed bucket: 0adbc39d0fb7cdfa799ca415e480289c
+Hashed bucket: 6c9cc4a997020240ca6a58d28c39087a
 Cab Guid: 0"
-"02-07-2024 23:56:50","1001","Information","Fault bucket , type 0
-Event Name: StoreAgentScanForUpdatesFailure0
+"03-07-2024 11:58:54","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Update;
-P2: 8024401f
-P3: 22621
-P4: 3737
-P5: Windows.Desktop
-P6: 
-P7: 
-P8: 
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
 P9: 
 P10: 
 
 Attached files:
 
 These files may be available here:
-\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_d2673550d5dec844cf99cbce6911b3de3d62ca4_00000000_8c628224-af50-437c-ae97-933fc7f330ea
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_08530f45-0194-4541-be9c-64b8b2395be8
 
 Analysis symbol: 
 Rechecking for solution: 0
-Report Id: 8c628224-af50-437c-ae97-933fc7f330ea
+Report Id: b17d825d-ab6d-4986-b8d7-0da15d976aa6
 Report Status: 4
 Hashed bucket: 
 Cab Guid: 0"
-"02-07-2024 23:56:46","16394","Information","Offline downlevel migration succeeded."
-"02-07-2024 17:07:39","0","Information","PowerEvent handled successfully by the service."
-"02-07-2024 16:34:17","0",,
-"02-07-2024 16:14:46","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T12:14:46Z. Reason: RulesEngine."
-"02-07-2024 16:14:29","0",,
-"02-07-2024 16:14:16","16394","Information","Offline downlevel migration succeeded."
-"02-07-2024 15:57:03","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T11:57:03Z. Reason: RulesEngine."
-"02-07-2024 15:56:33","16394","Information","Offline downlevel migration succeeded."
-"02-07-2024 15:40:58","0",,
-"02-07-2024 15:26:36","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T11:26:36Z. Reason: RulesEngine."
-"02-07-2024 15:25:38","16394","Information","Offline downlevel migration succeeded."
-"02-07-2024 15:25:08","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T11:25:08Z. Reason: RulesEngine."
-"02-07-2024 15:24:36","16394","Information","Offline downlevel migration succeeded."
-"02-07-2024 15:24:25","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T11:24:25Z. Reason: RulesEngine."
-"02-07-2024 15:24:12","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
-"02-07-2024 15:23:25","16394","Information","Offline downlevel migration succeeded."
-"02-07-2024 15:16:20","903","Information","The Software Protection service has stopped.
-"
-"02-07-2024 15:16:20","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-08T11:16:20Z. Reason: RulesEngine."
-"02-07-2024 15:15:52","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
-"02-07-2024 15:15:50","1","Information","The Windows Security Center Service has started."
-"02-07-2024 15:15:49","902","Information","The Software Protection service has started.
-10.0.22621.3672"
-"02-07-2024 15:15:49","1003","Information","The Software Protection service has completed licensing status check.
-Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
-Licensing Status=
-1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-2: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-3: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 1 [(0 )(1 )(2 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(3 )]
-4: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-5: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-6: 3ae2cc14-ab2d-41f4-972f-5e20142771dc, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-7: 4002e33a-524c-4100-8108-131a0d42c0ea, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-8: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-9: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-10: 653098ee-780d-4863-8cf2-d18399ce413b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-11: 71f411ae-7b4b-41bd-b68c-c519c499f950, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-12: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-13: 8a292df8-d653-4057-8133-a0701792f912, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-14: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-15: b0f8a518-2c58-4eb8-9319-084f0eb4ddc4, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-16: cd918a57-a41b-4c82-8dce-1a538e221a83, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-17: da9621af-f086-4244-b563-18611e51aa1a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-18: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
-19: ed799377-74b8-4989-a244-14d082e65972, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+"03-07-2024 11:58:53","1000","Error","Faulting application name: python.exe, version: 3.11.3150.1013, time stamp: 0x642cb853
+Faulting module name: c10.dll, version: 0.0.0.0, time stamp: 0x6655ec14
+Exception code: 0xc0000005
+Fault offset: 0x0000000000063064
+Faulting process id: 0x0x4308
+Faulting application start time: 0x0x1DACD124279B37B
+Faulting application path: C:\Users\vanis\AppData\Local\Programs\Python\Python311\python.exe
+Faulting module path: C:\Personal\log_correlator\venv\Lib\site-packages\torch\lib\c10.dll
+Report Id: b17d825d-ab6d-4986-b8d7-0da15d976aa6
+Faulting package full name: 
+Faulting package-relative application ID: "
+"03-07-2024 11:56:56","1001","Information","Fault bucket 1903431453836380282, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
 
-"
-"02-07-2024 15:15:49","1066","Information","Initialization status for service objects.
-C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
-C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
-C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
-C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
-C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
-C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
-C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
-C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
-C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
-"
-"02-07-2024 15:15:49","16394","Information","Offline downlevel migration succeeded."
-"02-07-2024 15:15:49","900","Information","The Software Protection service is starting.
-Parameters:<explicit>"
-"02-07-2024 15:15:48","0","Information","Service stopped."
-"02-07-2024 15:14:56","0","Information","Service stopped."
-"02-07-2024 15:14:02","1003","Information","The Windows Search Service started.
-"
-"02-07-2024 15:13:57","6000","Information","The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event."
-"02-07-2024 15:13:57","0",,
-"02-07-2024 15:13:57","6003","Information","The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event."
-"02-07-2024 15:13:52","0","Information","Service started successfully."
-"02-07-2024 15:13:48","63","Warning","A provider, IntelMEProv, has been registered in the Windows Management Instrumentation namespace root\Intel_ME to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
-"02-07-2024 15:13:48","63","Warning","A provider, IntelMEProv, has been registered in the Windows Management Instrumentation namespace root\Intel_ME to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
-"02-07-2024 15:13:48","63","Warning","A provider, IntelMEProv, has been registered in the Windows Management Instrumentation namespace root\Intel_ME to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
-"02-07-2024 15:13:48","2","Information","Intel(R) WMI Registration Service has successfully finished WMI Registration."
-"02-07-2024 15:13:48","0","Information","Service started successfully."
-"02-07-2024 15:13:46","0",,
-"02-07-2024 15:13:46","0","Information","Intel(R) WMI Registration Service started."
-"02-07-2024 15:13:46","0","Information","Intel(R) Dynamic Application Loader Host Interface Service started."
-"02-07-2024 15:13:45","5617","Information","Windows Management Instrumentation Service subsystems initialized successfully"
-"02-07-2024 15:13:45","5615","Information","Windows Management Instrumentation Service started sucessfully"
-"02-07-2024 15:13:44","1531","Information","The User Profile Service has started successfully.  
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
 
-"
-"02-07-2024 15:13:45","0","Information","Service started successfully."
-"02-07-2024 15:13:45","0","Information","HpTouchpointAnalyticsRecoverySetupSuccessfully configured Failure Actions"
-"02-07-2024 03:19:45","0","Information","PowerEvent handled successfully by the service."
-"02-07-2024 03:19:44","0","Information","PowerEvent handled successfully by the service."
-"02-07-2024 03:03:07","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-07T23:03:07Z. Reason: RulesEngine."
-"02-07-2024 03:00:29","16394","Information","Offline downlevel migration succeeded."
-"01-07-2024 19:14:10","0",,
-"01-07-2024 18:32:11","8224","Information","The VSS service is shutting down due to idle timeout. "
-"01-07-2024 17:53:07","10001","Information","Ending session 1 started ?2024?-?07?-?01T13:52:21.432595300Z."
-"01-07-2024 17:52:21","10000","Information","Starting session 1 - ?2024?-?07?-?01T13:52:21.432595300Z."
-"01-07-2024 17:47:50","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-07T13:47:50Z. Reason: RulesEngine."
-"01-07-2024 17:47:19","16394","Information","Offline downlevel migration succeeded."
-"01-07-2024 17:46:15","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
-"01-07-2024 17:46:13","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
-"01-07-2024 17:06:09","15","Information","Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON."
-"01-07-2024 17:03:57","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-07T13:03:57Z. Reason: RulesEngine."
-"01-07-2024 17:03:02","16394","Information","Offline downlevel migration succeeded."
-"01-07-2024 16:52:53","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-07T12:52:53Z. Reason: RulesEngine."
-"01-07-2024 16:52:23","16394","Information","Offline downlevel migration succeeded."
-"01-07-2024 16:47:58","0",,
-"01-07-2024 16:46:38","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-07T12:46:38Z. Reason: RulesEngine."
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.63109ca5-85ce-4669-8ce9-de64b435789b.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_53a692d3-26e4-4310-b7ac-46daaf54b13b
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 182e40b1-76dd-4f54-8eaf-4bacb5cac6ac
+Report Status: 268435456
+Hashed bucket: 6c9cc4a997020240ca6a58d28c39087a
+Cab Guid: 0"
+"03-07-2024 11:56:53","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_53a692d3-26e4-4310-b7ac-46daaf54b13b
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 182e40b1-76dd-4f54-8eaf-4bacb5cac6ac
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"03-07-2024 11:56:53","1000","Error","Faulting application name: python.exe, version: 3.11.3150.1013, time stamp: 0x642cb853
+Faulting module name: c10.dll, version: 0.0.0.0, time stamp: 0x6655ec14
+Exception code: 0xc0000005
+Fault offset: 0x0000000000063064
+Faulting process id: 0x0xEEC0
+Faulting application start time: 0x0x1DACD11FAF00BCA
+Faulting application path: C:\Users\vanis\AppData\Local\Programs\Python\Python311\python.exe
+Faulting module path: C:\Personal\log_correlator\venv\Lib\site-packages\torch\lib\c10.dll
+Report Id: 182e40b1-76dd-4f54-8eaf-4bacb5cac6ac
+Faulting package full name: 
+Faulting package-relative application ID: "
+"03-07-2024 11:55:51","1001","Information","Fault bucket 1903431453836380282, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.9662c82e-7f01-4712-8443-3e6b12182ea1.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_aa045c88-34ad-4189-8efa-01fff1f74279
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 33116957-c0df-43f9-9185-fff156a45941
+Report Status: 268435456
+Hashed bucket: 6c9cc4a997020240ca6a58d28c39087a
+Cab Guid: 0"
+"03-07-2024 11:55:49","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_aa045c88-34ad-4189-8efa-01fff1f74279
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 33116957-c0df-43f9-9185-fff156a45941
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"03-07-2024 11:55:48","1000","Error","Faulting application name: python.exe, version: 3.11.3150.1013, time stamp: 0x642cb853
+Faulting module name: c10.dll, version: 0.0.0.0, time stamp: 0x6655ec14
+Exception code: 0xc0000005
+Fault offset: 0x0000000000063064
+Faulting process id: 0x0x1083C
+Faulting application start time: 0x0x1DACD11D4A86321
+Faulting application path: C:\Users\vanis\AppData\Local\Programs\Python\Python311\python.exe
+Faulting module path: C:\Personal\log_correlator\venv\Lib\site-packages\torch\lib\c10.dll
+Report Id: 33116957-c0df-43f9-9185-fff156a45941
+Faulting package full name: 
+Faulting package-relative application ID: "
+"03-07-2024 11:55:40","1001","Information","Fault bucket 1903431453836380282, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.068d3991-3dae-4c1d-b53c-fa9656f9e91c.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_4c1ab622-53f8-4db5-8d12-442fa7f5bcd8
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 0a96a4f4-0d65-4a06-a829-575a1b590bc9
+Report Status: 268435456
+Hashed bucket: 6c9cc4a997020240ca6a58d28c39087a
+Cab Guid: 0"
+"03-07-2024 11:55:38","1001","Information","Fault bucket 1637773898819287346, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 0.0.0.0
+P3: 00000000
+P4: StackHash_e0cc
+P5: 0.0.0.0
+P6: 00000000
+P7: c0000005
+P8: PCH_B8_FROM_ntdll+0x00000000000A0AF4
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.518b9fa3-7a6b-4422-974b-7a105f416506.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_python.exe_565d429961e3cd693bfc9587925593848fdf2a5_9ef771e0_ef76fe9c-8245-4ad4-9848-e4fb5fd79d7c
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 69726638-7505-437f-b0d9-567a1d7d4439
+Report Status: 268435456
+Hashed bucket: c9685e157b0ca03b56ba8aaf0587b932
+Cab Guid: 0"
+"03-07-2024 11:55:36","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_4c1ab622-53f8-4db5-8d12-442fa7f5bcd8
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 0a96a4f4-0d65-4a06-a829-575a1b590bc9
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"03-07-2024 11:55:35","1000","Error","Faulting application name: python.exe, version: 3.11.3150.1013, time stamp: 0x642cb853
+Faulting module name: c10.dll, version: 0.0.0.0, time stamp: 0x6655ec14
+Exception code: 0xc0000005
+Fault offset: 0x0000000000063064
+Faulting process id: 0x0xCB20
+Faulting application start time: 0x0x1DACD11CCC482CA
+Faulting application path: C:\Users\vanis\AppData\Local\Programs\Python\Python311\python.exe
+Faulting module path: C:\Personal\log_correlator\venv\Lib\site-packages\torch\lib\c10.dll
+Report Id: 0a96a4f4-0d65-4a06-a829-575a1b590bc9
+Faulting package full name: 
+Faulting package-relative application ID: "
+"03-07-2024 11:53:50","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 0.0.0.0
+P3: 00000000
+P4: StackHash_e0cc
+P5: 0.0.0.0
+P6: 00000000
+P7: c0000005
+P8: PCH_B8_FROM_ntdll+0x00000000000A0AF4
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_565d429961e3cd693bfc9587925593848fdf2a5_9ef771e0_ef76fe9c-8245-4ad4-9848-e4fb5fd79d7c
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 69726638-7505-437f-b0d9-567a1d7d4439
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"03-07-2024 11:53:45","1000","Error","Faulting application name: python.exe, version: 0.0.0.0, time stamp: 0x00000000
+Faulting module name: unknown, version: 0.0.0.0, time stamp: 0x00000000
+Exception code: 0xc0000005
+Fault offset: 0x00007ffb4b3b3064
+Faulting process id: 0x0xE08
+Faulting application start time: 0x0x1DACD118B6A9D94
+Faulting application path: C:\Users\vanis\AppData\Local\Programs\Python\Python311\python.exe
+Faulting module path: unknown
+Report Id: 69726638-7505-437f-b0d9-567a1d7d4439
+Faulting package full name: 
+Faulting package-relative application ID: "
+"03-07-2024 11:53:15","1001","Information","Fault bucket 1903431453836380282, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.f3fd57ec-9ed8-4b6c-97db-9d9b8815e28c.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_ce99bca0-d8da-4f6d-ab0f-3362d5cbc69a
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: bb78cf4a-d8ba-4e0c-a3dc-85d371ee32d9
+Report Status: 268435456
+Hashed bucket: 6c9cc4a997020240ca6a58d28c39087a
+Cab Guid: 0"
+"03-07-2024 11:53:13","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_ce99bca0-d8da-4f6d-ab0f-3362d5cbc69a
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: bb78cf4a-d8ba-4e0c-a3dc-85d371ee32d9
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"03-07-2024 11:53:13","1000","Error","Faulting application name: python.exe, version: 3.11.3150.1013, time stamp: 0x642cb853
+Faulting module name: c10.dll, version: 0.0.0.0, time stamp: 0x6655ec14
+Exception code: 0xc0000005
+Fault offset: 0x0000000000063064
+Faulting process id: 0x0xED24
+Faulting application start time: 0x0x1DACD1177D89078
+Faulting application path: C:\Users\vanis\AppData\Local\Programs\Python\Python311\python.exe
+Faulting module path: C:\Personal\log_correlator\venv\Lib\site-packages\torch\lib\c10.dll
+Report Id: bb78cf4a-d8ba-4e0c-a3dc-85d371ee32d9
+Faulting package full name: 
+Faulting package-relative application ID: "
+"03-07-2024 11:52:40","1001","Information","Fault bucket 1903431453836380282, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.bb38d697-8978-4ad7-803a-10d2032122a6.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_3d469ed2-87f2-469b-8baf-1bd4d2022cad
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: a944cdb2-569d-425b-a855-bde56a0c3abc
+Report Status: 268435456
+Hashed bucket: 6c9cc4a997020240ca6a58d28c39087a
+Cab Guid: 0"
+"03-07-2024 11:52:38","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_3d469ed2-87f2-469b-8baf-1bd4d2022cad
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: a944cdb2-569d-425b-a855-bde56a0c3abc
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"03-07-2024 11:52:37","1000","Error","Faulting application name: python.exe, version: 3.11.3150.1013, time stamp: 0x642cb853
+Faulting module name: c10.dll, version: 0.0.0.0, time stamp: 0x6655ec14
+Exception code: 0xc0000005
+Fault offset: 0x0000000000063064
+Faulting process id: 0x0x119F0
+Faulting application start time: 0x0x1DACD1162A15F35
+Faulting application path: C:\Users\vanis\AppData\Local\Programs\Python\Python311\python.exe
+Faulting module path: C:\Personal\log_correlator\venv\Lib\site-packages\torch\lib\c10.dll
+Report Id: a944cdb2-569d-425b-a855-bde56a0c3abc
+Faulting package full name: 
+Faulting package-relative application ID: "
+"03-07-2024 11:44:12","1001","Information","Fault bucket 1903431453836380282, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.f7b72e3e-bb6f-4b7e-878c-dbc15c746e49.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_0bd0de01-5e84-4011-b130-176c94db54ce
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 6c34c544-bcdc-4214-be4a-9285cbde1896
+Report Status: 268435456
+Hashed bucket: 6c9cc4a997020240ca6a58d28c39087a
+Cab Guid: 0"
+"03-07-2024 11:44:10","1001","Information","Fault bucket 1903431453836380282, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.01940e42-2c8c-4a0f-9a2e-d325bbd9b007.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_770c1d4c-04b1-4c37-8e91-c70ad9d6ba89
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: ddc51c3f-301c-41ce-9d85-7c5b7469376a
+Report Status: 268435556
+Hashed bucket: 6c9cc4a997020240ca6a58d28c39087a
+Cab Guid: 0"
+"03-07-2024 11:44:08","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_0bd0de01-5e84-4011-b130-176c94db54ce
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 6c34c544-bcdc-4214-be4a-9285cbde1896
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"03-07-2024 11:44:07","1000","Error","Faulting application name: python.exe, version: 3.11.3150.1013, time stamp: 0x642cb853
+Faulting module name: c10.dll, version: 0.0.0.0, time stamp: 0x6655ec14
+Exception code: 0xc0000005
+Fault offset: 0x0000000000063064
+Faulting process id: 0x0xF1D4
+Faulting application start time: 0x0x1DACD1032AF61C5
+Faulting application path: C:\Users\vanis\AppData\Local\Programs\Python\Python311\python.exe
+Faulting module path: C:\Personal\log_correlator\venv\Lib\site-packages\torch\lib\c10.dll
+Report Id: 6c34c544-bcdc-4214-be4a-9285cbde1896
+Faulting package full name: 
+Faulting package-relative application ID: "
+"03-07-2024 11:43:54","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.01940e42-2c8c-4a0f-9a2e-d325bbd9b007.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_770c1d4c-04b1-4c37-8e91-c70ad9d6ba89
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: ddc51c3f-301c-41ce-9d85-7c5b7469376a
+Report Status: 100
+Hashed bucket: 
+Cab Guid: 0"
+"03-07-2024 11:43:54","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_770c1d4c-04b1-4c37-8e91-c70ad9d6ba89
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: ddc51c3f-301c-41ce-9d85-7c5b7469376a
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"03-07-2024 11:43:53","1000","Error","Faulting application name: python.exe, version: 3.11.3150.1013, time stamp: 0x642cb853
+Faulting module name: c10.dll, version: 0.0.0.0, time stamp: 0x6655ec14
+Exception code: 0xc0000005
+Fault offset: 0x0000000000063064
+Faulting process id: 0x0x4DD0
+Faulting application start time: 0x0x1DACD102A7901B5
+Faulting application path: C:\Users\vanis\AppData\Local\Programs\Python\Python311\python.exe
+Faulting module path: C:\Personal\log_correlator\venv\Lib\site-packages\torch\lib\c10.dll
+Report Id: ddc51c3f-301c-41ce-9d85-7c5b7469376a
+Faulting package full name: 
+Faulting package-relative application ID: "
+"03-07-2024 11:42:11","1001","Information","Fault bucket 1903431453836380282, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.7e4198d6-2609-4a54-bd9d-65fbb02fdd09.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_57359f3d-094e-490b-9139-b5bd158fdab9
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 4ae6bbd2-086f-4344-9cf5-e353174e8ca9
+Report Status: 268435456
+Hashed bucket: 6c9cc4a997020240ca6a58d28c39087a
+Cab Guid: 0"
+"03-07-2024 11:42:09","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_57359f3d-094e-490b-9139-b5bd158fdab9
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 4ae6bbd2-086f-4344-9cf5-e353174e8ca9
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"03-07-2024 11:42:08","1000","Error","Faulting application name: python.exe, version: 3.11.3150.1013, time stamp: 0x642cb853
+Faulting module name: c10.dll, version: 0.0.0.0, time stamp: 0x6655ec14
+Exception code: 0xc0000005
+Fault offset: 0x0000000000063064
+Faulting process id: 0x0x9C24
+Faulting application start time: 0x0x1DACD0FEB9F4782
+Faulting application path: C:\Users\vanis\AppData\Local\Programs\Python\Python311\python.exe
+Faulting module path: C:\Personal\log_correlator\venv\Lib\site-packages\torch\lib\c10.dll
+Report Id: 4ae6bbd2-086f-4344-9cf5-e353174e8ca9
+Faulting package full name: 
+Faulting package-relative application ID: "
+"03-07-2024 11:41:15","1001","Information","Fault bucket 1903431453836380282, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a09163fa-853d-4847-b3d7-488ae304ccaf.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_aae19d00-8b77-42bc-a2c4-cca0e02b31d6
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: f86a1058-6e59-4456-a6f2-6d75b0f2bff6
+Report Status: 268435456
+Hashed bucket: 6c9cc4a997020240ca6a58d28c39087a
+Cab Guid: 0"
+"03-07-2024 11:41:12","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_aae19d00-8b77-42bc-a2c4-cca0e02b31d6
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: f86a1058-6e59-4456-a6f2-6d75b0f2bff6
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"03-07-2024 11:41:12","1000","Error","Faulting application name: python.exe, version: 3.11.3150.1013, time stamp: 0x642cb853
+Faulting module name: c10.dll, version: 0.0.0.0, time stamp: 0x6655ec14
+Exception code: 0xc0000005
+Fault offset: 0x0000000000063064
+Faulting process id: 0x0xE5DC
+Faulting application start time: 0x0x1DACD0FC9DEC9EA
+Faulting application path: C:\Users\vanis\AppData\Local\Programs\Python\Python311\python.exe
+Faulting module path: C:\Personal\log_correlator\venv\Lib\site-packages\torch\lib\c10.dll
+Report Id: f86a1058-6e59-4456-a6f2-6d75b0f2bff6
+Faulting package full name: 
+Faulting package-relative application ID: "
+"03-07-2024 11:39:06","1001","Information","Fault bucket 1903431453836380282, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.7d732244-90bd-4486-9a40-c35d8854fd24.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_cbf133a3-51c3-49c4-9fac-169cd6c4f4e6
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: d67cdd92-b688-4679-9410-41e8be688077
+Report Status: 268435456
+Hashed bucket: 6c9cc4a997020240ca6a58d28c39087a
+Cab Guid: 0"
+"03-07-2024 11:39:02","1001","Information","Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: python.exe
+P2: 3.11.3150.1013
+P3: 642cb853
+P4: c10.dll
+P5: 0.0.0.0
+P6: 6655ec14
+P7: c0000005
+P8: 0000000000063064
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_python.exe_341cc0dfc93891dc7c9749526427e6b07a7f68e3_77a5f351_cbf133a3-51c3-49c4-9fac-169cd6c4f4e6
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: d67cdd92-b688-4679-9410-41e8be688077
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+"03-07-2024 11:39:02","1000","Error","Faulting application name: python.exe, version: 3.11.3150.1013, time stamp: 0x642cb853
+Faulting module name: c10.dll, version: 0.0.0.0, time stamp: 0x6655ec14
+Exception code: 0xc0000005
+Fault offset: 0x0000000000063064
+Faulting process id: 0x0x3438
+Faulting application start time: 0x0x1DACD0F7B4FD787
+Faulting application path: C:\Users\vanis\AppData\Local\Programs\Python\Python311\python.exe
+Faulting module path: C:\Personal\log_correlator\venv\Lib\site-packages\torch\lib\c10.dll
+Report Id: d67cdd92-b688-4679-9410-41e8be688077
+Faulting package full name: 
+Faulting package-relative application ID: "
+"03-07-2024 11:27:42","0","Information","PowerEvent handled successfully by the service."
+"03-07-2024 11:24:09","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T05:54:09Z. Reason: RulesEngine."
+"03-07-2024 11:23:39","16394","Information","Offline downlevel migration succeeded."
+"03-07-2024 11:08:19","16384","Information","Successfully scheduled Software Protection service for re-start at 2124-06-09T05:38:19Z. Reason: RulesEngine."
+"03-07-2024 11:07:49","16394","Information","Offline downlevel migration succeeded."

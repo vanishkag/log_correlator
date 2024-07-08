@@ -1,582 +1,347 @@
 "TimeCreated","Id","LevelDisplayName","Message"
-"05-07-2024 14:53:21","19","Information","Installation Successful: Windows successfully installed the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.704.0) - Current Channel (Broad)"
-"05-07-2024 14:53:21","7045","Information","A service was installed in the system.
-
-Service Name:  MpKsl86689ba8
-Service File Name:  C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{7ABAF983-9170-4F4A-BFF6-032E18F0B1A5}\MpKslDrv.sys
-Service Type:  kernel mode driver
-Service Start Type:  demand start
-Service Account:  "
-"05-07-2024 14:53:16","43","Information","Installation Started: Windows has started installing the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.704.0) - Current Channel (Broad)"
-"05-07-2024 14:53:13","44","Information","Windows Update started downloading an update."
-"05-07-2024 14:43:15","105","Information","Power source change."
-"05-07-2024 14:38:35","1","Information","The system time has changed to ?2024?-?07?-?05T10:38:34.347854100Z from ?2024?-?07?-?05T10:38:34.347286300Z.
-Time Delta: 0 ms
-
-Change Reason: An application or system component changed the time.
-Process: '\Device\HarddiskVolume3\Windows\System32\svchost.exe' (PID 19132).
-
-RTC time: ?2024?-?07?-?05T14:38:34.347854100Z
-Current time zone bias: -240
-RTC time is in UTC: false
-System time was based on RTC time: false"
-"05-07-2024 14:38:34","24","Information","The time zone information was refreshed with exit reason 0. Current time zone bias is -240."
-"05-07-2024 14:38:34","1","Information","The system time has changed to ?2024?-?07?-?05T10:38:32.710995900Z from ?2024?-?07?-?05T10:38:32.710870500Z.
-Time Delta: 0 ms
-
-Change Reason: An application or system component changed the time.
-Process: '\Device\HarddiskVolume3\Windows\System32\svchost.exe' (PID 19132).
-
-RTC time: ?2024?-?07?-?05T14:38:32.710995900Z
-Current time zone bias: -240
-RTC time is in UTC: false
-System time was based on RTC time: false"
-"05-07-2024 14:38:32","24","Information","The time zone information was refreshed with exit reason 0. Current time zone bias is -240."
-"05-07-2024 14:38:32","1","Information","The system time has changed to ?2024?-?07?-?05T10:38:31.063335800Z from ?2024?-?07?-?05T10:38:28.669259800Z.
-Time Delta: 2394 ms
-
-Change Reason: An application or system component changed the time.
-Process: '\Device\HarddiskVolume3\Windows\System32\svchost.exe' (PID 19132).
-
-RTC time: ?2024?-?07?-?05T14:38:31.063335800Z
-Current time zone bias: -240
-RTC time is in UTC: false
-System time was based on RTC time: false"
-"05-07-2024 14:38:31","24","Information","The time zone information was refreshed with exit reason 0. Current time zone bias is -240."
-"05-07-2024 14:38:12","37","Information","The time provider NtpClient is currently receiving valid time data from time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123)."
-"05-07-2024 14:37:37","7024","Error","The GoogleUpdater Service 128.0.6537.0 (GoogleUpdaterService128.0.6537.0) service terminated with the following service-specific error: 
-%%45"
-"05-07-2024 14:37:37","7024","Error","The GoogleUpdater InternalService 128.0.6537.0 (GoogleUpdaterInternalService128.0.6537.0) service terminated with the following service-specific error: 
-%%45"
-"05-07-2024 14:37:33","1","Information","The system has returned from a low power state.
-
-Sleep Time: ?2024?-?07?-?04T19:37:43.022827400Z
-Wake Time: ?2024?-?07?-?05T10:37:32.041871900Z
-
-Wake Source: Unknown"
-"05-07-2024 14:37:33","18","Information","Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup."
-"05-07-2024 14:37:32","566","Information","The system session has transitioned from 43 to 45.
+"05-07-2024 16:51:16","102","Information","Networking driver in 46B6A760-4CD8-4E08-88A4-13955D2A972B is loaded and the protocol version is negotiated to the most recent version (Virtual machine ID 46B6A760-4CD8-4E08-88A4-13955D2A972B)."
+"05-07-2024 16:51:16","232","Information","NIC 46B6A760-4CD8-4E08-88A4-13955D2A972B--9B7E16E5-9153-463A-9936-0404AAD58D77 (Friendly Name: ) successfully connected to port 9B7E16E5-9153-463A-9936-0404AAD58D77 (Friendly Name: 9B7E16E5-9153-463A-9936-0404AAD58D77) on switch 790E58B4-7939-4434-9358-89AE7DDBE87E(Friendly Name: WSL (Hyper-V firewall))."
+"05-07-2024 16:51:16","233","Information","The operation 'Create' succeeded on nic 46B6A760-4CD8-4E08-88A4-13955D2A972B--9B7E16E5-9153-463A-9936-0404AAD58D77 (Friendly Name: ), Instance Id {00000000-0000-0000-0000-000000000000}."
+"05-07-2024 16:12:31","566","Information","The system session has transitioned from 312 to 313.
 
 Reason PolicyChange 
 
-BootId: 92"
-"05-07-2024 14:37:32","507","Information","The system is exiting Modern Standby 
+BootId: 77"
+"05-07-2024 16:12:31","507","Information","The system is exiting Modern Standby 
 
 Reason: Lid."
-"05-07-2024 14:37:32","134","Warning","NtpClient was unable to set a manual peer to use as a time source because of DNS resolution error on 'time.windows.com,0x9'. NtpClient will try again in 15 minutes and double the reattempt interval thereafter. The error was: No such host is known. (0x80072AF9)"
-"05-07-2024 14:37:32","506","Information","The system is entering Modern Standby 
+"05-07-2024 16:12:30","7026","Information","7026 - Dump after return from D3 after cmd"
+"05-07-2024 16:12:30","7025","Information","7025 - Dump after return from D3 before cmd "
+"05-07-2024 16:10:27","7026","Information","7026 - Dump after return from D3 after cmd"
+"05-07-2024 16:10:27","7025","Information","7025 - Dump after return from D3 before cmd "
+"05-07-2024 16:09:19","7026","Information","7026 - Dump after return from D3 after cmd"
+"05-07-2024 16:09:19","7025","Information","7025 - Dump after return from D3 before cmd "
+"05-07-2024 16:07:27","7026","Information","7026 - Dump after return from D3 after cmd"
+"05-07-2024 16:07:27","7025","Information","7025 - Dump after return from D3 before cmd "
+"05-07-2024 16:05:52","566","Information","The system session has transitioned from 311 to 312.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 16:05:51","506","Information","The system is entering Modern Standby 
+
+Reason: 16777220."
+"05-07-2024 16:05:51","566","Information","The system session has transitioned from 310 to 311.
+
+Reason 16777220 
+
+BootId: 77"
+"05-07-2024 16:05:51","507","Information","The system is exiting Modern Standby 
+
+Reason: 16777220."
+"05-07-2024 16:05:50","566","Information","The system session has transitioned from 309 to 310.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 16:05:50","15","Information","Hive \??\Volume{1b499a12-c5a2-43ea-a907-ee4116bb557a}\System Volume Information\SPP\SppCbsHiveStore\{cd42efe1-f6f1-427c-b004-033192c625a4}{86A83D32-C274-464C-B723-1D1F35893D61} was reorganized with a starting size of 120295424 bytes and an ending size of 111890432 bytes."
+"05-07-2024 16:05:48","16","Information","The access history in hive \??\Volume{1b499a12-c5a2-43ea-a907-ee4116bb557a}\System Volume Information\SPP\SppCbsHiveStore\{cd42efe1-f6f1-427c-b004-033192c625a4}{753927B6-DD20-4807-8E08-07BD16914FCC} was cleared updating 728 keys and creating 75 modified pages."
+"05-07-2024 16:05:47","16","Information","The access history in hive \??\Volume{1b499a12-c5a2-43ea-a907-ee4116bb557a}\System Volume Information\SPP\SppCbsHiveStore\{cd42efe1-f6f1-427c-b004-033192c625a4}{DF1760BC-57AC-43BC-BBA9-5403C3EDCDF5} was cleared updating 94 keys and creating 5 modified pages."
+"05-07-2024 16:05:47","16","Information","The access history in hive \??\Volume{1b499a12-c5a2-43ea-a907-ee4116bb557a}\System Volume Information\SPP\SppCbsHiveStore\{cd42efe1-f6f1-427c-b004-033192c625a4}{0295FE22-F96A-471A-92A0-53B042FBE1C9} was cleared updating 87 keys and creating 10 modified pages."
+"05-07-2024 16:05:47","15","Information","Hive \??\Volume{1b499a12-c5a2-43ea-a907-ee4116bb557a}\System Volume Information\SPP\SppCbsHiveStore\{cd42efe1-f6f1-427c-b004-033192c625a4}{272BE432-143A-41B3-A864-88E2E25F5962} was reorganized with a starting size of 30044160 bytes and an ending size of 29720576 bytes."
+"05-07-2024 16:05:41","11","Information","TxR init phase for hive \??\GLOBALROOT\Device\HarddiskVolumeShadowCopy8\WINDOWS\System32\config\DRIVERS (TM: {d9b13506-3a92-11ef-9f56-c475ab3d0878}, RM: {d9b13505-3a92-11ef-9f56-c475ab3d0878}) finished with result=0xC00000A2 (Internal code=7)."
+"05-07-2024 16:05:41","11","Information","TxR init phase for hive \??\GLOBALROOT\Device\HarddiskVolumeShadowCopy8\WINDOWS\System32\config\SYSTEM (TM: {d9b13503-3a92-11ef-9f56-c475ab3d0878}, RM: {d9b13502-3a92-11ef-9f56-c475ab3d0878}) finished with result=0xC00000A2 (Internal code=7)."
+"05-07-2024 16:05:41","15","Information","Hive \??\GLOBALROOT\Device\HarddiskVolumeShadowCopy8\WINDOWS\System32\config\SYSTEM was reorganized with a starting size of 30044160 bytes and an ending size of 29720576 bytes."
+"05-07-2024 16:05:40","15","Information","Hive \??\Volume{1b499a12-c5a2-43ea-a907-ee4116bb557a}\System Volume Information\SPP\SppCbsHiveStore\{cd42efe1-f6f1-427c-b004-033192c625a4}{6BBFB54A-28E2-42BB-8494-6EE524DA028D} was reorganized with a starting size of 120295424 bytes and an ending size of 111890432 bytes."
+"05-07-2024 16:05:38","16","Information","The access history in hive \??\Volume{1b499a12-c5a2-43ea-a907-ee4116bb557a}\System Volume Information\SPP\SppCbsHiveStore\{cd42efe1-f6f1-427c-b004-033192c625a4}{0777387F-B7AD-44EE-8B8E-F22F3DDAF474} was cleared updating 728 keys and creating 75 modified pages."
+"05-07-2024 16:05:37","16","Information","The access history in hive \??\Volume{1b499a12-c5a2-43ea-a907-ee4116bb557a}\System Volume Information\SPP\SppCbsHiveStore\{cd42efe1-f6f1-427c-b004-033192c625a4}{E82A635D-E635-4025-99A7-EA6233FB16EE} was cleared updating 94 keys and creating 5 modified pages."
+"05-07-2024 16:05:37","16","Information","The access history in hive \??\Volume{1b499a12-c5a2-43ea-a907-ee4116bb557a}\System Volume Information\SPP\SppCbsHiveStore\{cd42efe1-f6f1-427c-b004-033192c625a4}{B85B6D88-3AD0-44F0-AD3E-47EBD5B444E8} was cleared updating 87 keys and creating 10 modified pages."
+"05-07-2024 16:05:37","15","Information","Hive \??\Volume{1b499a12-c5a2-43ea-a907-ee4116bb557a}\System Volume Information\SPP\SppCbsHiveStore\{cd42efe1-f6f1-427c-b004-033192c625a4}{6CEAED30-00C1-4A46-AD75-E3314676B54E} was reorganized with a starting size of 30044160 bytes and an ending size of 29720576 bytes."
+"05-07-2024 16:05:28","11","Information","TxR init phase for hive \??\GLOBALROOT\Device\HarddiskVolumeShadowCopy9\WINDOWS\System32\config\DRIVERS (TM: {d9b134da-3a92-11ef-9f56-c475ab3d0878}, RM: {d9b134d9-3a92-11ef-9f56-c475ab3d0878}) finished with result=0xC00000A2 (Internal code=7)."
+"05-07-2024 16:05:28","11","Information","TxR init phase for hive \??\GLOBALROOT\Device\HarddiskVolumeShadowCopy9\WINDOWS\System32\config\SYSTEM (TM: {d9b134d7-3a92-11ef-9f56-c475ab3d0878}, RM: {d9b134d6-3a92-11ef-9f56-c475ab3d0878}) finished with result=0xC00000A2 (Internal code=7)."
+"05-07-2024 16:05:28","15","Information","Hive \??\GLOBALROOT\Device\HarddiskVolumeShadowCopy9\WINDOWS\System32\config\SYSTEM was reorganized with a starting size of 30044160 bytes and an ending size of 29720576 bytes."
+"05-07-2024 16:05:27","506","Information","The system is entering Modern Standby 
+
+Reason: 16777220."
+"05-07-2024 16:05:27","566","Information","The system session has transitioned from 308 to 309.
+
+Reason 16777220 
+
+BootId: 77"
+"05-07-2024 16:05:27","507","Information","The system is exiting Modern Standby 
+
+Reason: 16777220."
+"05-07-2024 16:05:26","566","Information","The system session has transitioned from 307 to 308.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 16:05:13","20","Error","Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NCBCSZSJRSB-SpotifyAB.SpotifyMusic."
+"05-07-2024 16:05:13","43","Information","Installation Started: Windows has started installing the following update: 9NCBCSZSJRSB-SpotifyAB.SpotifyMusic"
+"05-07-2024 16:05:12","16","Information","The access history in hive \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\SpotifyAB.SpotifyMusic_1.241.434.0_x64__zpdnekdrzrea0\ActivationStore.dat was cleared updating 0 keys and creating 0 modified pages."
+"05-07-2024 16:04:55","44","Information","Windows Update started downloading an update."
+"05-07-2024 16:04:38","98","Information","Volume Windows-SSD (\Device\HarddiskVolumeShadowCopy9) is healthy.  No action is needed."
+"05-07-2024 16:04:23","506","Information","The system is entering Modern Standby 
+
+Reason: Lid."
+"05-07-2024 16:04:23","566","Information","The system session has transitioned from 306 to 307.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 15:57:24","105","Information","Power source change."
+"05-07-2024 14:25:33","566","Information","The system session has transitioned from 305 to 306.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 14:25:33","507","Information","The system is exiting Modern Standby 
+
+Reason: Lid."
+"05-07-2024 14:25:32","172","Information","Connectivity state in standby: Connected, Reason: None"
+"05-07-2024 14:25:32","7026","Information","7026 - Dump after return from D3 after cmd"
+"05-07-2024 14:25:32","7025","Information","7025 - Dump after return from D3 before cmd "
+"05-07-2024 14:25:32","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"05-07-2024 14:25:32","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"05-07-2024 13:12:59","172","Information","Connectivity state in standby: Disconnected, Reason: Adaptive Connected Standby"
+"05-07-2024 13:12:58","7026","Information","7026 - Dump after return from D3 after cmd"
+"05-07-2024 13:12:58","7025","Information","7025 - Dump after return from D3 before cmd "
+"05-07-2024 13:12:50","566","Information","The system session has transitioned from 304 to 305.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 13:12:50","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"05-07-2024 13:12:50","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"05-07-2024 13:12:50","506","Information","The system is entering Modern Standby 
+
+Reason: Lid."
+"05-07-2024 13:12:50","566","Information","The system session has transitioned from 303 to 304.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 13:02:15","566","Information","The system session has transitioned from 302 to 303.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 13:02:15","507","Information","The system is exiting Modern Standby 
+
+Reason: Lid."
+"05-07-2024 13:02:13","172","Information","Connectivity state in standby: Connected, Reason: None"
+"05-07-2024 13:02:13","7026","Information","7026 - Dump after return from D3 after cmd"
+"05-07-2024 13:02:13","7025","Information","7025 - Dump after return from D3 before cmd "
+"05-07-2024 13:02:13","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"05-07-2024 13:02:13","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"05-07-2024 12:25:33","158","Information","The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well."
+"05-07-2024 12:22:19","7026","Information","7026 - Dump after return from D3 after cmd"
+"05-07-2024 12:22:19","7025","Information","7025 - Dump after return from D3 before cmd "
+"05-07-2024 12:20:15","172","Information","Connectivity state in standby: Disconnected, Reason: Adaptive Connected Standby"
+"05-07-2024 12:20:14","7026","Information","7026 - Dump after return from D3 after cmd"
+"05-07-2024 12:20:14","7025","Information","7025 - Dump after return from D3 before cmd "
+"05-07-2024 12:20:06","566","Information","The system session has transitioned from 301 to 302.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 12:20:04","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"05-07-2024 12:20:04","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"05-07-2024 12:20:04","506","Information","The system is entering Modern Standby 
+
+Reason: Lid."
+"05-07-2024 12:20:04","566","Information","The system session has transitioned from 300 to 301.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 12:20:04","105","Information","Power source change."
+"05-07-2024 12:08:27","158","Information","The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well."
+"05-07-2024 12:00:00","6013","Information","The system uptime is 875554 seconds."
+"05-07-2024 11:51:23","158","Information","The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well."
+"05-07-2024 11:34:19","158","Information","The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well."
+"05-07-2024 11:17:10","98","Information","Volume Windows-SSD (\Device\HarddiskVolumeShadowCopy8) is healthy.  No action is needed."
+"05-07-2024 11:16:59","37","Information","The time provider NtpClient is currently receiving valid time data from time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123)."
+"05-07-2024 11:16:59","158","Information","The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well."
+"05-07-2024 11:16:57","105","Information","Power source change."
+"05-07-2024 10:33:27","566","Information","The system session has transitioned from 299 to 300.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 10:33:27","507","Information","The system is exiting Modern Standby 
+
+Reason: Lid."
+"05-07-2024 10:33:25","172","Information","Connectivity state in standby: Connected, Reason: None"
+"05-07-2024 10:33:25","7026","Information","7026 - Dump after return from D3 after cmd"
+"05-07-2024 10:33:25","7025","Information","7025 - Dump after return from D3 before cmd "
+"05-07-2024 10:33:25","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"05-07-2024 10:33:25","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"05-07-2024 10:28:09","10010","Error","The server {A463FCB9-6B1C-4E0D-A80B-A2CA7999E25D} did not register with DCOM within the required timeout."
+"05-07-2024 10:25:55","10010","Error","The server {A463FCB9-6B1C-4E0D-A80B-A2CA7999E25D} did not register with DCOM within the required timeout."
+"05-07-2024 10:23:40","10010","Error","The server {A463FCB9-6B1C-4E0D-A80B-A2CA7999E25D} did not register with DCOM within the required timeout."
+"05-07-2024 10:21:30","172","Information","Connectivity state in standby: Disconnected, Reason: Adaptive Connected Standby"
+"05-07-2024 10:21:23","566","Information","The system session has transitioned from 298 to 299.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 10:21:22","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"05-07-2024 10:21:22","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"05-07-2024 10:21:22","506","Information","The system is entering Modern Standby 
+
+Reason: Lid."
+"05-07-2024 10:21:22","566","Information","The system session has transitioned from 297 to 298.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 10:11:39","233","Information","The operation 'Delete' succeeded on nic FB41A6B1-BF35-4BD2-8256-A0AA15E9FF9B--9B901E1D-A086-4521-A2DC-2366287CDA7E (Friendly Name: ), Instance Id {00000000-0000-0000-0000-000000000000}."
+"05-07-2024 10:11:39","234","Information","NIC FB41A6B1-BF35-4BD2-8256-A0AA15E9FF9B--9B901E1D-A086-4521-A2DC-2366287CDA7E successfully disconnected from port ."
+"05-07-2024 10:11:39","234","Information","NIC FB41A6B1-BF35-4BD2-8256-A0AA15E9FF9B--9B901E1D-A086-4521-A2DC-2366287CDA7E successfully disconnected from port ."
+"05-07-2024 10:10:19","102","Information","Networking driver in FB41A6B1-BF35-4BD2-8256-A0AA15E9FF9B is loaded and the protocol version is negotiated to the most recent version (Virtual machine ID FB41A6B1-BF35-4BD2-8256-A0AA15E9FF9B)."
+"05-07-2024 10:10:19","232","Information","NIC FB41A6B1-BF35-4BD2-8256-A0AA15E9FF9B--9B901E1D-A086-4521-A2DC-2366287CDA7E (Friendly Name: ) successfully connected to port 9B901E1D-A086-4521-A2DC-2366287CDA7E (Friendly Name: 9B901E1D-A086-4521-A2DC-2366287CDA7E) on switch 790E58B4-7939-4434-9358-89AE7DDBE87E(Friendly Name: WSL (Hyper-V firewall))."
+"05-07-2024 10:10:19","233","Information","The operation 'Create' succeeded on nic FB41A6B1-BF35-4BD2-8256-A0AA15E9FF9B--9B901E1D-A086-4521-A2DC-2366287CDA7E (Friendly Name: ), Instance Id {00000000-0000-0000-0000-000000000000}."
+"05-07-2024 10:10:19","232","Information","NIC 790E58B4-7939-4434-9358-89AE7DDBE87F (Friendly Name: WSL (Hyper-V firewall)) successfully connected to port 790E58B4-7939-4434-9358-89AE7DDBE87F (Friendly Name: Host Vnic 790E58B4-7939-4434-9358-89AE7DDBE87E) on switch 790E58B4-7939-4434-9358-89AE7DDBE87E(Friendly Name: WSL (Hyper-V firewall))."
+"05-07-2024 10:10:19","7","Information","Miniport NIC 790E58B4-7939-4434-9358-89AE7DDBE87F (Friendly Name: WSL (Hyper-V firewall)) successfully initialized."
+"05-07-2024 10:10:19","233","Information","The operation 'Create' succeeded on nic 790E58B4-7939-4434-9358-89AE7DDBE87F (Friendly Name: WSL (Hyper-V firewall)), Instance Id {00000000-0000-0000-0000-000000000000}."
+"05-07-2024 10:10:19","264","Information","Port 790E58B4-7939-4434-9358-89AE7DDBE87F (Friendly Name: Host Vnic 790E58B4-7939-4434-9358-89AE7DDBE87E) successfully created on switch 790E58B4-7939-4434-9358-89AE7DDBE87E (Friendly Name: WSL (Hyper-V firewall))."
+"05-07-2024 10:10:19","7036","Information","The  service entered the Filter restart complete state."
+"05-07-2024 10:10:19","7036","Information","The  service entered the Filter restart start state."
+"05-07-2024 10:10:19","7036","Information","The  service entered the Filter attach complete state."
+"05-07-2024 10:10:19","7036","Information","The  service entered the Filter attach start state."
+"05-07-2024 10:10:18","9","Information","Switch 790E58B4-7939-4434-9358-89AE7DDBE87E (Friendly Name: WSL (Hyper-V firewall)) successfully initialized."
+"05-07-2024 10:10:18","232","Information","NIC 790E58B4-7939-4434-9358-89AE7DDBE87E (Friendly Name: WSL (Hyper-V firewall)) successfully connected to port 790E58B4-7939-4434-9358-89AE7DDBE87E (Friendly Name: WSL (Hyper-V firewall)) on switch 790E58B4-7939-4434-9358-89AE7DDBE87E(Friendly Name: WSL (Hyper-V firewall))."
+"05-07-2024 10:10:18","233","Information","The operation 'Create' succeeded on nic 790E58B4-7939-4434-9358-89AE7DDBE87E (Friendly Name: WSL (Hyper-V firewall)), Instance Id {00000000-0000-0000-0000-000000000000}."
+"05-07-2024 09:20:39","16","Information","The access history in hive \??\C:\Users\vanis\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\SystemAppData\Helium\User.dat was cleared updating 9 keys and creating 2 modified pages."
+"05-07-2024 09:20:39","16","Information","The access history in hive \??\C:\Users\vanis\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 53 keys and creating 10 modified pages."
+"05-07-2024 09:19:45","19","Information","Installation Successful: Windows successfully installed the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.699.0) - Current Channel (Broad)"
+"05-07-2024 09:19:45","7045","Information","A service was installed in the system.
+
+Service Name:  MpKslaf9fd816
+Service File Name:  C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{8CCCDE57-B9E3-4031-BD90-8ABC2C30A090}\MpKslDrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:  "
+"05-07-2024 09:19:39","43","Information","Installation Started: Windows has started installing the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.699.0) - Current Channel (Broad)"
+"05-07-2024 09:19:39","44","Information","Windows Update started downloading an update."
+"05-07-2024 09:19:19","7024","Error","The GoogleUpdater Service 128.0.6537.0 (GoogleUpdaterService128.0.6537.0) service terminated with the following service-specific error: 
+%%45"
+"05-07-2024 09:19:19","7024","Error","The GoogleUpdater InternalService 128.0.6537.0 (GoogleUpdaterInternalService128.0.6537.0) service terminated with the following service-specific error: 
+%%45"
+"05-07-2024 09:19:18","18","Information","Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup."
+"05-07-2024 09:19:17","1","Information","The system has returned from a low power state.
+
+Sleep Time: ?2024?-?07?-?04T17:13:42.336362900Z
+Wake Time: ?2024?-?07?-?05T03:49:17.186182700Z
+
+Wake Source: Unknown"
+"05-07-2024 09:19:17","566","Information","The system session has transitioned from 295 to 297.
+
+Reason PolicyChange 
+
+BootId: 77"
+"05-07-2024 09:19:17","507","Information","The system is exiting Modern Standby 
+
+Reason: Lid."
+"05-07-2024 09:19:17","506","Information","The system is entering Modern Standby 
 
 Reason: Sleep, Hibernate, or Shutdown."
-"05-07-2024 14:37:32","566","Information","The system session has transitioned from 42 to 43.
+"05-07-2024 09:19:17","566","Information","The system session has transitioned from 294 to 295.
 
 Reason SxTransition 
 
-BootId: 92"
-"05-07-2024 14:37:32","32","Information","The bootmgr spent 0 ms waiting for user input."
-"05-07-2024 14:37:32","18","Information","There are 0x1 boot options on this system."
-"05-07-2024 14:37:32","30","Information","The firmware reported boot metrics."
-"05-07-2024 14:37:31","28","Information","Loaded DSP FW library: \??\C:\Windows\System32\DriverStore\FileRepository\intcoed_oemlibpath.inf_amd64_10e87c104e5c78d5\adl_sraudio_lib.bin, status = STATUS_SUCCESS."
-"05-07-2024 14:37:31","28","Information","Loaded DSP FW library: \??\C:\Windows\System32\DriverStore\FileRepository\intcoed_oemlibpath.inf_amd64_10e87c104e5c78d5\adl_sraudio_lib.bin, status = STATUS_SUCCESS."
-"05-07-2024 14:37:31","28","Information","Loaded DSP FW library: Libs\dsp_lib_whm_adl_release.bin, status = STATUS_SUCCESS."
-"05-07-2024 14:37:31","28","Information","Loaded DSP FW library: Libs\dsp_lib_intel_wov_adl_release.bin, status = STATUS_SUCCESS."
-"05-07-2024 14:37:30","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
-"05-07-2024 14:37:30","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
-"05-07-2024 14:37:30","1","Information","The system time has changed to ?2024?-?07?-?05T10:37:30.500000000Z from ?2024?-?07?-?04T19:37:51.843013000Z.
-Time Delta: 53978656 ms
+BootId: 77"
+"05-07-2024 09:19:17","32","Information","The bootmgr spent 0 ms waiting for user input."
+"05-07-2024 09:19:17","18","Information","There are 0x1 boot options on this system."
+"05-07-2024 09:19:17","30","Information","The firmware reported boot metrics."
+"05-07-2024 09:19:16","7021","Information","7021 - Connection telemetry fields and analysis usage"
+"05-07-2024 09:19:16","10317","Error","Miniport Microsoft Wi-Fi Direct Virtual Adapter #4, {ae2db264-908e-45fa-a592-d18f9b384f1c}, had event Fatal error: The miniport has failed a power transition to operational power"
+"05-07-2024 09:19:16","28","Information","Loaded DSP FW library: \??\C:\WINDOWS\System32\DriverStore\FileRepository\intcoed_oemlibpath.inf_amd64_d98c0f86c54a3324\tgl_nahimic_lib.bin, status = STATUS_SUCCESS."
+"05-07-2024 09:19:16","28","Information","Loaded DSP FW library: Libs\dsp_lib_whm_tgl_release.bin, status = STATUS_SUCCESS."
+"05-07-2024 09:19:16","28","Information","Loaded DSP FW library: Libs\dsp_lib_intel_wov_tgl_release.bin, status = STATUS_SUCCESS."
+"05-07-2024 09:19:16","7025","Information","7025 - Dump after return from D3 before cmd "
+"05-07-2024 09:19:15","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"05-07-2024 09:19:15","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"05-07-2024 09:19:15","1","Information","The system time has changed to ?2024?-?07?-?05T03:49:15.500000000Z from ?2024?-?07?-?04T17:13:49.864767000Z.
+Time Delta: 38125635 ms
 
 Change Reason: System time synchronized with the hardware clock.
 Process: '' (PID 4).
 
-RTC time: ?2024?-?07?-?05T14:37:30.500000000Z
-Current time zone bias: -240
+RTC time: ?2024?-?07?-?05T09:19:15.500000000Z
+Current time zone bias: -330
 RTC time is in UTC: false
 System time was based on RTC time: false"
-"04-07-2024 23:37:51","107","Information","The system has resumed from sleep."
-"05-07-2024 14:37:30","6013","Information","The system uptime is 257046 seconds."
-"04-07-2024 23:37:48","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
-"04-07-2024 23:37:48","42","Information","The system is entering sleep.
+"04-07-2024 22:43:49","107","Information","The system has resumed from sleep."
+"04-07-2024 22:43:47","16","Information","The access history in hive \??\C:\WINDOWS\System32\config\COMPONENTS was cleared updating 70232 keys and creating 8089 modified pages."
+"04-07-2024 22:43:47","42","Information","The system is entering sleep.
 
 Sleep Reason: Hibernate from Sleep - Standby Battery Budget Exceeded"
-"04-07-2024 23:37:46","566","Information","The system session has transitioned from 41 to 42.
+"04-07-2024 22:43:42","566","Information","The system session has transitioned from 293 to 294.
 
 Reason SxTransition 
 
-BootId: 92"
-"04-07-2024 23:37:46","507","Information","The system is exiting Modern Standby 
+BootId: 77"
+"04-07-2024 22:43:42","507","Information","The system is exiting Modern Standby 
 
 Reason: Sleep, Hibernate, or Shutdown."
-"04-07-2024 23:37:46","172","Information","Connectivity state in standby: Connected, Reason: None"
-"04-07-2024 22:31:02","7000","Error","The Windows Camera Frame Server Monitor service failed to start due to the following error: 
-The service did not respond to the start or control request in a timely fashion."
-"04-07-2024 22:31:02","7009","Error","A timeout was reached (30000 milliseconds) while waiting for the Windows Camera Frame Server Monitor service to connect."
-"04-07-2024 22:09:01","172","Information","Connectivity state in standby: Disconnected, Reason: Adaptive Connected Standby"
-"04-07-2024 22:08:53","566","Information","The system session has transitioned from 40 to 41.
+"04-07-2024 22:43:42","172","Information","Connectivity state in standby: Connected, Reason: None"
+"04-07-2024 22:43:42","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 22:43:42","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 21:04:16","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 21:04:16","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 20:03:36","172","Information","Connectivity state in standby: Disconnected, Reason: Adaptive Connected Standby"
+"04-07-2024 20:03:35","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 20:03:35","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 20:03:28","566","Information","The system session has transitioned from 292 to 293.
 
 Reason PolicyChange 
 
-BootId: 92"
-"04-07-2024 22:08:52","506","Information","The system is entering Modern Standby 
+BootId: 77"
+"04-07-2024 20:03:28","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"04-07-2024 20:03:28","506","Information","The system is entering Modern Standby 
 
 Reason: Lid."
-"04-07-2024 22:08:52","566","Information","The system session has transitioned from 39 to 40.
+"04-07-2024 20:03:28","566","Information","The system session has transitioned from 291 to 292.
 
 Reason PolicyChange 
 
-BootId: 92"
-"04-07-2024 22:08:52","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
-"04-07-2024 22:08:52","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
-"04-07-2024 21:31:14","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
-"04-07-2024 21:29:05","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
-"04-07-2024 21:12:42","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
-"04-07-2024 21:10:21","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
-"04-07-2024 21:09:21","5","Information","Secure Trustlet NULL Id 0 and Pid 0 started with status STATUS_SUCCESS."
-"04-07-2024 21:09:20","2","Information","Secure Trustlet Id 0 and Pid 0 stopped with status STATUS_SUCCESS."
-"04-07-2024 20:45:17","566","Information","The system session has transitioned from 38 to 39.
+BootId: 77"
+"04-07-2024 20:03:28","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"04-07-2024 20:01:05","105","Information","Power source change."
+"04-07-2024 19:48:20","566","Information","The system session has transitioned from 290 to 291.
 
 Reason PolicyChange 
 
-BootId: 92"
-"04-07-2024 20:45:17","507","Information","The system is exiting Modern Standby 
+BootId: 77"
+"04-07-2024 19:48:20","507","Information","The system is exiting Modern Standby 
 
 Reason: Lid."
-"04-07-2024 20:45:16","172","Information","Connectivity state in standby: Connected, Reason: None"
-"04-07-2024 20:45:15","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
-"04-07-2024 20:45:15","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
-"04-07-2024 20:09:28","172","Information","Connectivity state in standby: Disconnected, Reason: Adaptive Connected Standby"
-"04-07-2024 20:09:22","566","Information","The system session has transitioned from 37 to 38.
-
-Reason InputMouse 
-
-BootId: 92"
-"04-07-2024 20:09:17","506","Information","The system is entering Modern Standby 
-
-Reason: AC/DC Display Burst Suppressed."
-"04-07-2024 20:09:17","566","Information","The system session has transitioned from 36 to 37.
-
-Reason InputMouse 
-
-BootId: 92"
-"04-07-2024 20:09:17","507","Information","The system is exiting Modern Standby 
-
-Reason: AC/DC Display Burst Suppressed."
-"04-07-2024 20:09:16","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
-"04-07-2024 20:09:16","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
-"04-07-2024 20:09:16","105","Information","Power source change."
-"04-07-2024 19:00:37","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 19:00:02","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:58:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:58:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:57:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:56:51","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:55:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:54:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:54:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:53:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:52:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:52:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:51:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:50:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:49:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:48:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:48:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:47:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:46:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:46:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:45:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:44:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:44:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:43:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:42:59","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:42:24","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:41:49","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:40:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:40:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:39:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:38:49","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:38:14","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:36:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:36:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:35:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:34:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:34:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:33:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:32:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:31:07","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:30:32","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:29:57","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:28:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:28:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:27:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:26:48","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:22:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:21:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:20:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:20:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:19:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:18:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:18:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:17:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:16:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:16:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:15:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:14:56","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:14:21","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:13:46","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:12:56","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:12:21","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:11:46","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:10:55","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:10:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:09:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:08:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 18:07:11","10010","Error","The server {38E441FB-3D16-422F-8750-B2DACEC5CEFC} did not register with DCOM within the required timeout."
-"04-07-2024 18:06:56","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:06:20","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsPersistentIoObserved"
-"04-07-2024 18:05:45","196","Warning","USB device draining system power when system is idle.             
-             
-USB Device: VID: 0x5AC PID: 0x12A8 REV: 0x1302             
-Removal action failed: SkippedAsRecentIoObservered"
-"04-07-2024 17:55:32","566","Information","The system session has transitioned from 35 to 36.
-
-Reason PolicyChange 
-
-BootId: 92"
-"04-07-2024 17:55:32","506","Information","The system is entering Modern Standby 
-
-Reason: Lid."
-"04-07-2024 17:55:32","566","Information","The system session has transitioned from 34 to 35.
-
-Reason PolicyChange 
-
-BootId: 92"
-"04-07-2024 17:44:18","19","Information","Installation Successful: Windows successfully installed the following update: 9WZDNCRFHVQM-MICROSOFT.WINDOWSCOMMUNICATIONSAPPS"
-"04-07-2024 17:44:16","43","Information","Installation Started: Windows has started installing the following update: 9WZDNCRFHVQM-MICROSOFT.WINDOWSCOMMUNICATIONSAPPS"
-"04-07-2024 17:44:14","16","Information","The access history in hive \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\microsoft.windowscommunicationsapps_16005.14326.21970.0_x64__8wekyb3d8bbwe\ActivationStore.dat was cleared updating 0 keys and creating 0 modified pages."
-"04-07-2024 17:43:49","19","Information","Installation Successful: Windows successfully installed the following update: 9NFTCH6J7FHV-Microsoft.PowerAutomateDesktop"
-"04-07-2024 17:43:48","43","Information","Installation Started: Windows has started installing the following update: 9NFTCH6J7FHV-Microsoft.PowerAutomateDesktop"
-"04-07-2024 17:43:44","19","Information","Installation Successful: Windows successfully installed the following update: 9WZDNCRFJ3P2-MICROSOFT.ZUNEVIDEO"
-"04-07-2024 17:43:39","44","Information","Windows Update started downloading an update."
-"04-07-2024 17:43:39","44","Information","Windows Update started downloading an update."
-"04-07-2024 17:43:34","44","Information","Windows Update started downloading an update."
-"04-07-2024 17:43:34","44","Information","Windows Update started downloading an update."
-"04-07-2024 17:43:34","44","Information","Windows Update started downloading an update."
-"04-07-2024 17:43:31","44","Information","Windows Update started downloading an update."
-"04-07-2024 17:43:31","44","Information","Windows Update started downloading an update."
-"04-07-2024 16:59:28","16","Information","The access history in hive \??\C:\Users\nanda\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 3 keys and creating 1 modified pages."
-"04-07-2024 16:44:55","7045","Information","A service was installed in the system.
-
-Service Name:  MpKsl1fbe3073
-Service File Name:  C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{F4523C90-BA1D-4F37-89F0-96EFE9638C33}\MpKslDrv.sys
-Service Type:  kernel mode driver
-Service Start Type:  demand start
-Service Account:  "
-"04-07-2024 16:44:55","19","Information","Installation Successful: Windows successfully installed the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.688.0) - Current Channel (Broad)"
-"04-07-2024 16:44:49","43","Information","Installation Started: Windows has started installing the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.413.688.0) - Current Channel (Broad)"
-"04-07-2024 16:44:47","44","Information","Windows Update started downloading an update."
-"04-07-2024 16:33:39","10010","Error","The server {8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19} did not register with DCOM within the required timeout."
-"04-07-2024 16:31:38","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start."
-"04-07-2024 16:29:06","1","Information","The system has returned from a low power state.
-
-Sleep Time: ?2024?-?07?-?04T12:10:47.516006900Z
-Wake Time: ?2024?-?07?-?04T12:29:04.963321200Z
-
-Wake Source: Unknown"
-"04-07-2024 16:29:05","18","Information","Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup."
-"04-07-2024 16:29:05","566","Information","The system session has transitioned from 32 to 34.
-
-Reason PolicyChange 
-
-BootId: 92"
-"04-07-2024 16:29:05","507","Information","The system is exiting Modern Standby 
-
-Reason: Lid."
-"04-07-2024 16:29:04","506","Information","The system is entering Modern Standby 
-
-Reason: Sleep, Hibernate, or Shutdown."
-"04-07-2024 16:29:04","566","Information","The system session has transitioned from 31 to 32.
-
-Reason SxTransition 
-
-BootId: 92"
-"04-07-2024 16:29:04","32","Information","The bootmgr spent 0 ms waiting for user input."
-"04-07-2024 16:29:04","18","Information","There are 0x1 boot options on this system."
-"04-07-2024 16:29:04","30","Information","The firmware reported boot metrics."
-"04-07-2024 16:29:04","28","Information","Loaded DSP FW library: \??\C:\Windows\System32\DriverStore\FileRepository\intcoed_oemlibpath.inf_amd64_10e87c104e5c78d5\adl_sraudio_lib.bin, status = STATUS_SUCCESS."
-"04-07-2024 16:29:04","28","Information","Loaded DSP FW library: \??\C:\Windows\System32\DriverStore\FileRepository\intcoed_oemlibpath.inf_amd64_10e87c104e5c78d5\adl_sraudio_lib.bin, status = STATUS_SUCCESS."
-"04-07-2024 16:29:04","28","Information","Loaded DSP FW library: Libs\dsp_lib_whm_adl_release.bin, status = STATUS_SUCCESS."
-"04-07-2024 16:29:04","28","Information","Loaded DSP FW library: Libs\dsp_lib_intel_wov_adl_release.bin, status = STATUS_SUCCESS."
-"04-07-2024 16:29:03","1","Information","The system time has changed to ?2024?-?07?-?04T12:29:03.500000000Z from ?2024?-?07?-?04T12:10:54.875469700Z.
-Time Delta: 1088624 ms
-
-Change Reason: System time synchronized with the hardware clock.
-Process: '' (PID 4).
-
-RTC time: ?2024?-?07?-?04T16:29:03.500000000Z
-Current time zone bias: -240
-RTC time is in UTC: false
-System time was based on RTC time: false"
-"04-07-2024 16:10:54","107","Information","The system has resumed from sleep."
-"04-07-2024 16:10:51","15","Information","Hive \SystemRoot\System32\config\DRIVERS was reorganized with a starting size of 6688768 bytes and an ending size of 5582848 bytes."
-"04-07-2024 16:10:51","42","Information","The system is entering sleep.
-
-Sleep Reason: Hibernate from Sleep - Standby Battery Budget Exceeded"
-"04-07-2024 16:10:50","37","Information","The time provider NtpClient is currently receiving valid time data from time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123)."
-"04-07-2024 16:10:48","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
-"04-07-2024 16:10:48","701","Warning","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
-"04-07-2024 16:10:48","566","Information","The system session has transitioned from 30 to 31.
-
-Reason SxTransition 
-
-BootId: 92"
-"04-07-2024 16:10:48","507","Information","The system is exiting Modern Standby 
-
-Reason: Sleep, Hibernate, or Shutdown."
-"04-07-2024 16:10:48","105","Information","Power source change."
-"04-07-2024 16:10:48","172","Information","Connectivity state in standby: Connected, Reason: None"
-"04-07-2024 12:08:30","6013","Information","The system uptime is 161706 seconds."
-"04-07-2024 04:11:06","172","Information","Connectivity state in standby: Disconnected, Reason: Adaptive Connected Standby"
-"04-07-2024 04:10:58","566","Information","The system session has transitioned from 29 to 30.
-
-Reason InputMouse 
-
-BootId: 92"
-"04-07-2024 04:10:53","7040","Information","The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."
-"04-07-2024 04:10:53","1","Information","The system time has changed to ?2024?-?07?-?04T00:10:52.111635800Z from ?2024?-?07?-?04T00:10:52.109480300Z.
-Time Delta: 2 ms
-
-Change Reason: An application or system component changed the time.
-Process: '\Device\HarddiskVolume3\Windows\System32\svchost.exe' (PID 19132).
-
-RTC time: ?2024?-?07?-?04T04:10:52.111635800Z
-Current time zone bias: -240
-RTC time is in UTC: false
-System time was based on RTC time: false"
-"04-07-2024 04:10:52","24","Information","The time zone information was refreshed with exit reason 0. Current time zone bias is -240."
-"04-07-2024 04:10:52","506","Information","The system is entering Modern Standby 
-
-Reason: AC/DC Display Burst Suppressed."
-"04-07-2024 04:10:52","566","Information","The system session has transitioned from 28 to 29.
-
-Reason InputMouse 
-
-BootId: 92"
-"04-07-2024 04:10:52","507","Information","The system is exiting Modern Standby 
-
-Reason: AC/DC Display Burst Suppressed."
-"04-07-2024 04:10:51","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
-"04-07-2024 04:10:51","700","Warning","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
-"04-07-2024 04:10:51","105","Information","Power source change."
-"04-07-2024 03:31:50","10010","Error","The server {283EDD52-69B2-473D-BEB6-2C0B4C01FD73} did not register with DCOM within the required timeout."
-"04-07-2024 03:31:50","7024","Error","The GoogleUpdater Service 128.0.6537.0 (GoogleUpdaterService128.0.6537.0) service terminated with the following service-specific error: 
-%%45"
-"04-07-2024 03:31:50","7024","Error","The GoogleUpdater InternalService 128.0.6537.0 (GoogleUpdaterInternalService128.0.6537.0) service terminated with the following service-specific error: 
-%%45"
-"04-07-2024 03:31:49","10010","Error","The server {B8C1DCAE-5020-4F5D-BA2A-85292744E334} did not register with DCOM within the required timeout."
-"04-07-2024 03:31:49","10010","Error","The server {1F18FC75-A353-4121-AEDB-19DF9C98F622} did not register with DCOM within the required timeout."
+"04-07-2024 19:48:10","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:48:10","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:47:22","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:47:22","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:44:29","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:44:29","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:44:25","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:44:25","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:44:22","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:44:22","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:41:22","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:41:22","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:38:22","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:38:22","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:36:33","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:36:33","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:35:22","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:35:22","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:32:22","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:32:22","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:29:22","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:29:22","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:26:22","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:26:22","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:24:03","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:24:03","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:23:22","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:23:22","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:22:02","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:22:02","7025","Information","7025 - Dump after return from D3 before cmd "
+"04-07-2024 19:20:19","7026","Information","7026 - Dump after return from D3 after cmd"
+"04-07-2024 19:20:19","7025","Information","7025 - Dump after return from D3 before cmd "

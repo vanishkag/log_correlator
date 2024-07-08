@@ -72,16 +72,16 @@ def query_logs(query, top_n=None):
     return re_ranked_chunks
 
 # Path to the PowerShell script
-powershell_script_path = r"C:\Users\nanda\Documents\intel\log_correlator\ExportSystemLogs.ps1"
+powershell_script_path = r"ExportSystemLogs.ps1"
 
 # Run the PowerShell script to export logs
 run_powershell_script(powershell_script_path)
 
 # Paths to the exported log files
 log_file_paths = [
-    r"C:\Users\nanda\Documents\intel\log_correlator\SystemLog.csv",
-    r"C:\Users\nanda\Documents\intel\log_correlator\ApplicationLog.csv",
-    r"C:\Users\nanda\Documents\intel\log_correlator\SecurityLog.csv"
+    r"SystemLog.csv",
+    r"ApplicationLog.csv",
+    r"SecurityLog.csv"
 ]
 
 # Parse and store logs
