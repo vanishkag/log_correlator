@@ -5,18 +5,33 @@ path = r"C:\Users\nanda\Documents\intel\log_correlator\Windows_2k.log"
 
 # Define the EventId and EventTemplate mappings with messages
 event_patterns = {
-    'E1': (r'^(\d+),(\d{4}-\d{2}-\d{2}),(\d{2}:\d{2}:\d{2}),(\w+),(\w+),\"00000006 Created NT transaction \(seq (\d+)\) result (0x[0-9a-fA-F]+), handle @(.+?)\"$', '<*> Created NT transaction (seq <*>) result <*>, handle @<*>'),
-    'E2': (r'^(\d+),(\d{4}-\d{2}-\d{2}),(\d{2}:\d{2}:\d{2}),(\w+),(\w+), objectname \[<(.+?)>\]\"\(null\)\"$', 'Creating NT transaction (seq <*>), objectname [<*>]"(null)"'),
-    'E3': (r'^<(.+?)> CSI perf trace:$', 'CSI perf trace:'),
-    'E4': (r'^<(.+?)> CSI Store (.+?) \((.+?)\) initialized$', 'CSI Store <*> (<*>) initialized'),
-    'E5': (r'^(\d+),(\d{4}-\d{2}-\d{2}),(\d{2}:\d{2}:\d{2}),(\w+),(\w+),\"00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions \(call (.+?)\) \(flags = (.+?), progress = (.+?), phase = (.+?), pdwDisposition = @(.+?)\"$', 'IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*>)'),
-    'E6': (r'^<(.+?)> ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=FALSE applyflags=<(.+?)>$', 'ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=FALSE applyflags=<*>'),
-    'E7': (r'^<(.+?)> Performing (.+?) operations; (.+?) are not lock/unlock and follow:$', 'Performing <*> operations; <*> are not lock/unlock and follow:'),
-    'E8': (r'^<(.+?)> Store coherency cookie matches last scavenge cookie, skipping scavenge\.$', 'Store coherency cookie matches last scavenge cookie, skipping scavenge.'),
-    'E9': (r'^<(.+?)>@<(.+?)/(.+?)/(.+?):(.+?):(.+?):\.(.+?) CSI Transaction @<(.+?)> destroyed$', '@<*>/<*>/<*>:<*>:<*>:<*>.<*> CSI Transaction @<*> destroyed'),
+    'E1': (
+        r'^(.+?) Created NT transaction \(seq (\d+)\) result (0x[0-9a-fA-F]+), handle @(.+?)$',
+        '<*> Created NT transaction (seq <*>) result <*>, handle @<*>'
+    ),
+    'E2': (
+        r'^(.+?) Creating NT transaction \(seq (\d+)\), objectname \[(\d+)\]\"\(null\)\"$', 
+        '<*> Creating NT transaction (seq <*>) objectname [<*>]"(null)"'
+    ),
+    'E3': (r'^(.+?) CSI perf trace:$', '<*> CSI perf trace:'),
+    'E4': (r'^(.+?) CSI Store (.+?) \((.+?)\) initialized$', '<*> CSI Store <*> (<*>) initialized'),
+    'E5': (
+        r'^(.+?) IAdvancedInstallerAwareStore_ResolvePendingTransactions \(call (.+?)\) \(flags = (.+?), progress = (.+?), phase = (.+?), pdwDisposition = @(.+?)\)$', 
+        '<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*>)'
+    ),
+    'E6': (
+        r'^(.+?) ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=FALSE applyflags=(\d+)$',
+        'ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=FALSE applyflags=<*>'
+    ),
+    'E7': (r'^(.+?) Performing (.+?) operations; (.+?) are not lock/unlock and follow:$', 'Performing <*> operations; <*> are not lock/unlock and follow:'),
+    'E8': (r'^(.+?) Store coherency cookie matches last scavenge cookie, skipping scavenge\.$', 'Store coherency cookie matches last scavenge cookie, skipping scavenge.'),
+    'E9': (
+        r'^(.+?) CSI Transaction @(.+?) destroyed$',
+        '@<*> CSI Transaction @<*> destroyed'
+    ),
     'E10': (r'^<(.+?)>@<(.+?)/(.+?)/(.+?):(.+?):(.+?):\.(.+?) CSI Transaction @<(.+?)> initialized for deployment engine \{(.+?)\} with flags (.+?) and client id \[<(.+?)>\]\"<(.+?)>/\"$', '@<*>/<*>/<*>:<*>:<*>:<*>.<*> CSI Transaction @<*> initialized for deployment engine {<*>} with flags <*> and client id [<*>]"<*>/"'),
-    'E11': (r'^<(.+?)>@<(.+?)/(.+?)/(.+?):(.+?):(.+?):\.(.+?) PopulateComponentFamiliesKey - Begin$', '@<*>/<*>/<*>:<*>:<*>:<*>.<*> PopulateComponentFamiliesKey - Begin'),
-    'E12': (r'^<(.+?)>@<(.+?)/(.+?)/(.+?):(.+?):(.+?):\.(.+?) PopulateComponentFamiliesKey - End$', '@<*>/<*>/<*>:<*>:<*>:<*>.<*> PopulateComponentFamiliesKey - End'),
+    'E11': (r'^(.+?) PopulateComponentFamiliesKey - Begin$', '@<*>/<*>/<*>:<*>:<*>:<*>.<*> PopulateComponentFamiliesKey - Begin'),
+    'E12': (r'^(.+?) PopulateComponentFamiliesKey - End$', '@<*>/<*>/<*>:<*>:<*>:<*>.<*> PopulateComponentFamiliesKey - End'),
     'E13': (r'^(\d+)@(\d{4}/\d{1,2}/\d{1,2}:\d{2}:\d{2}:\d{2}\.\d{3}) (\w+) \(wcp\.dll version ([\d\.]+)\) called \(stack (.+)\)$', '@<*>@<*>/<*>/<*>:<*>:<*>:<*>.<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>'),
     'E14': (r'^Disabling manifest caching, because the image is not writeable\.$', 'Disabling manifest caching, because the image is not writeable.'),
     'E15': (r'^Ending the TrustedInstaller main loop\.$', 'Ending the TrustedInstaller main loop.'),

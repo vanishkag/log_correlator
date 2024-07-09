@@ -1,18 +1,21 @@
-import os
-from IPLoM import LogParser
+import re
 
-input_dir = r"C:\Users\nanda\Documents\intel\log_correlator\Windows_2k.log"  # The input directory of log file
-output_dir = './result/'  # The output directory of parsing results
-log_file = 'Windows_2k.log'  # The input log file name
-log_format = '<Date> <Time>, <Level>                  <Component>    <Content>'  # Windows log format
-maxEventLen = 120  # The maximal token number of log messages (default: 200)
-step2Support = 0  # The minimal support for creating a new partition (default: 0)
-CT = 0.3  # The cluster goodness threshold (default: 0.35)
-lowerBound = 0.25  # The lower bound distance (default: 0.25)
-upperBound = 0.9  # The upper bound distance (default: 0.9)
-regex = []  # Regular expression list for optional preprocessing (default: [])
+# Define the event pattern for E10
+event_patterns = {
+    'E10': (
+        r'^(\d+)@(\d{4}/\d{1,2}/\d{1,2}:\d{2}:\d{2}:\d{2}\.\d+) CSI Transaction @(.+?) initialized for deployment engine \{(.+?)\} with flags (\d+) and client id \[(\d+)\]"(.+?)/\"$',
+        '@<*>@<*>/<*>/<*>:<*>:<*>:<*>.<*> CSI Transaction @<*> initialized for deployment engine {<*>} with flags <*> and client id [<*>]"<*>/"'
+    ),
+}
 
-parser = LogParser(log_format=log_format, indir=input_dir, outdir=output_dir,
-                   maxEventLen=maxEventLen, step2Support=step2Support, CT=CT, 
-                   lowerBound=lowerBound, upperBound=upperBound, rex=regex)
-parser.parse(log_file)
+# Test log entry
+log_entry = '2016-09-28 04:40:53, Info                  CSI    00000009@2016/9/27:20:40:53.744 CSI Transaction @0x47e9e0 initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000002 and client id [10]"TI6.0_0:0/"'
+
+# Check if the log entry matches the pattern
+pattern, template = event_patterns['E10']
+match = re.match(pattern, log_entry)
+
+if match:
+    print("Log entry matches E10 pattern.")
+else:
+    print("Log entry does not match E10 pattern.")
