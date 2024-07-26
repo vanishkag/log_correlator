@@ -1,0 +1,17 @@
+component vector_database{
+    service search_query{
+        /**
+        * Searches the database for text chunks similar to a given query embedding.
+        *
+        * @param query_embedding The numerical embedding representing the query text.
+        * @param chunk_count The number of most similar chunks to return.
+        * @param search_filter A dictionary containing filters for the search.
+        * @param chunks The chunks with the highest similarity score.
+        */
+
+        [in] List[int] query_embedding;
+        [in] int chunk_count;
+        [out] List[string] chunks;
+        [out] int error_code;
+    };
+};

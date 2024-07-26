@@ -1,0 +1,22 @@
+component reranker{
+    service _rerank{
+        /**
+        * Re-ranks a list of text passages (chunks) based on their similarity to a given query (query)
+        *
+        * @param model_name The name of the model.
+        * @param top_n The number of top-ranked passages to return..
+        * @param query The query text used for comparison with the passages.
+        * @param chunks A list of text passages (strings) to be re-ranked
+        * @param verbose Controls printing of informative messages during execution. Defaults to True.
+        * @param re_ranked_chunks The re-ranked chunks 
+        */
+
+        [in] string model_name;
+        [in] int top_n;
+        [in] string query;
+        [in] List[str] chunks;
+        [in] bool verbose;
+        [out] List[string] re_ranked_chunks;
+        [out] int error_code;
+    };
+};
