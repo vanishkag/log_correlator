@@ -2,7 +2,6 @@ import time
 import win32evtlog
 import win32evtlogutil
 import win32security
-import win32con
 from datetime import datetime
 from pymongo import MongoClient
 
@@ -16,10 +15,9 @@ EVENTLOG_TYPE_NAMES = {
     1: 'Error',
     2: 'Warning',
     4: 'Information',
-    8: 'Audit Success',  # Example code for Audit Success
-    16: 'Audit Failure'  # Example code for Audit Failure
+    8: 'Audit Success',
+    16: 'Audit Failure'
 }
-
 
 def fetch_logs():
     server = 'localhost'
@@ -36,7 +34,7 @@ def fetch_logs():
                     'eventID': event.EventID,
                     'eventType': event.EventType,
                     'eventTypeName': EVENTLOG_TYPE_NAMES.get(event.EventType, 'Unknown'),
-                    'timeGenerated': event.TimeGenerated.Format(),
+                    'timeGenerated': event.TimeGenerated.strftime('%Y-%m-%d %H:%M:%S'),  # Store as datetime string
                     'sourceName': event.SourceName,
                     'message': win32evtlogutil.SafeFormatMessage(event, log_type),
                 }
