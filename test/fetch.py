@@ -1,9 +1,11 @@
-import time
+#v1
+
+from datetime import datetime
 import win32evtlog
 import win32evtlogutil
 import win32security
-from datetime import datetime
 from pymongo import MongoClient
+import time
 
 # MongoDB connection
 client = MongoClient('mongodb://localhost:27017/')
@@ -34,7 +36,7 @@ def fetch_logs():
                     'eventID': event.EventID,
                     'eventType': event.EventType,
                     'eventTypeName': EVENTLOG_TYPE_NAMES.get(event.EventType, 'Unknown'),
-                    'timeGenerated': event.TimeGenerated.strftime('%Y-%m-%d %H:%M:%S'),  # Store as datetime string
+                    'timeGenerated': event.TimeGenerated,  # Store as datetime object
                     'sourceName': event.SourceName,
                     'message': win32evtlogutil.SafeFormatMessage(event, log_type),
                 }

@@ -44,7 +44,7 @@ def get_logs_chart():
         start_date = datetime(date.year, date.month, date.day, 0, 0, 0)
         end_date = start_date + timedelta(days=1)
 
-        # MongoDB aggregation to count logs per minute
+        # MongoDB aggregation to count logs per hour
         pipeline = [
             {
                 "$match": {
@@ -57,17 +57,13 @@ def get_logs_chart():
             {
                 "$group": {
                     "_id": {
-                        "year": { "$year": "$timeGenerated" },
-                        "month": { "$month": "$timeGenerated" },
-                        "day": { "$dayOfMonth": "$timeGenerated" },
-                        "hour": { "$hour": "$timeGenerated" },
-                        "minute": { "$minute": "$timeGenerated" }
+                        "hour": { "$hour": "$timeGenerated" }
                     },
                     "count": { "$sum": 1 }
                 }
             },
             {
-                "$sort": { "_id": 1 }
+                "$sort": { "_id.hour": 1 }
             }
         ]
 
@@ -76,13 +72,31 @@ def get_logs_chart():
         # Prepare the response data
         chart_data = []
         for result in results:
-            time_str = f"{result['_id']['hour']:02d}:{result['_id']['minute']:02d}"
-            chart_data.append({"minute": time_str, "count": result["count"]})
+            hour_str = f"{result['_id']['hour']:02d}:00"
+            chart_data.append({"hour": hour_str, "count": result["count"]})
 
         return jsonify(chart_data)
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+@app.route('/logs/piechart', methods=['GET'])
+def get_piechart_data():
+    date = request.args.get('date')
+    if not date:
+        return jsonify({"error": "Date is required"}), 400
+
+    start_date = datetime.strptime(date, '%Y-%m-%d')
+    end_date = start_date.replace(hour=23, minute=59, second=59)
+
+    pipeline = [
+        {"$match": {"timeGenerated": {"$gte": start_date, "$lte": end_date}}},
+        {"$group": {"_id": "$eventTypeName", "count": {"$sum": 1}}}
+    ]
+    results = list(collection.aggregate(pipeline))
+
+    return jsonify(results)
+
 
 if __name__ == '__main__':
     # Start the fetch.py script as a background process
