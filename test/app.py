@@ -149,18 +149,17 @@ def get_alerts():
         event_id = alert.get('eventID')
         alert['eventName'] = get_event_name(event_id) if event_id else 'N/A'
         
-        # Format timestamp if it exists
-        timestamp = alert.get('timestamp')
-        if timestamp:
-            try:
-                alert['timestamp'] = datetime.strptime(timestamp, '%Y-%m-%dT%H:%M:%S.%fZ').strftime('%Y-%m-%d %H:%M:%S')
-            except ValueError:
-                alert['timestamp'] = 'Invalid Date'
-        else:
-            alert['timestamp'] = 'No timestamp available'
+        # Fetch log details for the specific eventID associated with the alert
+        log_details = list(collection.find({"eventID": event_id}).sort('timeGenerated', -1))
         
-        # Ensure 'message' is populated
-        alert['message'] = alert.get('message', 'No message available')
+        for log in log_details:
+            log['_id'] = str(log['_id'])
+            log['timestamp'] = log.get('timeGenerated').strftime('%Y-%m-%d %H:%M:%S') if log.get('timeGenerated') else 'No timestamp available'
+            log['level'] = log.get('level', 'Unknown')
+            log['source'] = log.get('source', 'Unknown')
+            log['message'] = log.get('message', 'No message available').split('\n')[0]
+        
+        alert['logDetails'] = log_details
 
     return jsonify(alerts)
 
@@ -179,49 +178,33 @@ def check_alerts():
                 # Find new logs that match the alert criteria
                 new_logs = list(collection.find({"eventID": event_id, "timeGenerated": {"$gt": last_checked}}))
                 
-                print(f"Found {len(new_logs)} new logs for eventID: {event_id}")
+                print(f"Found {len(new_logs)} new logs for eventID: {event_id} since lastChecked.")
 
+                # Update alert with new logs if any
                 if new_logs:
-                    # Update the lastChecked time for the alert
-                    alerts_collection.update_one({"_id": alert['_id']}, {"$set": {"lastChecked": datetime.now()}})
-                    
-                    # Process each new log
+                    log_details = alert.get('logDetails', [])
                     for log in new_logs:
-                        timestamp = log.get('timeGenerated')
-                        level = log.get('level', 'Unknown')
-                        source = log.get('source', 'Unknown')
-                        message = log.get('message', 'No message available').split('\n')[0]
-                        
-                        print(f"Adding log detail: timestamp={timestamp}, level={level}, source={source}, message={message}")
-                        
-                        # Add or update the log in the alerts collection
-                        alerts_collection.update_one(
-                            {"_id": alert['_id']},
-                            {"$push": {"logDetails": {
-                                "timestamp": timestamp,
-                                "level": level,
-                                "source": source,
-                                "message": message
-                            }}}
-                        )
-                        
-                        # Notify the user (for simplicity, just print the notification here)
-                        print(f"Notification: New event {event_id} occurred.")
-        
+                        log['_id'] = str(log['_id'])
+                        log['timestamp'] = log.get('timeGenerated').strftime('%Y-%m-%d %H:%M:%S') if log.get('timeGenerated') else 'No timestamp available'
+                        log['level'] = log.get('level', 'Unknown')
+                        log['source'] = log.get('source', 'Unknown')
+                        log['message'] = log.get('message', 'No message available').split('\n')[0]
+                        log_details.append(log)
+                    
+                    # Update the alert with the new logs and current time
+                    alerts_collection.update_one(
+                        {"_id": alert['_id']},
+                        {"$set": {"logDetails": log_details, "lastChecked": datetime.now()}}
+                    )
+                    print(f"Updated alert {alert['_id']} with {len(new_logs)} new log(s).")
         except Exception as e:
-            print(f"Error checking alerts: {str(e)}")
+            print(f"Error while checking alerts: {str(e)}")
         
-        # Sleep for a defined interval before checking again
         time.sleep(60)
 
+# Start the alert checker thread
+alert_thread = threading.Thread(target=check_alerts)
+alert_thread.start()
 
 if __name__ == '__main__':
-    # Start the fetch.py script as a background process
-    subprocess.Popen(["python", "fetch.py"])
-
-    # Start the alerts checking thread
-    alert_thread = threading.Thread(target=check_alerts)
-    alert_thread.daemon = True
-    alert_thread.start()
-
     app.run(debug=True)
