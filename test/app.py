@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 import subprocess
 import threading
 import time
+from bson import ObjectId
 
 app = Flask(__name__)
 CORS(app)
@@ -29,6 +30,12 @@ correlation_groups = {
     "Cryptographic and Security Operations": [5061, 506, 507, 5071, 5072, 5080, 5090, 5091, 5100, 5110]
 }
 
+def adjust_timestamp(timestamp):
+    if not isinstance(timestamp, datetime):
+        raise ValueError("Timestamp must be a datetime object")
+    adjusted_time = timestamp - timedelta(hours=5, minutes=30)
+    return adjusted_time.strftime('%m/%d/%Y, %I:%M:%S %p')
+
 def get_event_name(event_id):
     for category, ids in correlation_groups.items():
         if event_id in ids:
@@ -47,6 +54,10 @@ def get_logs():
         log['_id'] = str(log['_id'])
         event_id = log.get('eventID')
         log['eventName'] = get_event_name(event_id)
+        log['timestamp'] = log.get('timeGenerated') if log.get('timeGenerated') else 'No timestamp available'
+        log['level'] = log.get('level', 'Unknown')
+        log['source'] = log.get('source', 'Unknown')
+        log['message'] = log.get('message', 'No message available').split('\n')[0]
     return jsonify(logs)
 
 @app.route('/logs/total', methods=['GET'])
@@ -101,6 +112,44 @@ def get_piechart_data():
         return jsonify(results)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+@app.route('/alerts', methods=['POST'])
+def create_alert():
+    alert_data = request.json
+    if not alert_data or 'eventID' not in alert_data:
+        return jsonify({"error": "eventID is required"}), 400
+
+    alert_data.pop('email', None)
+    alert_data['logDetails'] = []
+    alert_data['totalLogs'] = 0
+    alerts_collection.insert_one(alert_data)
+    return jsonify({"message": "Alert created successfully"}), 201
+
+@app.route('/alerts', methods=['GET'])
+def get_alerts():
+    alerts = list(alerts_collection.find())
+    for alert in alerts:
+        alert['_id'] = str(alert['_id'])
+        event_id = int(alert.get('eventID'))
+        alert['eventName'] = get_event_name(event_id) if event_id else 'N/A'
+
+        # Fetch the total count of logs for the specific eventID
+        total_logs = collection.count_documents({"eventID": event_id})
+        alert['totalLogs'] = total_logs
+
+        # Fetch latest 5 log details for the specific eventID associated with the alert
+        log_details = list(collection.find({"eventID": event_id}).sort('timeGenerated', -1).limit(5))
+        
+        for log in log_details:
+            log['_id'] = str(log['_id'])
+            log['timestamp'] = log.get('timeGenerated') if log.get('timeGenerated') else 'No timestamp available'
+            log['level'] = log.get('level', 'Unknown')
+            log['source'] = log.get('source', 'Unknown')
+            log['message'] = log.get('message', 'No message available').split('\n')[0]
+        
+        alert['logDetails'] = log_details
+
+    return jsonify(alerts)
 
 @app.route('/logs/event', methods=['GET'])
 def get_logs_by_event_id():
@@ -115,7 +164,7 @@ def get_logs_by_event_id():
         for log in logs:
             log['_id'] = str(log['_id'])
             log['eventName'] = get_event_name(event_id)
-            log['timestamp'] = log.get('timeGenerated').strftime('%m/%d/%Y, %I:%M:%S %p') if log.get('timeGenerated') else 'No timestamp available'
+            log['timestamp'] = log.get('timeGenerated') if log.get('timeGenerated') else 'No timestamp available'
             log['level'] = log.get('level', 'Unknown')
             log['source'] = log.get('source', 'Unknown')
             log['message'] = log.get('message', 'No message available').split('\n')[0]
@@ -126,85 +175,17 @@ def get_logs_by_event_id():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route('/alerts', methods=['POST'])
-def create_alert():
-    alert_data = request.json
-    if not alert_data or 'eventID' not in alert_data:
-        return jsonify({"error": "eventID is required"}), 400
-
-    # Ensure the alert_data does not contain an 'email' field
-    alert_data.pop('email', None)
-    
-    # Initialize logDetails as an empty list
-    alert_data['logDetails'] = []
-    
-    alerts_collection.insert_one(alert_data)
-    return jsonify({"message": "Alert created successfully"}), 201
-
-@app.route('/alerts', methods=['GET'])
-def get_alerts():
-    alerts = list(alerts_collection.find())
-    for alert in alerts:
-        alert['_id'] = str(alert['_id'])
-        event_id = alert.get('eventID')
-        alert['eventName'] = get_event_name(event_id) if event_id else 'N/A'
-        
-        # Fetch log details for the specific eventID associated with the alert
-        log_details = list(collection.find({"eventID": event_id}).sort('timeGenerated', -1))
-        
-        for log in log_details:
-            log['_id'] = str(log['_id'])
-            log['timestamp'] = log.get('timeGenerated').strftime('%Y-%m-%d %H:%M:%S') if log.get('timeGenerated') else 'No timestamp available'
-            log['level'] = log.get('level', 'Unknown')
-            log['source'] = log.get('source', 'Unknown')
-            log['message'] = log.get('message', 'No message available').split('\n')[0]
-        
-        alert['logDetails'] = log_details
-
-    return jsonify(alerts)
-
-def check_alerts():
-    while True:
-        try:
-            # Fetch all active alerts
-            alerts = list(alerts_collection.find())
-            print(f"Checking {len(alerts)} alerts.")
-            for alert in alerts:
-                event_id = alert.get('eventID')
-                last_checked = alert.get('lastChecked', datetime.min)
-                
-                print(f"Processing alert with eventID: {event_id}, lastChecked: {last_checked}")
-
-                # Find new logs that match the alert criteria
-                new_logs = list(collection.find({"eventID": event_id, "timeGenerated": {"$gt": last_checked}}))
-                
-                print(f"Found {len(new_logs)} new logs for eventID: {event_id} since lastChecked.")
-
-                # Update alert with new logs if any
-                if new_logs:
-                    log_details = alert.get('logDetails', [])
-                    for log in new_logs:
-                        log['_id'] = str(log['_id'])
-                        log['timestamp'] = log.get('timeGenerated').strftime('%Y-%m-%d %H:%M:%S') if log.get('timeGenerated') else 'No timestamp available'
-                        log['level'] = log.get('level', 'Unknown')
-                        log['source'] = log.get('source', 'Unknown')
-                        log['message'] = log.get('message', 'No message available').split('\n')[0]
-                        log_details.append(log)
-                    
-                    # Update the alert with the new logs and current time
-                    alerts_collection.update_one(
-                        {"_id": alert['_id']},
-                        {"$set": {"logDetails": log_details, "lastChecked": datetime.now()}}
-                    )
-                    print(f"Updated alert {alert['_id']} with {len(new_logs)} new log(s).")
-        except Exception as e:
-            print(f"Error while checking alerts: {str(e)}")
-        
-        time.sleep(60)
-
-# Start the alert checker thread
-alert_thread = threading.Thread(target=check_alerts)
-alert_thread.start()
+@app.route('/alerts/<id>', methods=['DELETE'])
+def delete_alert(id):
+    try:
+        from bson import ObjectId
+        result = alerts_collection.delete_one({"_id": ObjectId(id)})
+        if result.deleted_count == 1:
+            return jsonify({"message": "Alert deleted successfully"}), 200
+        else:
+            return jsonify({"error": "Alert not found"}), 404
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)
